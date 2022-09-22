@@ -96,7 +96,7 @@ function us(){
     p3.style.display = 'none'
 }
 
-//aparecer texto na im
+//aparecer texto na img
 
 
 
