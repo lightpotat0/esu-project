@@ -69,13 +69,13 @@ li a{
 }
 
 #submit{
-  background-color: red;
+  background-color:  #FF2600;
   top: 26%;
   border: none;
   height: 20%;
   border-radius: 20px;
   color: white;
-  font-size: 90%;
+  font-size: 100%;
   line-height: 30px;
   padding: 1% 20px;
   text-transform: uppercase;
@@ -263,8 +263,8 @@ li a{
   margin-top: 100px;
   text-indent: -999px;
   cursor: pointer;
-  border-color: gray;
-  background-color: gray;
+  border-color: #686868;
+  background-color: #686868;
   border-radius: 30px;
   opacity: calc(0.5);
 }
@@ -389,12 +389,12 @@ li a{
 
 #identidade{
   margin: 2%;
-  margin-right: -0.2%;
+  margin-right: 0%;
   top: 2%;
   width: 20.3%;
   text-decoration: none;
   font-size: 120%;
-  color:  gray;
+  color:  #686868;
   font-family: "Metropolis-Medium ";
   src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 }
@@ -403,15 +403,15 @@ li a{
     margin-top: -1%;
     margin-right: 2%;
     font-size: 155%;
-    color: red;
+    color:  #FF2600;
     font-family: "Metropolis-Bold ";
     src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
 }
 
 #blocos:hover{
     margin-top: 1.2%;
-    margin-right: 8%;
-       color: red;
+    margin-right: 3%;
+       color:  #FF2600;
        font-size: 155%;
        font-family: "Metropolis-Bold ";
    src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
@@ -428,7 +428,7 @@ src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
 
 #blocos2:hover{
   margin-top: 1.2%;
-  color: red;
+  color:  #FF2600;
   font-size: 155%;
   font-family: "Metropolis-Bold ";
 src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
@@ -437,9 +437,10 @@ src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
 #blocos{
 width: 11.5%;
 margin: 2%;
+margin-right: -2%;
 text-decoration: none;
-color:  gray;
-font-size: 115%;
+color:  #686868;
+font-size: 120%;
 background-color: white;
 font-family: "Metropolis-Medium ";
 src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
@@ -448,10 +449,10 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 #blocos1{
   width: 14.6%;
   margin: 2%;
-  margin-left: 5%;
+  margin-left: 7%;
   text-decoration: none;
-  color:  gray;
-  font-size: 115%;
+  color:  #686868;
+  font-size: 120%;
   background-color: white;
   font-family: "Metropolis-Medium ";
   src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
@@ -460,9 +461,10 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
   #blocos2{
     width: 12%;
     margin: 2%;
+    margin-left: 1%;
     text-decoration: none;
-    color:  gray;
-    font-size: 115%;
+    color:  #686868;
+    font-size: 120%;
     background-color: white;
     font-family: "Metropolis-Medium ";
     src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
@@ -471,7 +473,7 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 
 .elemento{
   margin-top: 4%;
-  margin-left: 25%;
+  margin-left: 30%;
    width: 60%;
    height: 6%;
   display: flex;
