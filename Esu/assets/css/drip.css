@@ -437,6 +437,7 @@ width: 11.5%;
 margin: 2%;
 text-decoration: none;
 color:  gray;
+font-size: 120%;
 background-color: white;
 font-family: "Metropolis-Medium ";
 src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
