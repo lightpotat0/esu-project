@@ -1,0 +1,315 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+overflow-x: hidden;
+
+
+
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: rgb(26, 25, 25);
+}
+
+
+
+ul{
+  margin: 0 0 0 780px;
+  list-style: none;
+  margin-top: 10px;
+  font-size: 22px;
+  
+
+}
+
+nav{
+  padding: 0;
+ background-color: white;
+ width: 1920px;
+ height: 40px;
+
+
+
+}
+
+
+
+li{
+  float: left;
+
+}
+
+
+li a{
+  width: 100px;
+  display: block;
+  top: 8px;
+  padding: 20px 30px 30px;
+  text-decoration: none;
+  font-family: "Homade-Bold";
+  src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf);
+  color: gray;
+  margin-left: 5%;
+
+
+}
+
+@font-face {
+  font-family: "Homade-Bold";
+  src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
+}
+
+li a:hover{
+  background-color: white;
+  text-transform: uppercase;
+
+}
+
+.logo img{
+  position: absolute;
+  width: 70px;
+  height: 35px;
+  margin-top: 8px;
+  margin-left: 220px;
+
+
+}
+#submit{
+  background-color: red;
+  margin-top: 8px;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  font-family: "Homade-Bold";
+  src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf);
+  
+  
+}
+
+.slider{
+  height: 900px;
+  width: 1550px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.navigation{
+  position: absolute;
+  bottom: 10px;
+  top: 73%;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+
+}
+.bar{
+  width: 45px;
+  height: 2px;
+  border-radius: 30px;
+  border: 1px solid black;
+  margin: 2px;
+  cursor: pointer;
+  transition: .3s;
+  border-color: gray;
+  background-color: gray;
+  opacity: calc(0.5);
+}
+
+
+.bar:hover{
+   background-color: white;
+
+}
+
+input{
+  display: none;
+
+}
+
+.slides{
+  display: flex;
+  width: 400%;
+
+
+}
+
+.slide{
+  margin-top: 22.5px;
+  width: 25%;
+  margin: 2 auto;
+  transition: 0.6s;
+  background-size: cover;
+
+}
+
+.bar:not(:last-child){
+   margin-right: 10px;
+
+}
+
+.slide img{
+  width: 1550px;
+  height: 670px;
+}
+
+
+.navigation-auto{
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+
+}
+
+
+
+
+.mySlides {
+  display: none;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top:-120px;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+#radio1:checked ~.first{
+    margin-right: 0;
+
+}
+
+#radio2:checked ~.first{
+  margin-right: -25%;
+
+}
+
+#radio3:checked ~.first{
+  margin-right: -50%;
+
+}
+
+#radio4:checked ~.first{
+  margin-right: -75%;
+
+}
+
+
+.identidade{
+  margin-top: 725px;
+
+
+}
+
+
+
+#menu2 {
+  position: absolute;
+  margin-left: 130px;
+  width: 20px;
+}
+
+#menu1 {
+  position: absolute;
+  margin-left: 0px;
+  width: 20px;
+  color: black;
+}
+
+#menu3 {
+  position: absolute;
+  margin-left: 230px;
+  width: 20px;
+}
+
+#botaoo {
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 405px;
+}
+
+
+#identidade{
+  color: red;
+  text-decoration: none;
+  margin-left: 220px;
+  font-size: 30px;
+  font-family: "Metropolis-Bold ";
+  text-decoration: none;
+  src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf);
+  list-style: none;
+}
+
+
+#projeto{
+  text-decoration: none;
+  color: gray;
+  font-family: "Metropolis-Medium ";
+  src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
+
+}
+
+#blocos{
+margin-top: 5%;
+margin-left: 220px;
+ width: 600px;
+ height: 600px;
+ display: inline-block;
+
+}
+
+#caixa{
+  width: 400px;
+  height: 400px;
+  display: inline-block;
+}
+
+
+
+@font-face {
+
+ font-family: "Metropolis-Medium ";
+  src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
+}
+
+
+
+
+
+@font-face {
+  font-family: "Metropolis-Bold ";
+   src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
+ }
+ 
+ 
+
+

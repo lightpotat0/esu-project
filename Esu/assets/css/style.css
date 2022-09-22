@@ -1,0 +1,237 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  transition: background 0.4s ease-in-out; 
+  overflow-x: hidden;
+}
+
+.carousel-container{
+  overflow: hidden;
+  position: relative;
+  height: 900px;
+  width: 1920pt;
+  margin-top: 1rem;
+}
+
+.carousel{
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translateX(0);
+  transition: transform 0.4s ease-in-out;
+  z-index: 0;
+}
+
+.slide{
+  width: 100vw;
+  text-align: center;
+}
+
+.slide img{
+  object-fit: cover;
+  margin-top: 3.5rem;
+  height: 36.6rem;
+  width: 1350px;
+}
+
+.slide h1{
+  color: white;
+  text-shadow: rgb(0, 0, 0) 2px 2px 5px;
+  margin-left: 4rem;
+  text-align: left;
+  font-size: 2rem;
+  margin-top: -8rem;
+  font-family: "Metropolis-Medium ";
+  src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
+}
+
+.slide a{
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.arrow{
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  position: absolute;
+  top: 30%;
+  transform: translateX(-50%);
+  font-size: 5rem;
+}
+
+.left-arrow{
+  left: 2rem
+}
+
+.right-arrow{
+  right: 13rem;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: rgb(26, 25, 25);
+}
+
+ul{
+  margin: 0 0 0 780px;
+  list-style: none;
+  margin-top: 10px;
+  font-size: 22px;
+}
+
+nav{
+  padding: 0;
+ background-color: white;
+ width: 1920px;
+ height: 4.5rem;
+ position: fixed;
+ z-index: 13;
+}
+
+li{
+  float: left;
+}
+
+li a{
+  width: 100px;
+  display: block;
+  top: 8px;
+  padding: 20px 30px 30px;
+  text-decoration: none;
+  font-family: "Homade-Bold";
+  src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf);
+  color: gray;
+  margin-left: 5%;
+
+
+}
+
+@font-face {
+  font-family: "Homade-Bold";
+  src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
+}
+
+.logo img{
+  position: absolute;
+  width: 70px;
+  height: 35px;
+  margin-top: 8px;
+  margin-left: -40rem;
+
+
+}
+#submit{
+  background-color: red;
+  margin-top: 8px;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  font-family: "Homade-Bold";
+  src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf);
+}
+
+.slider{
+  height: 900px;
+  width: 1550px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.navigation{
+  position: absolute;
+  bottom: 10px;
+  top: 73%;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+
+}
+.bar{
+  width: 45px;
+  height: 2px;
+  border-radius: 30px;
+  border: 1px solid black;
+  margin: 2px;
+  cursor: pointer;
+  transition: .3s;
+  border-color: gray;
+  background-color: gray;
+  opacity: calc(0.5);
+}
+
+.bar:hover{
+   background-color: white;
+}
+
+input{
+  display: none;
+}
+
+.slides{
+  display: flex;
+  width: 400%;
+}
+
+.bar:not(:last-child){
+   margin-right: 10px;
+}
+
+.navigation-auto{
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+}
+
+#menu2 {
+  position: absolute;
+  margin-left: -2rem;
+  width: 20px;
+}
+
+#menu1 {
+  position: absolute;
+  margin-left: -9rem;
+  width: 20px;
+  color: black;
+}
+
+#menu3 {
+  position: absolute;
+  margin-left: 3rem;
+  width: 20px;
+}
+
+#botaoo {
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 12.5rem;
+}
+
+@font-face {
+ font-family: "Metropolis-Medium ";
+  src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
+}
+
+@font-face {
+  font-family: "Metropolis-Bold ";
+   src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
+ }
+ 
+ 
+
+

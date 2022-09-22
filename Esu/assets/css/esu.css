@@ -1,0 +1,129 @@
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top:-120px;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  
+  #radio1:checked ~.first{
+      margin-right: 0;
+  
+  }
+  
+  #radio2:checked ~.first{
+    margin-right: -25%;
+  
+  }
+  
+  #radio3:checked ~.first{
+    margin-right: -50%;
+  
+  }
+  
+  #radio4:checked ~.first{
+    margin-right: -75%;
+  
+  }
+  
+  
+  .identidade{
+    margin-top: 725px;
+  
+  
+  }
+  
+  
+  
+  #menu2 {
+    position: absolute;
+    margin-left: 130px;
+    width: 20px;
+  }
+  
+  #menu1 {
+    position: absolute;
+    margin-left: 0px;
+    width: 20px;
+    color: black;
+  }
+  
+  #menu3 {
+    position: absolute;
+    margin-left: 230px;
+    width: 20px;
+  }
+  
+  #botaoo {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 405px;
+  }
+  
+  
+  #identidade{
+    color: red;
+    text-decoration: none;
+    margin-left: 220px;
+    font-size: 30px;
+    font-family: "Metropolis-Bold ";
+    text-decoration: none;
+    src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf);
+    list-style: none;
+  }
+  
+  
+  #projeto{
+    text-decoration: none;
+    color: gray;
+    font-family: "Metropolis-Medium ";
+    src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
+  
+  }
+  
+  #blocos{
+  margin-top: 5%;
+  margin-left: 220px;
+   width: 300px;
+   height: 300px;
+   display: inline-block;
+  
+  }
+  
+  #caixa{
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+  }
+  
+  
+  
+  @font-face {
+  
+   font-family: "Metropolis-Medium ";
+    src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
+  }
+  
+  
+  
+  
+  
+  @font-face {
+    font-family: "Metropolis-Bold ";
+     src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
+   }
