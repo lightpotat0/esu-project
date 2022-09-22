@@ -16,6 +16,7 @@ body{
     position: absolute;
     left: -9999999px;
 }
+
 .img-responsive,
 .thumbnail > img,
 .thumbnail a > img,
@@ -388,8 +389,9 @@ li a{
 #identidade{
   margin: 2%;
   top: 2%;
-  width: 17.3%;
+  width: 20.3%;
   text-decoration: none;
+  font-size: 120%;
   color:  gray;
   font-family: "Metropolis-Medium ";
   src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
