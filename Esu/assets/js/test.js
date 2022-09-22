@@ -54,5 +54,45 @@ function escap(){
 
 //imagem hover texto
 
+var img = document.getElementById('img')
+var p1 = document.getElementById('tx1')
 
+img.addEventListener('mouseout', pas)
+img.addEventListener('mouseenter', paz)
+
+function pas(){
+    p1.style.display = 'block'
+}
+
+function paz(){
+    p1.style.display = 'none'
+}
+
+var img1 = document.getElementById('img1')
+var p2 = document.getElementById('tx2')
+
+img1.addEventListener('mouseout', ka)
+img1.addEventListener('mouseenter', ka1)
+
+function ka(){
+    p2.style.display = 'block'
+}
+
+function ka1(){
+    p2.style.display = 'none'
+}
+
+var img2 = document.getElementById('img2')
+var p3 = document.getElementById('tx3')
+
+img2.addEventListener('mouseout', among)
+img2.addEventListener('mouseenter', us)
+
+function among(){
+    p3.style.display = 'block'
+}
+
+function us(){
+    p3.style.display = 'none'
+}
 
