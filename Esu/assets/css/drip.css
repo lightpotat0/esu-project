@@ -263,7 +263,6 @@ li a{
   cursor: pointer;
   border-color: gray;
   background-color: gray;
-  border: 1px solid #000;
   border-radius: 30px;
   opacity: calc(0.5);
 }
