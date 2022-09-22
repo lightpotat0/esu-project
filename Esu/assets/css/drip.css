@@ -72,12 +72,11 @@ li a{
   background-color: red;
   top: 26%;
   border: none;
-  height: 16%;
   border-radius: 20px;
   color: white;
-  font-size: 80%;
-  line-height: 30px;
-  padding: 1% 20px;
+  font-size: 22px;
+  padding: 2% 15% .5% 15%;
+  line-height: 32px;
   text-transform: uppercase;
   cursor: pointer;
   transform: translate(10%, 10%);
@@ -263,16 +262,20 @@ li a{
   text-indent: -999px;
   cursor: pointer;
   border-color: gray;
-  background-color: gray;
+  background-color: white;
   border-radius: 30px;
-  opacity: calc(0.5);
+  opacity: 30%;
 }
+
 .carousel-indicators .active {
   width: 25px;
   height: 3px;
   margin: 15px;
   margin-top: 100px;
-  background-color: #fff;
+  border-color: black;
+  border-radius: 30px;
+  background-color: white;
+  opacity: 90%;
 }
 .carousel-caption {
   position: absolute;
@@ -563,7 +566,10 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
   color: gray;
   font-family: "Metropolis-Medium ";
   src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
+}
 
+.shadow {
+  box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.1);
 }
 
 @font-face {
