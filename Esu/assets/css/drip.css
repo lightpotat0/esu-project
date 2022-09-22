@@ -6,7 +6,7 @@ body{
 }
 
 .carousel-inner img{
-  height: 100%;
+  height: 80%;
     margin-left: 0;
     width: 100%;
     margin-top: 4rem;
@@ -24,7 +24,7 @@ body{
 .carousel-inner > .item > a > img {
   display: block;
   max-width: 100%;
-  height: 36.5rem;
+  height: 40rem;
 }
 
 ul{
@@ -69,11 +69,11 @@ li a{
 }
 
 #submit{
-  background-color: red;
+  background-color:  #FF2600;
   top: 26%;
   border: none;
   border-radius: 20px;
-  color: white;
+  color: #ffffff;
   font-size: 22px;
   padding: 2% 15% .5% 15%;
   line-height: 32px;
@@ -261,8 +261,8 @@ li a{
   margin-top: 100px;
   text-indent: -999px;
   cursor: pointer;
-  border-color: gray;
-  background-color: white;
+  border-color: #686868;
+  background-color: #686868;
   border-radius: 30px;
   opacity: 30%;
 }
@@ -391,11 +391,12 @@ li a{
 
 #identidade{
   margin: 2%;
+  margin-right: 0%;
   top: 2%;
   width: 20.3%;
   text-decoration: none;
   font-size: 120%;
-  color:  gray;
+  color:  #686868;
   font-family: "Metropolis-Medium ";
   src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 }
@@ -404,15 +405,15 @@ li a{
     margin-top: -1%;
     margin-right: 2%;
     font-size: 155%;
-    color: red;
+    color:  #FF2600;
     font-family: "Metropolis-Bold ";
     src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
 }
 
 #blocos:hover{
     margin-top: 1.2%;
-    margin-right: 8%;
-       color: red;
+    margin-right: 3%;
+       color:  #FF2600;
        font-size: 155%;
        font-family: "Metropolis-Bold ";
    src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
@@ -429,7 +430,7 @@ src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
 
 #blocos2:hover{
   margin-top: 1.2%;
-  color: red;
+  color:  #FF2600;
   font-size: 155%;
   font-family: "Metropolis-Bold ";
 src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
@@ -438,8 +439,9 @@ src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
 #blocos{
 width: 11.5%;
 margin: 2%;
+margin-right: -2%;
 text-decoration: none;
-color:  gray;
+color:  #686868;
 font-size: 120%;
 background-color: white;
 font-family: "Metropolis-Medium ";
@@ -449,9 +451,9 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 #blocos1{
   width: 14.6%;
   margin: 2%;
-  margin-left: 5%;
+  margin-left: 7%;
   text-decoration: none;
-  color:  gray;
+  color:  #686868;
   font-size: 120%;
   background-color: white;
   font-family: "Metropolis-Medium ";
@@ -461,8 +463,9 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
   #blocos2{
     width: 12%;
     margin: 2%;
+    margin-left: 1%;
     text-decoration: none;
-    color:  gray;
+    color:  #686868;
     font-size: 120%;
     background-color: white;
     font-family: "Metropolis-Medium ";
@@ -472,7 +475,7 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 
 .elemento{
   margin-top: 4%;
-  margin-left: 25%;
+  margin-left: 30%;
    width: 60%;
    height: 6%;
   display: flex;
@@ -514,11 +517,11 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
   position: absolute;
   z-index: 2;
   margin-left: 0%;
-  margin-top: -2%;
+  margin-top: -1%;
   background-color: white;
   padding: 5px;
   color: black;
-  width: 25%;
+  width: 10%;
   grid-column: 1;
   grid-row: 2;
   font-size: 16px;
@@ -548,15 +551,15 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 .caixa p{
   position: absolute;
   z-index: 1;
-   margin-top: -2.4%;
+   margin-top: -1%;
    background-color: white;
    padding: 5px;
    color: black;
-   width: 25%;
+   width: 10%;
    grid-column: 1;
    grid-row: 2;
    font-size: 16px;
-   margin-left: 0.5%;
+   margin-left: 0.4%;
   font-family: "Metropolis-Medium ";
   src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 }
