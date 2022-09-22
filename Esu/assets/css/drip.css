@@ -189,14 +189,12 @@ li a{
   right: -5rem;
   left: auto;
   overflow-x: hidden;
-  box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.1);
 }
 
 .carousel-control.left {
   right: auto;
   left: -6rem;
   overflow-x: hidden;
-  box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.1);
 }
 
 .carousel-control:hover,
