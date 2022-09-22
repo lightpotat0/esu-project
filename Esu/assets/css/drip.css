@@ -399,7 +399,7 @@ li a{
 
 #identidade:hover{
     margin-top: -1%;
-    margin-right: 5%;
+    margin-right: 2%;
     font-size: 155%;
     color: red;
     font-family: "Metropolis-Bold ";
@@ -408,7 +408,7 @@ li a{
 
 #blocos:hover{
     margin-top: 1.2%;
-    margin-right: 11%;
+    margin-right: 8%;
        color: red;
        font-size: 155%;
        font-family: "Metropolis-Bold ";
@@ -417,7 +417,7 @@ li a{
 
 #blocos1:hover{
   margin-top: -1%;
-    margin-right: 2%;
+    margin-right: -1%;
   color: red;
   font-size: 155%;
   font-family: "Metropolis-Bold ";
@@ -444,20 +444,23 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 }
 
 #blocos1{
-  width: 12.5%;
+  width: 14.6%;
   margin: 2%;
+  margin-left: 5%;
   text-decoration: none;
   color:  gray;
+  font-size: 120%;
   background-color: white;
   font-family: "Metropolis-Medium ";
   src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
   }
 
   #blocos2{
-    width: 11.5%;
+    width: 12%;
     margin: 2%;
     text-decoration: none;
     color:  gray;
+    font-size: 120%;
     background-color: white;
     font-family: "Metropolis-Medium ";
     src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
