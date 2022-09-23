@@ -582,7 +582,6 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
   font-size: 13px;
   word-spacing: 1px;
   line-height: 120%;
-  display: none;
   font-family: "Metropolis-Light";
   src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf);
 }
