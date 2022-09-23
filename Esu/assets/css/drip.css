@@ -6,7 +6,6 @@ body{
 }
 
 .carousel-inner img{
-  height: 80%;
     margin-left: 0;
     width: 100%;
     margin-top: 4rem;
@@ -362,11 +361,14 @@ li a{
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 2px;
+ 
 }
 
 ::-webkit-scrollbar-thumb{
-  background-color: rgb(26, 25, 25);
+  background-color: #686868;
+  border-radius: 20px;
+  
 }
 
 .slide h1{
@@ -390,7 +392,8 @@ li a{
 
 #identidade{
   margin: 2%;
-  margin-right: 0%;
+  margin-right: 3%;
+  margin-left: -5%;
   top: 2%;
   width: 20.3%;
   text-decoration: none;
@@ -411,7 +414,7 @@ li a{
 
 #blocos:hover{
     margin-top: 1.2%;
-    margin-right: 3%;
+    margin-right: 8%;
        color:  #FF2600;
        font-size: 155%;
        font-family: "Metropolis-Bold ";
@@ -438,7 +441,7 @@ src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
 #blocos{
 width: 11.5%;
 margin: 2%;
-margin-right: -2%;
+margin-right: 0%;
 text-decoration: none;
 color:  #686868;
 font-size: 120%;
@@ -462,7 +465,7 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
   #blocos2{
     width: 12%;
     margin: 2%;
-    margin-left: 1%;
+    margin-left: 3%;
     text-decoration: none;
     color:  #686868;
     font-size: 120%;
@@ -475,8 +478,8 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 .elemento{
   margin-top: 4%;
   margin-left: 30%;
-   width: 60%;
-   height: 6%;
+  width: 60%;
+  height: 6%;
   display: flex;
 }
 
@@ -486,9 +489,9 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
  grid-template-columns: 1fr 1fr 1fr;
  grid-template: 20px;
  margin: 0 auto;
- width: 990px;
+ width: 80%;
  padding: 10px;
- margin-right: 17%;
+ margin-right: 9%;
 }
 
 .box{
@@ -572,6 +575,17 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 
 .shadow {
   box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.1);
+}
+
+#texto h1 {
+  position: absolute;
+  z-index: 7;
+  top: 135%;
+  left: 20%;
+  font-size: 16px;
+  font-family: "Metropolis-Medium ";
+  src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
+
 }
 
 @font-face {

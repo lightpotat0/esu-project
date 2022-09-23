@@ -52,7 +52,7 @@ function escap(){
     text3.innerHTML = `Audiovisual`
 }
 
-//imagem hover texto
+//imagem hover texto e aparição do texto
 
 var img = document.getElementById('img')
 var p1 = document.getElementById('tx1')
@@ -95,8 +95,6 @@ function among(){
 function us(){
     p3.style.display = 'none'
 }
-
-//aparecer texto na img
 
 
 
