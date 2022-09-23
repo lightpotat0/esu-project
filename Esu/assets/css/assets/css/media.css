@@ -156,7 +156,7 @@
     /* FOOTER */
 
 .footer-page-color {
-    background-color: black;
+    background-color: white;
     width: 100%;
     margin-top: 14%;
 }
@@ -167,14 +167,14 @@
     margin: auto;
 }
 .footer-page p {
-    color: white;
+    color: black;
     letter-spacing: unset;
     line-height: unset;
     font-family: "Metropolis-Light";
     src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf);
 }
 .footer-page a {
-    color: white;
+    color: black;
     text-align: center;
     text-decoration: none;
     letter-spacing: unset;
@@ -246,7 +246,7 @@
 .hr-page {
     align-self: center;
     border-style: solid;
-    border-color: white;
+    border-color: black;
     width: 100%;
     border-width: 0.01px;
 }
