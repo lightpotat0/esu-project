@@ -499,8 +499,8 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
   width:  80%;
   height: 80%;
   margin-top: 5%;
-  margin-right: 10%;
-  margin: 10px;
+ margin-right: 2%;
+  margin: 7px;
 }
 
 .box img{
@@ -508,7 +508,6 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
   max-width: 320px;
   grid-column: 1;
   grid-row: 1/3;
-
 }
 
 .box img:hover{
@@ -562,7 +561,7 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
    grid-row: 2;
    font-size: 16px;
    margin-left: 0.4%;
-  font-family: "Metropolis-Medium ";
+  font-family: "Metropolis-Medium";
   src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 }
 
@@ -570,8 +569,7 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
   display: grid;
   width: 80%;
   height: 80%;
-  margin-top: 5%;
-  margin-left: 10px;
+  margin-right: 4%;
 }
 
 .caixa1 img{
@@ -599,6 +597,11 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
   margin-left: 0.4%;
  font-family: "Metropolis-Medium ";
  src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
+}
+
+
+.container{
+    margin-top: 8%;
 }
 
 #projeto{
