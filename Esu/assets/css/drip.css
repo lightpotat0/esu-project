@@ -499,8 +499,8 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
   width:  80%;
   height: 80%;
   margin-top: 5%;
-  margin-right: -4%;
-  margin: 5px;
+ margin-right: -4%;
+  margin: 7px;
 }
 
 .box img{
@@ -508,6 +508,7 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
   max-width: 320px;
   grid-column: 1;
   grid-row: 1/3;
+ 
 
 }
 
@@ -599,6 +600,12 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
   margin-left: 0.4%;
  font-family: "Metropolis-Medium ";
  src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
+}
+
+
+.container{
+    margin-top: 8%;
+
 }
 
 #projeto{
