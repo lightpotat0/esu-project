@@ -56,16 +56,19 @@ function escap(){
 
 var img = document.getElementById('img')
 var p1 = document.getElementById('tx1')
+var msg = document.getElementById('texto')
 
 img.addEventListener('mouseout', pas)
 img.addEventListener('mouseenter', paz)
 
 function pas(){
     p1.style.display = 'block'
+    msg.style.display = 'block'
 }
 
 function paz(){
     p1.style.display = 'none'
+    msg.style.display = 'none'
 }
 
 var img1 = document.getElementById('img1')

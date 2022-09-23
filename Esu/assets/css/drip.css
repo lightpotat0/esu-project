@@ -577,11 +577,14 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 #texto h1 {
   position: absolute;
   z-index: 7;
-  top: 135%;
-  left: 20%;
-  font-size: 16px;
-  font-family: "Metropolis-Medium";
-  src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
+  top: 145%;
+  left: 14%;
+  font-size: 13px;
+  word-spacing: 1px;
+  line-height: 120%;
+  display: none;
+  font-family: "Metropolis-Light";
+  src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf);
 }
 
 @font-face {
@@ -592,4 +595,9 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 @font-face {
   font-family: "Metropolis-Bold ";
    src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
- }
+}
+
+@font-face {
+  font-family: "Metropolis-Light";
+  src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf);
+}
