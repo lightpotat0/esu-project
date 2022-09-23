@@ -23,7 +23,7 @@ body{
 .carousel-inner > .item > a > img {
   display: block;
   max-width: 100%;
-  height: 37.2rem;
+  height: 44rem;
 }
 
 ul{
@@ -361,11 +361,14 @@ li a{
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 2px;
+ 
 }
 
 ::-webkit-scrollbar-thumb{
-  background-color: rgb(26, 25, 25);
+  background-color: #686868;
+  border-radius: 20px;
+  
 }
 
 .slide h1{
@@ -516,7 +519,7 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
   position: absolute;
   z-index: 2;
   margin-left: 0%;
-  top: 166%;
+  top: 183%;
   background-color: white;
   padding: 5px;
   color: black;
@@ -550,7 +553,7 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 .caixa p{
   position: absolute;
   z-index: 1;
-  top: 166%;
+  top: 183%;
    background-color: white;
    padding: 5px;
    color: black;
@@ -585,7 +588,7 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 .caixa1 p{
  position: absolute;
  z-index: 1;
-  top: 166%;
+  top: 183%;
   background-color: white;
   padding: 5px;
   color: black;
@@ -612,10 +615,11 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 #texto h1 {
   position: absolute;
   z-index: 7;
-  top: 145%;
-  left: 14%;
-  font-size: 14px;
-  line-height: 110%;
+  top: 160%;
+  left: 12.5%;
+  font-size: 15px;
+  word-spacing: 1px;
+  line-height: 120%;
   font-family: "Metropolis-Light";
   src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf);
 }
@@ -624,10 +628,11 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 #texto1 h1 {
   position: absolute;
   z-index: 7;
-  top: 145%;
+  top: 160%;
   left: 40%;
-  font-size: 14px;
-  line-height: 110%;
+  font-size: 15px;
+  word-spacing: 1px;
+  line-height: 120%;
   font-family: "Metropolis-Light";
   src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf);
 }
@@ -635,10 +640,11 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 #texto2 h1 {
   position: absolute;
   z-index: 7;
-  top: 145%;
-  left: 67%;
-  font-size: 14px;
-  line-height: 110%;
+  top: 160%;
+  left: 66%;
+  font-size: 15px;
+  word-spacing: 1px;
+  line-height: 120%;
   font-family: "Metropolis-Light";
   src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf);
 }
