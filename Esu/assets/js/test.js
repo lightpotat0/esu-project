@@ -74,30 +74,36 @@ function paz(){
 
 var img1 = document.getElementById('img1')
 var p2 = document.getElementById('tx2')
+var msg1 = document.getElementById('texto1')
 
 img1.addEventListener('mouseout', ka)
 img1.addEventListener('mouseenter', ka1)
 
 function ka(){
     p2.style.display = 'block'
+    msg1.style.display = 'none'
 }
 
 function ka1(){
     p2.style.display = 'none'
+    msg1.style.display = 'block'
 }
 
 var img2 = document.getElementById('img2')
 var p3 = document.getElementById('tx3')
+var msg2 = document.getElementById('texto2')
 
 img2.addEventListener('mouseout', among)
 img2.addEventListener('mouseenter', us)
 
 function among(){
     p3.style.display = 'block'
+    msg2.style.display = 'none'
 }
 
 function us(){
     p3.style.display = 'none'
+    msg2.style.display = 'block'
 }
 
 
