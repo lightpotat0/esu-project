@@ -62,8 +62,6 @@ msg.style.display = 'none'
 
 img.addEventListener('mouseout', pas)
 img.addEventListener('mouseenter', paz)
-msg.addEventListener('mouseenter', sla)
-
 
 function pas(){
     p1.style.display = 'block'
