@@ -287,9 +287,11 @@ li a{
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
 }
+
 .carousel-caption .btn {
   text-shadow: none;
 }
+
 @media screen and (min-width: 768px) {
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .glyphicon-chevron-right,
@@ -669,6 +671,32 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
   font-size: 14px;
   font-family: "Metropolis-Light";
   src: local(Metropolis-Light) url(../fonts/Metropolis-Light.otf);
+}
+
+.estudio{
+  font-size: 23px;
+  margin-left: 25%;
+  line-height: 40px;
+  font-family: "Metropolis-Light ";
+  src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+}
+
+.cultura{
+  margin-top: -32%;
+  margin-left: 70%;
+   font-size: 40px;
+   color: #FF2600;
+   font-family: "Homade-Bold";
+   src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
+}
+
+#sobre{
+  margin-top: 10%;
+  margin-left: 25%;
+  font-size: 40px;
+  color: #FF2600;
+  font-family: "Homade-Bold";
+  src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
 }
 
 @font-face {
