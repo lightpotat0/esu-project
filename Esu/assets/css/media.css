@@ -1,0 +1,379 @@
+
+@media (max-width:1899px){
+
+        
+    .img-responsive,
+    .thumbnail > img,
+    .thumbnail a > img,
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img{
+    
+        height: 44rem;
+    }
+    
+    
+    
+       .elemento{
+         margin-top: 12.5%;
+          margin-left: 33%;
+    
+       }
+    
+       #identidade{
+          margin-right: 1.5%;
+      
+       }
+    
+    
+         #blocos{
+           margin-left: 0%;
+    
+         }
+    
+         
+         #blocos1{
+            margin-left: 4.5%;
+     
+          }
+    
+          
+         #blocos2{
+            margin-left: 0.5%;
+     
+          }
+     
+    
+          .box{
+             margin-left: 28%;
+    
+          }
+    
+          .caixa{
+            margin-left: 10%;
+    
+          }
+    
+          .caixa1{
+                margin-left: -7%;
+    
+          }
+    
+          #texto h1{
+            margin-top: 7%;
+            margin-left: 5%;
+            font-size: 15px;
+            font-family: "Metropolis-Light ";
+            src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+    
+          }
+    
+          #texto1 h1 {
+            margin-top: 7%;
+            margin-left: 0.5%;
+            font-size: 15px;
+            font-family: "Metropolis-Light ";
+            src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+        }
+    
+        #texto2 h1 {
+            margin-top: 7%;
+            margin-left: -4.5%;
+            font-size: 15px;
+            font-family: "Metropolis-Light ";
+            src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+        }
+    
+        .box p{
+            margin-top: -1.4%;
+    
+        }
+      
+        .box img{
+             margin-top: 6%;
+    
+        }
+    
+    
+        .caixa p{
+            margin-top: -2%;
+        }
+    
+        .caixa1 p{
+            margin-top: -2%;
+    
+        }
+    
+        .container{
+                 margin-top: 5%;
+    
+        }
+    
+    
+       #sobre{
+           margin-top: 10%;
+           margin-left: 25%;
+           font-size: 40px;
+           color: #FF2600;
+           font-family: "Homade-Bold";
+           src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
+    
+       }
+    
+       .estudio{
+          font-size: 23px;
+          margin-left: 25%;
+          line-height: 40px;
+          font-family: "Metropolis-Light ";
+          src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+         
+    
+    
+       }
+    
+    .cultura{
+        margin-top: -32%;
+        margin-left: 70%;
+         font-size: 40px;
+         color: #FF2600;
+         font-family: "Homade-Bold";
+         src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
+    
+    
+    }
+    
+    
+    
+    
+            
+    @font-face {
+        font-family: "Homade-Bold";
+        src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
+      }
+          
+      
+    
+    
+    
+    
+     
+    
+         /*----------footer-----------*/
+         .footer-page a{
+            font-size: 0.8em;
+            font-family: "Metropolis-Light ";
+            src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+        }
+        /*-------footer-top--------*/
+    
+        .footer-page-top{
+            max-width: 100%;
+            margin: 1.5% auto;
+        }
+        .footer-page-top p{
+            font-size: 0.9em;
+            margin: 0px;
+            padding: 0px;
+            font-family: "Metropolis-Light ";
+            src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+        }
+        .logo-rodape{
+            width: 15%;
+        }
+        .logo-rodape a{
+            width: 55%;
+            font-family: "Metropolis-Light ";
+            src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+        }
+        .logo-rodape img {
+            width: 100%;
+        }
+        .apps {
+            width: 30%;        
+        }
+        .apps p{
+            font-size: 0.7em;
+            margin-bottom: 4%;
+            font-family: "Metropolis-Light ";
+            src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+        }
+        .apps img {
+            width: 77%;
+            
+        }
+        .Gplay{
+            width: 35%;
+        }
+        .Astory {
+            width: 35%;
+        }
+        .how-works{
+            width: 20%;
+        }
+        .help-support{
+            width: 15.5%;
+        }
+        /*-------footer-bottom--------*/
+    
+        .footer-page-bottom{
+            width: 100%;
+            margin: 1.5% auto;
+        }
+        .copyright-footer {
+            width: 42%;
+        }
+        .copyright-footer p {
+            font-size: 0.8em;
+            margin: 0%;
+            padding: 0%;
+            font-family: "Metropolis-Light ";
+            src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+        }
+        .social-icons {
+            
+            text-align: center;
+            width: 14%;
+        }
+        .social-icons img {
+            width: 14%;
+            margin-right: 3%;
+        }
+        .juridic {
+            width: 42%;
+        }
+    
+        /* FOOTER */
+    
+    .footer-page-color {
+        background-color: black;
+        width: 100%;
+        margin-top: 14%;
+    }
+    .footer-page {
+        display: flex;
+        flex-flow: column nowrap;
+        max-width: 1210px;
+        margin: auto;
+    }
+    .footer-page p {
+        color: white;
+        letter-spacing: unset;
+        line-height: unset;
+        font-family: "Metropolis-Light";
+        src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+    }
+    .footer-page a {
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        letter-spacing: unset;
+        line-height: unset;
+        font-family: "Metropolis-Light";
+        src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+    }
+    .footer-page-top{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    .footer-page-top a{
+        text-align: left;
+        font-family: "Metropolis-Light ";
+        src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+    }
+    .logo-rodape {
+        display: flex;
+        align-items: center;
+        align-self: center;
+    }
+    .apps {
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    #apps {
+        justify-content: space-between;
+        display: flex;
+        width: 40%;
+        text-align: center;
+        align-items: center;
+    }
+    #apps p {
+        font-weight: bold;
+        font-family: "Metropolis-Light ";
+        src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+    }
+    #apps a{
+        background: none;
+        font-family: "Metropolis-Light ";
+        src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+    }
+    .how-works {
+        display: flex;
+        flex-flow: column;
+        align-items: baseline;
+    }
+    .help-support {
+        display: flex;
+        flex-flow: column;
+        align-items: baseline;
+    }
+    
+    
+    
+    /*------------------------*/
+    
+    
+    
+    .footer-page-bottom {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .juridic {
+        flex-flow: row;
+        justify-content: space-between;
+        display: flex;
+    }
+    
+    .hr-page {
+        align-self: center;
+        border-style: solid;
+        border-color: white;
+        width: 100%;
+        border-width: 0.01px;
+    }
+    
+    
+    
+    @font-face {
+        font-family: "Metropolis-Light ";
+         src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+       }
+    
+    
+       @font-face {
+        font-family: "Metropolis-Medium ";
+         src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
+       }
+       
+       @font-face {
+        font-family: "Metropolis-Bold ";
+         src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
+       }
+    
+    
+    
+    
+    @media (min-width: 1366px){
+    }
+    
+    
+    @media (max-width: 999px){
+    }
+    
+    
+    @media (max-width:760px) {
+    
+    }
