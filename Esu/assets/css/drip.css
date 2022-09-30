@@ -405,6 +405,7 @@ li a{
     margin-right: 2%;
     font-size: 155%;
     color:  #FF2600;
+    transition: font-size 50ms;
     font-family: "Metropolis-Bold ";
     src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
 }
@@ -414,6 +415,7 @@ li a{
     margin-right: 8%;
        color:  #FF2600;
        font-size: 155%;
+       transition: font-size 50ms;
        font-family: "Metropolis-Bold ";
    src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
 }
@@ -423,6 +425,7 @@ li a{
     margin-right: -1%;
   color: red;
   font-size: 155%;
+  transition: font-size 50ms;
   font-family: "Metropolis-Bold ";
 src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
 }
@@ -431,6 +434,7 @@ src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
   margin-top: 1.2%;
   color:  #FF2600;
   font-size: 155%;
+  transition: font-size 50ms;
   font-family: "Metropolis-Bold ";
 src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
 }
@@ -496,7 +500,10 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
   position:static;
   width:  80%;
   height: 80%;
-  margin: 10px;
+  margin-top: 10%;
+  margin-right: 10%;
+  margin: 17px;
+
 }
 
 .box img{
@@ -510,6 +517,12 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 
 .box img:hover{
   opacity: 0.2;
+  transition: opacity 300ms;
+}
+
+.box img:not(:hover){
+  opacity: 1.0;
+  transition: opacity 300ms;
 }
 
 .box p{
@@ -546,7 +559,14 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 }
 
 .caixa img:hover{
+  z-index: 12;
   opacity: 0.2;
+  transition: opacity 300ms;
+}
+
+.caixa img:not( :hover ){
+  opacity: 1.0;
+  transition: opacity 300ms;
 }
 
 .caixa p{
@@ -571,6 +591,7 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
   width: 80%;
   height: 80%;
   margin-top: 5%;
+  margin-left: 20px;
 }
 
 .caixa1 img{
@@ -583,7 +604,14 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 }
 
 .caixa1 img:hover{
+ z-index: 12;
  opacity: 0.2;
+ transition: opacity 300ms;
+}
+
+.caixa1 img:not( :hover ){
+  opacity: 1.0;
+  transition: opacity 300ms;
 }
 
 .caixa1 p{
@@ -637,12 +665,11 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
   position: absolute;
   z-index: 7;
   top: 145%;
-  left: 68%;
+  left: 67.5%;
   font-size: 14px;
   font-family: "Metropolis-Light";
   src: local(Metropolis-Light) url(../fonts/Metropolis-Light.otf);
 }
-
 
 @font-face {
  font-family: "Metropolis-Medium ";
