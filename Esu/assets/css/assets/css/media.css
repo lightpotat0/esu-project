@@ -14,7 +14,7 @@
 
 
    .elemento{
-     margin-top: 12.5%;
+     margin-top: 5%;
       margin-left: 33%;
 
    }
@@ -110,7 +110,7 @@
 
 
    #sobre{
-       margin-top: 10%;
+       margin-top: 5%;
        margin-left: 25%;
        font-size: 40px;
        color: #FF2600;
@@ -122,7 +122,7 @@
    .estudio{
       font-size: 23px;
       margin-left: 25%;
-      line-height: 40px;
+      line-height: 36px;
       font-family: "Metropolis-Light ";
       src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
      
@@ -142,9 +142,40 @@
 }
 
 
+#ponto{
+    font-size: 100px;
+    color: gray;
+    opacity: 0.4;
+    text-align: center;
+
+}
+
+#ponto1{
+    
+    font-size: 100px;
+    color: gray;
+    opacity: 0.4;
+    text-align: center;
+
+}
+
+.btns{
+    margin-top: 20%;
+    margin-left: 60%;
+    cursor: pointer;
+    
+}
+
+button {
+    display: ;
+    cursor: pointer;
+}
 
 
-        
+
+
+
+
 @font-face {
     font-family: "Homade-Bold";
     src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
