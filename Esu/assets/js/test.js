@@ -52,7 +52,64 @@ function escap(){
     text3.innerHTML = `Audiovisual`
 }
 
-//imagem hover texto
+//imagem hover texto e aparição do texto
+
+
+var img = document.getElementById('img')
+var p1 = document.getElementById('tx1')
+var msg = document.getElementById('texto') 
+msg.style.display = 'none'
+
+img.addEventListener('mouseout', pas)
+img.addEventListener('mouseenter', paz)
+msg.addEventListener('mouseenter', sla)
+
+
+function pas(){
+    p1.style.display = 'block'
+    msg.style.display = 'none'
+}
+
+function paz(){
+    p1.style.display = 'none'
+    msg.style.display = 'block'
+}
+
+var img1 = document.getElementById('img1')
+var p2 = document.getElementById('tx2')
+var msg1 = document.getElementById('texto1') 
+msg1.style.display = 'none'
+
+img1.addEventListener('mouseout', ka)
+img1.addEventListener('mouseenter', ka1)
+
+function ka(){
+    p2.style.display = 'block'
+    msg1.style.display = 'none'
+}
+
+function ka1(){
+    p2.style.display = 'none'
+    msg1.style.display = 'block'
+}
+
+var img2 = document.getElementById('img2')
+var p3 = document.getElementById('tx3')
+var msg2 = document.getElementById('texto2') 
+msg2.style.display = 'none'
+
+img2.addEventListener('mouseout', among)
+img2.addEventListener('mouseenter', us)
+
+function among(){
+    p3.style.display = 'block'
+    msg2.style.display = 'none'
+}
+
+function us(){
+    p3.style.display = 'none'
+    msg2.style.display = 'block'
+}
 
 
 
