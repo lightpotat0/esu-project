@@ -508,8 +508,10 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 
 .grid{
  margin-top: 60%;
+ margin-left: 100%;
  display: grid;
  grid-template-columns: 28rem 28rem 28rem;
+ grid-template: 20px;
  margin: 0 auto;
  width: 80%;
  padding: 10px;
@@ -528,7 +530,7 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 
 .box img{
   z-index: 10;
-  margin-top: 4%;
+  margin-top: 5%;
   max-width: 320px;
   grid-column: 1;
   grid-row: 1/3;

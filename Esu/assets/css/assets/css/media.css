@@ -89,11 +89,19 @@
     }
   
     .box img{
-        margin-left: 1%;
+        margin-left: 2%;
          margin-top: 3%;
 
     }
 
+    .caixa img{
+      margin-right: 2%;
+
+    }
+
+    .caixa1 img{
+
+    }
 
     .caixa p{
         margin-top: -2%;
@@ -132,7 +140,7 @@
    }
 
 .cultura{
-    margin-top: -30%;
+    margin-top: -29%;
     margin-left: 70%;
      font-size: 40px;
      color: #FF2600;
@@ -158,10 +166,11 @@ button{
 }
 
 
+
 #right{
     position: absolute;
     margin-top: -1%;
-    margin-left: 61%;
+    margin-left: 60.5%;
 }
 
 #botaosobre{
@@ -169,13 +178,17 @@ button{
   color: #686868;
     font-size: 20px;
     margin-left: 58%;
-    margin-top: 14.6%;
+    margin-top: 14%;
     text-decoration: none;
     font-family: "Metropolis-Medium ";
      src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
    
 }
 
+.btns{
+    margin-left: 5%;
+    margin-top: 5%;
+}
 
 
 #ponto{
