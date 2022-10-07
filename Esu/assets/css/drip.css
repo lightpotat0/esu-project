@@ -69,7 +69,7 @@ li a{
 
 #submit{
   background-color:  #FF2600;
-  top: 20%;
+  margin-top: -1%;
   border: none;
   border-radius: 20px;
   color: #ffffff;
@@ -520,7 +520,6 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 
 .box{
   display: grid;
-  position:static;
   width:  80%;
   height: 80%;
   margin-top: 10%;
