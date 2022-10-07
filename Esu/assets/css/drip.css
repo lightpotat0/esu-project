@@ -509,7 +509,7 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
  padding: 1%;
  display: flex;
  flex-direction: row;
- justify-content: space-around;
+ justify-content: space-evenly;
 }
 
 .box{
