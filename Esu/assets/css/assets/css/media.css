@@ -97,10 +97,6 @@
 
     }
 
-    .caixa1 img{
-
-    }
-
     .caixa p{
         margin-top: -2%;
     }
@@ -430,7 +426,90 @@ button{
 }
 
 
-@media (min-width: 1366px){
+@media (max-width: 1366px){
+
+    .elemento{
+        margin-top: 12.5%;
+         margin-left: 11%;
+      }
+
+      #identidade{
+        margin-right: -15%;
+     }
+
+     #blocos{
+        margin-left: 0;
+ 
+      }
+ 
+      
+      #blocos1{
+         margin-left: -15%;
+  
+       }
+ 
+       
+      #blocos2{
+         margin-left: -16%;
+  
+       }
+
+       .box{
+        margin-left: 0;
+
+     }
+
+     .caixa{
+       margin-left: 0;
+
+     }
+
+     .caixa1{
+           margin-left:0;
+
+     }
+
+     #texto h1{
+       margin-top: 0;
+       margin-left: 0;
+       font-size: 15px;
+       font-family: "Metropolis-Light ";
+       src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+
+     }
+
+     #texto1 h1 {
+       margin-top: 0;
+       margin-left: 0;
+       font-size: 15px;
+       font-family: "Metropolis-Light ";
+       src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+   }
+
+   #texto2 h1 {
+       margin-top: 0;
+       margin-left: 0;
+       font-size: 15px;
+       font-family: "Metropolis-Light ";
+       src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+   }
+
+   .box p{
+       margin-top: 0;
+
+   }
+ 
+   .box img{
+       margin-left: 0;
+        margin-top: 0;
+
+   }
+
+   .caixa img{
+     margin-right: 0;
+
+   }
+
 }
 
 
