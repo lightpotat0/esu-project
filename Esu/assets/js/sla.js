@@ -48,4 +48,4 @@ function carrossel() {
 
 }
 
-setInterval(carrossel, 2000);*
+setInterval(carrossel, 2000);
