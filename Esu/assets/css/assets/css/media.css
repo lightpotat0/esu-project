@@ -14,53 +14,76 @@
 
 
    .elemento{
-     margin-top: 10%;
+      margin-right: 5em;
+     margin-top: 15%;
       margin-left: 10%;
 
    }
 
    #identidade{
-      margin-right: 1.5%;
-  
+       margin-left: 10%;
    }
 
+   #blocos{
+      margin-right: 5%;
+   }
 
-     #blocos{
-       margin-left: 0%;
+   
+   #blocos1{
+      margin-left: 5%;
+   }
 
-     }
+   
+   #blocos2{
+     margin-left: 5%;
+   }
 
-     
-     #blocos1{
-        margin-left: 4.5%;
  
       }
-
-      
-     #blocos2{
-        margin-left: 0.5%;
- 
+      .grid{
+        justify-content: center;
       }
- 
 
       .box{
-         margin-left: 28%;
-
+        margin-right: 2.5%;
+        width: 27%;
+        height: 27%;
       }
 
       .caixa{
-        margin-left: 10%;
-
+        margin-right: 2.5%;
+        width: 27%;
+        height: 27%;
       }
 
       .caixa1{
-            margin-left: -7%;
-
+        width: 27%;
+        height: 27%;
       }
 
+ 
+     .box p{
+         margin-top: -1.5%;
+     }
+
+     .caixa img{
+        margin-right: 20%;
+        
+      }
+
+     .caixa p{
+        margin-top: -1.5%;
+     }
+
+   
+     
+
+     .caixa1 p {
+        margin-top: -1.5%;
+     }
       #texto h1{
-        margin-top: 10%;
-        margin-left: 6%;
+        margin-top: 2.5%;
+        margin-left: 9%;
         font-size: 15px;
         font-family: "Metropolis-Light ";
         src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
@@ -68,43 +91,26 @@
       }
 
       #texto1 h1 {
-        margin-top: 10%;
-        margin-left: 3%;
+        margin-top: 2.5%;
+        margin-left: 1%;
         font-size: 15px;
         font-family: "Metropolis-Light ";
         src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
     }
 
     #texto2 h1 {
-        margin-top: 10%;
-        margin-left: -4.5%;
+        margin-top: 2.5%;
+        margin-left: -2%;
         font-size: 15px;
         font-family: "Metropolis-Light ";
         src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
     }
 
-    .box p{
-        margin-top: -1.4%;
-
-    }
-  
-    .box img{
-        margin-right: 30%;
+    #projetoss{
+        margin-top: 45%;
     }
 
-    .caixa img{
-      margin-right: 2%;
-
-    }
-
-    .caixa p{
-        margin-top: -2%;
-    }
-
-    .caixa1 p{
-        margin-top: -2%;
-
-    }
+ 
 
     .container{
              margin-top: 5%;
