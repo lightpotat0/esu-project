@@ -732,26 +732,26 @@ li a {
   display: none;
   justify-content: center;
   align-items: center;
+  overflow-y: scroll;
 }
 
 .modal-container.mostrar{
   display: flex;
   animation: modal .4s;
+  overflow: hidden;
 }
 
 .modal {
   background-color: white;
-  width: 60%;
-  min-width: 1000px;
+  width: 80%;
   padding: 40px;
   box-shadow: 0 0 0 10px white;
   position: relative;
 }
 
 #tam {
-  position: absolute;
-  width: 50vw;
-  height: 50vw;
+  z-index: 50;
+  width: 100%;
 }
 
 @keyframes modal {
@@ -771,8 +771,9 @@ li a {
 }
 
 .fechar {
-  color: #d3d3d3;
+  z-index: 1232;
   position: absolute;
+  color: red;
   font-size: 1.2em;
   top:  -122%;
   right: -1%;
@@ -782,6 +783,10 @@ li a {
   cursor: pointer;
   font-family: "Metropolis-Medium ";
   src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
+}
+
+#tam {
+  background-position: center;
 }
 
 /* pagina slide */
