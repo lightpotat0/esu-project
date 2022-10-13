@@ -141,6 +141,19 @@ function iniciaModal1(modalID1) {
 const caixa = document.querySelector('.caixa')
 caixa.addEventListener('click', () => iniciaModal('modal-projeto'))
 
+//caixa1
 
+function iniciaModal2(modalID2) {
+    const modal2 = document.getElementById(modalID2)
+    modal2.classList.add('mostrar')
+    modal2.addEventListener('click', (eve) => {
+        if(eve.target.id == modalID2 || eve.target.classList == 'fechar') {
+            modal2.classList.remove('mostrar')
+        }
+    })
+}
+
+const caixa1 = document.querySelector('.caixa1')
+caixa1.addEventListener('click', () => iniciaModal('modal-projeto'))
 
 
