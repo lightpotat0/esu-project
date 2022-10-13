@@ -14,28 +14,31 @@
 
 
    .elemento{
-      margin-right: 5em;
      margin-top: 15%;
-      margin-left: 10%;
-
    }
 
    #identidade{
-       margin-left: 10%;
+      z-index: 1;
+       margin-left: 31%;
    }
 
    #blocos{
-      margin-right: 5%;
+    z-index: 2;
+      margin-right: 3%;
+      width: 15%;
    }
 
    
    #blocos1{
-      margin-left: 5%;
+    z-index: 2;
+      margin-left:-2%;
+ 
    }
 
    
    #blocos2{
-     margin-left: 5%;
+    z-index: 2;
+     margin-left: 4%;
    }
 
  
@@ -177,8 +180,8 @@ button{
     position: absolute;
   color: #686868;
     font-size: 20px;
-    margin-left: 58%;
-    margin-top: 14%;
+    margin-left: 63%;
+    margin-top: 16.2%;
     text-decoration: none;
     font-family: "Metropolis-Medium ";
      src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
@@ -208,6 +211,29 @@ button{
 
 }
 
+.drive{
+    margin-left: 35%;
+}
+
+.drive p{
+    line-height: 30px;
+    font-size: 20px;
+    font-family: "Metropolis-Light ";
+    src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+
+}
+
+#contato{
+    
+    font-size: 30px;
+    color: #FF2600;
+    font-family: "Homade-Bold";
+    src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
+}
+
+.inputBox{
+    margin-left: 35%;
+}
 
 
 
