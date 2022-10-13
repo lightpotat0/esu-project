@@ -109,5 +109,38 @@ function us(){
     msg2.style.display = 'block'
 }
 
-//slide texto 
+//caixa pop up
+
+//box
+
+function iniciaModal(modalID) {
+    const modal = document.getElementById(modalID)
+    modal.classList.add('mostrar')
+    modal.addEventListener('click', (e) => {
+        if(e.target.id == modalID || e.target.classList == 'fechar') {
+            modal.classList.remove('mostrar')
+        }
+    })
+}
+
+const box = document.querySelector('.box')
+box.addEventListener('click', () => iniciaModal('modal-projeto'))
+
+//caixa
+
+function iniciaModal1(modalID1) {
+    const modal1 = document.getElementById(modalID1)
+    modal1.classList.add('mostrar')
+    modal1.addEventListener('click', (ev) => {
+        if(ev.target.id == modalID1 || ev.target.classList == 'fechar') {
+            modal1.classList.remove('mostrar')
+        }
+    })
+}
+
+const caixa = document.querySelector('.caixa')
+caixa.addEventListener('click', () => iniciaModal('modal-projeto'))
+
+
+
 
