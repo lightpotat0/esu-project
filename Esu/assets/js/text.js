@@ -108,3 +108,6 @@ function us(){
     p3.style.display = 'none'
     msg2.style.display = 'block'
 }
+
+//slide texto 
+
