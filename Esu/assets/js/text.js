@@ -6,7 +6,7 @@ text.addEventListener('mouseenter', sda)
 text.addEventListener('mouseout', sair)
 
 function sda(){
-    text.innerHTML = `IDENTIDADE<br> VISUAL`
+    text.innerHTML = `IDENTIDADE <br>VISUAL`
 }
 
 function sair(){
