@@ -429,8 +429,6 @@ button{
      src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
    }
 
-}
-
 
 @media (max-width: 1366px){
 
@@ -451,7 +449,6 @@ button{
       
       #blocos1{
          margin-left: -15%;
-  
        }
  
        
@@ -479,30 +476,6 @@ button{
         margin-top: 0;
      }
 
-     #texto h1{
-       margin-top: 100%;
-       margin-left: 0;
-       font-size: 15px;
-       font-family: "Metropolis-Light ";
-       src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
-
-     }
-
-     #texto1 h1 {
-       margin-top: 0;
-       margin-left: 0;
-       font-size: 15px;
-       font-family: "Metropolis-Light ";
-       src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
-   }
-
-   #texto2 h1 {
-       margin-top: 0;
-       margin-left: 0;
-       font-size: 15px;
-       font-family: "Metropolis-Light ";
-       src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
-   }
 
    .box p{
        margin-top: 0;
@@ -524,6 +497,32 @@ button{
     margin-top: 16%;
     margin-left: 62.9%;
    }
+
+   #texto h1{
+    margin-top: 0;
+    margin-left: 0;
+    font-size: 14px;
+    font-family: "Metropolis-Light ";
+    src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+
+  }
+
+  #texto1 h1 {
+    margin-top: 0;
+    margin-left: 0;
+    font-size: 14px;
+    font-family: "Metropolis-Light ";
+    src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+}
+
+#texto2 h1 {
+    margin-top: 0;
+    margin-left: 0;
+    font-size: 14px;
+    font-family: "Metropolis-Light ";
+    src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+}
+
 
 }
 
