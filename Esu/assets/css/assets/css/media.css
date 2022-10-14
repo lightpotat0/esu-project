@@ -470,6 +470,15 @@ input{
 
 @media (max-width: 1366px){
 
+    .img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img{
+    height: 90%;
+}
+
+
     .elemento{
         margin-top: 12.5%;
          margin-left: 11%;
@@ -477,11 +486,13 @@ input{
 
       #identidade{
         margin-right: -15%;
+        margin-left: 0;
      }
 
      #blocos{
         margin-left: 0;
- 
+        margin-right: 0;
+        width: 11%;
       }
  
       
@@ -539,6 +550,7 @@ input{
    #texto h1{
     margin-top: 0;
     margin-left: 0;
+    top: 156%;
     font-size: 14px;
     font-family: "Metropolis-Light ";
     src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
@@ -548,6 +560,7 @@ input{
   #texto1 h1 {
     margin-top: 0;
     margin-left: 0;
+    top: 156%;
     font-size: 14px;
     font-family: "Metropolis-Light ";
     src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
@@ -556,18 +569,42 @@ input{
 #texto2 h1 {
     margin-top: 0;
     margin-left: 0;
+    top: 156%;
     font-size: 14px;
     font-family: "Metropolis-Light ";
     src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
 }
 
+#projetoss {
+    margin-top: 0;
+}
 
 }
 
 
 @media (max-width: 320px){
 
-    
+  #menu1 {
+    display: none;
+  }
+
+  #menu2 {
+    display: none;
+  }
+
+  #menu3 {
+    display: none;
+  }
+
+  #submit{
+    display: none;
+  }
+
+  
+
+  .logo img{
+    left: -20%;
+  }
 
 }
 
