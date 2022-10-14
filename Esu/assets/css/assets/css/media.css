@@ -212,40 +212,127 @@ button{
 }
 
 .drive{
-    margin-left: 35%;
+
 }
 
 .drive p{
-    line-height: 30px;
-    font-size: 20px;
+    margin-top: -1.5%;
+    text-align: center;
+    line-height: 34px;
+    font-size: 24px;
     font-family: "Metropolis-Light ";
     src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
 
 }
 
 #contato{
-    
-    font-size: 30px;
+    margin-top: 4%;
+    font-size: 50px;
     color: #FF2600;
     font-family: "Homade-Bold";
     src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
 }
 
+#ponto2{
+    margin-top: -3%;
+    font-size: 100px;
+    color: gray;
+    opacity: 0.4;
+    text-align: center;
+}
+
 .inputBox{
+    margin-top: -3%;
     margin-left: 35%;
 }
 
 .inputBox label{
-    font-family: "Metropolis-Bold ";
-    src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
+    margin-top: -2%;
+    font-size: 26px;
+    color: #FF2600;
+    font-family: "Homade-Bold";
+    src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
 }
 
 
 
 input{
     width: 400px;
-    border-radius: 10px;
+    border-radius: 12px;
+    border-color: black;
 }
+
+
+#nome{
+    height: 40px;
+}
+
+#nome::-webkit-input-placeholder{
+    color: gray;
+    padding: 7px;
+    font-family: "Metropolis-Light ";
+    src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+
+
+
+}
+#perf{
+    color: rgb(183, 183, 183);
+    font-family: "Metropolis-Medium ";
+    src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
+    
+}
+
+.inputBox1{
+    margin-left: 35%;
+}
+
+.inputBox1 label{
+    font-size: 26px;
+    color: #FF2600;
+    font-family: "Homade-Bold";
+    src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
+}
+
+#radio{
+    margin-left: -15%;
+   background-color: #FF2600;
+}
+
+.custom-radio,
+span {
+  transition: 0.5s ease;
+  color: #000;
+}
+
+input[type='radio']:checked + .opcao0 span {
+    background: #000;
+  }
+
+span{
+    margin-left: -19%;
+    font-family: "Metropolis-Medium ";
+    src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
+}
+
+#opcao{
+    margin-top: 0.5%;
+}
+
+
+.carousel-control {
+    width: 8%;
+  }
+  
+  .carousel-control.right {
+    left: 92%;
+  }
+  
+  .carousel-control.left {
+    right: 93%;
+    left: auto;
+  }
+
 
 
 
