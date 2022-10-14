@@ -831,9 +831,9 @@ li a {
 .fechar {
   z-index: 1232;
   position: absolute;
-  color: red;
+  color: gray;
   font-size: 1.2em;
-  top:  -122%;
+  top:  -120%;
   right: -1%;
   width: 50px;
   height: 50px;
@@ -843,9 +843,6 @@ li a {
   src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 }
 
-#tam {
-  background-position: center;
-}
 
 /* pagina slide */
 
