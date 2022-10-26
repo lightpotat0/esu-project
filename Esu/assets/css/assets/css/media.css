@@ -366,7 +366,7 @@ span{
  }
 
  option{
-    font-size: 15px;
+    font-size: 1px;
     font-family: "Metropolis-Light ";
     src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
  }
