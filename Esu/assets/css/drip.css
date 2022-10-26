@@ -4,11 +4,11 @@ body {
   overflow-y: scroll;
 }
 
-.carousel-inner img {
-  margin-left: 0;
-  width: 100%;
-  margin-top: 4rem;
-}
+.carousel-inner img{
+    margin-left: 0;
+    width: 100%;
+    margin-top: 4rem;
+} 
 
 .sr-only {
   position: absolute;
@@ -507,8 +507,29 @@ li a {
   src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 }
 
-#identidade:hover {
-  z-index: 2;
+#identidade:hover{
+    margin-top: -1%;
+    margin-right: 2%;
+    font-size: 155%;
+    color:  #FF2600;
+    transition: font-size 50ms;
+    cursor: pointer;
+    font-family: "Metropolis-Bold ";
+    src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
+}
+
+#blocos:hover{
+    margin-top: 1.2%;
+    margin-right: 9%;
+       color:  #FF2600;
+       font-size: 155%;
+       transition: font-size 50ms;
+       cursor: pointer;
+       font-family: "Metropolis-Bold ";
+   src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
+}
+
+#blocos1:hover{
   margin-top: -1%;
   font-size: 155%;
   color: #FF2600;
@@ -532,6 +553,7 @@ li a {
   width: 10%;
   color: red;
   font-size: 155%;
+  transition: font-size 50ms;
   cursor: pointer;
   font-family: "Metropolis-Bold ";
   src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
@@ -541,6 +563,7 @@ li a {
   margin-top: 1.2%;
   color: #FF2600;
   font-size: 155%;
+  transition: font-size 50ms;
   cursor: pointer;
   font-family: "Metropolis-Bold ";
   src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
@@ -602,9 +625,14 @@ li a {
   justify-content: space-evenly;
 }
 
-.box {
-  width: 30%;
-  height: 30%;
+.box{
+  display: grid;
+  position:static;
+  width: 80%;
+  height: 80%;
+  margin-top: 10%;
+  margin-right: 10%;
+  margin: 17px;
 }
 
 .box img {
@@ -833,9 +861,9 @@ li a {
 .fechar {
   z-index: 1232;
   position: absolute;
-  color: red;
+  color: gray;
   font-size: 1.2em;
-  top:  -122%;
+  top:  -120%;
   right: -1%;
   width: 50px;
   height: 50px;
@@ -843,10 +871,6 @@ li a {
   cursor: pointer;
   font-family: "Metropolis-Medium ";
   src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
-}
-
-#tam {
-  background-position: center;
 }
 
 /* pagina slide */

@@ -1,6 +1,6 @@
 
-@media (max-width:1899px){
-
+@media (min-width:1899px) and (max-width:1899px){
+    
         
     .img-responsive,
     .thumbnail > img,
