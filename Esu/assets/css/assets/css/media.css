@@ -562,7 +562,7 @@ span{
 .thumbnail a > img,
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img{
-    height: 90%;
+   height: 38rem;
 }
 
 
@@ -663,13 +663,30 @@ span{
 }
 
 #projetoss {
-    margin-top: 0;
+    margin-top: 20%;
 }
 
 }
 
 
 @media (max-width: 320px){
+
+    .mainCarousel{
+        display: none;
+    }
+
+    .carousel-inner img{
+        margin-top: 0;
+    }
+
+    nav{
+        top: 0;
+        height: 10%;
+    }
+    
+    logo img {
+        height: 20%;
+    }
 
   #menu1 {
     display: none;
@@ -687,16 +704,102 @@ span{
     display: none;
   }
 
-  
+  .mbhamburguer{
+    display: block;
+    width: 5%;
+  }
+
+  .container-hamburguer{
+    background: 0;
+  }
+
+  .menu {
+    width: 200px;
+    height: 200px;
+    margin: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
 
   .logo img{
-    left: -20%;
+    left: -40%;
+    width: 100%;
   }
 
 }
 
 
-@media (max-width:760px) {
+@media (max-width: 2560px) and (min-width: 2560px) {
+    
+    .img-responsive,
+    .thumbnail > img,
+    .thumbnail a > img,
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img{
+       height: 58rem;
+    }
+
+    .elemento{
+        margin-top: 12.5%;
+         margin-left: 11%;
+      }
+
+      #identidade{
+        margin-right: -15%;
+        margin-left: 0;
+     }
+
+     #blocos{
+        margin-left: 0;
+        margin-right: 0;
+        width: 11%;
+      }
+ 
+      
+      #blocos1{
+         margin-left: -15%;
+       }
+ 
+       
+      #blocos2{
+         margin-left: -16%;
+  
+       }
+
+       .box{
+        margin-left: 0;
+
+     }
+
+     .caixa{
+       margin-left: 0;
+
+     }
+
+     .caixa1{
+           margin-left:0;
+
+     }
+
+     .box p{
+        margin-top: 0;
+     }
+
+
+   .box p{
+       margin-top: 0;
+
+   }
+ 
+   .box img{
+       margin-left: 0;
+        margin-top: 0;
+
+   }
+
+   .caixa img{
+     margin-right: 0;
+   }
+
 
 }
-
