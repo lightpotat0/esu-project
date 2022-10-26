@@ -16,7 +16,6 @@
        .elemento{
          margin-top: 12.5%;
           margin-left: 33%;
-    
        }
     
        #identidade{
@@ -40,22 +39,6 @@
          #blocos2{
             margin-left: 0.5%;
      
-          }
-     
-    
-          .box{
-             margin-left: 28%;
-    
-          }
-    
-          .caixa{
-            margin-left: 10%;
-    
-          }
-    
-          .caixa1{
-                margin-left: -7%;
-    
           }
     
           #texto h1{
@@ -85,11 +68,6 @@
     
         .box p{
             margin-top: -1.4%;
-    
-        }
-      
-        .box img{
-             margin-top: 6%;
     
         }
     
@@ -360,7 +338,34 @@
     
 }
     
-    @media (min-width: 1366px){
+    @media (max-width: 1366px){
+
+        .elemento{
+            margin-top: 12.5%;
+             margin-left: 11%;
+          }
+
+          #identidade{
+            margin-right: -15%;
+         }
+
+         #blocos{
+            margin-left: 0;
+     
+          }
+     
+          
+          #blocos1{
+             margin-left: -15%;
+      
+           }
+     
+           
+          #blocos2{
+             margin-left: -16%;
+      
+           }
+
 
     }
     
