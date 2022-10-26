@@ -257,6 +257,7 @@ button{
 
 
 input{
+    margin-left: -2%;
     width: 400px;
     border-radius: 12px;
     border-color: black;
@@ -299,6 +300,14 @@ input{
    background-color: #FF2600;
 }
 
+
+
+#serv{
+    color: rgb(183, 183, 183);
+    font-family: "Metropolis-Medium ";
+    src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
+}
+
 .custom-radio,
 span {
   transition: 0.5s ease;
@@ -332,7 +341,62 @@ span{
     right: 93%;
     left: auto;
   }
+.servico{
+    margin-top: 2%;
+     border: 2px solid;
+     height: 37px;
+     margin: 0.7%;
+     font-size: 15px;
+     border-color: rgb(183, 183, 183);;
+     border-radius: 12px;
+     font-family: "Metropolis-Medium ";
+    src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
+   }
 
+
+ .servico:hover{
+    color: #FF2600;
+    border-color: #FF2600;
+ }
+
+ .description{
+    color: rgb(183, 183, 183);
+    font-family: "Metropolis-Medium ";
+    src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
+ }
+
+ option{
+    font-size: 15px;
+    font-family: "Metropolis-Light ";
+    src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+ }
+
+ #select-b52d1b93-909d-4329-8774-86fda75e0b66-field{
+  
+    border-radius: 12px;
+    border: none;
+    height: 35px;
+    width: 300px;
+    font-family: "Metropolis-Light ";
+    src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+ }
+
+ #enviar{
+    background-color: #FF2600;
+    margin-top: 8%;
+    width: 250px;
+    margin-left: 40%;
+    border: none;
+    border-radius: 12px;
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 32px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transform: translate(10%, 10%);
+    font-family: "Homade-Bold";
+    src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf);
+ }
 
 
 
@@ -377,6 +441,7 @@ span{
     }
     .logo-rodape img {
         width: 100%;
+        height: 100%;
     }
     .apps {
         width: 30%;        
