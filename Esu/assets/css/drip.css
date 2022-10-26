@@ -9,7 +9,7 @@ body{
     margin-left: 0;
     width: 100%;
     margin-top: 4rem;
-}
+} 
 
 .sr-only{
     position: absolute;
@@ -408,16 +408,18 @@ li a{
     font-size: 155%;
     color:  #FF2600;
     transition: font-size 50ms;
+    cursor: pointer;
     font-family: "Metropolis-Bold ";
     src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
 }
 
 #blocos:hover{
     margin-top: 1.2%;
-    margin-right: 8%;
+    margin-right: 9%;
        color:  #FF2600;
        font-size: 155%;
        transition: font-size 50ms;
+       cursor: pointer;
        font-family: "Metropolis-Bold ";
    src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
 }
@@ -428,6 +430,7 @@ li a{
   color: red;
   font-size: 155%;
   transition: font-size 50ms;
+  cursor: pointer;
   font-family: "Metropolis-Bold ";
 src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
 }
@@ -437,6 +440,7 @@ src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
   color:  #FF2600;
   font-size: 155%;
   transition: font-size 50ms;
+  cursor: pointer;
   font-family: "Metropolis-Bold ";
 src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
 }
@@ -477,7 +481,6 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
     src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
     }
 
-
 .elemento{
   margin-top: 4%;
   margin-left: 24%;
@@ -500,12 +503,11 @@ src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 .box{
   display: grid;
   position:static;
-  width:  80%;
+  width: 80%;
   height: 80%;
   margin-top: 10%;
   margin-right: 10%;
   margin: 17px;
-
 }
 
 .box img{
