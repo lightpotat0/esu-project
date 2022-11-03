@@ -1,119 +1,100 @@
-const up = $('.nav-up');
-const down = $('.nav-down');
-let counter = 1;
-let number = $('.number');
+// References to DOM Elements
+const prevBtn = document.querySelector("#prev-btn");
+const nextBtn = document.querySelector("#next-btn");
+const book = document.querySelector("#book");
 
-function moveDown(currentSlide) {
-  
-  var nextSlide = currentSlide.next();
-  var currentSlideUp = currentSlide.find('.txt');
-  var currentSlideDown = currentSlide.find('.img');
-  var nextSlideUp = nextSlide.find('.img');
-  var nextSlideDown = nextSlide.find('.txt');
-  let currentCopy = currentSlide.find('.copy'); 
-  let nextCopy = nextSlide.find('.copy'); 
-  
-  if( nextSlide.length !== 0 ) {
-    
-    counter = counter + 1;
-    
-    if( counter % 2 === 0 ) {
-      
-      TweenMax.to(number, 0.3, {x: '-100%'})
-      TweenMax.to( currentSlideUp, 0.4, { y: '-100%', delay:0.15 });
-      TweenMax.to( currentSlideDown, 0.4, { y: '100%', delay:0.15 });
-      setTimeout(function() {number.html('')},300);
-      
+const paper1 = document.querySelector("#p1");
+const paper2 = document.querySelector("#p2");
+const paper3 = document.querySelector("#p3");
+const paper4 = document.querySelector("#p4");
+
+// Event Listener
+prevBtn.addEventListener("click", goPrevPage);
+nextBtn.addEventListener("click", goNextPage);
+
+// Business Logic
+let currentLocation = 1;
+let numOfPapers = 4;
+let maxLocation = numOfPapers + 1;
+
+function openBook() {
+    book.style.transform = "translateX(0)";
+    prevBtn.style.transform = "translateX(0)";
+    nextBtn.style.transform = "translateX(0)";
+}
+
+function closeBook(isAtBeginning) {
+    if(isAtBeginning) {
+        book.style.transform = "translateX(0)";
     } else {
-      
-      number.html('0'+counter);
-      TweenMax.to(number, 0.3, {x: '0%', delay:1})
-      TweenMax.to( currentSlideUp, 0.4, { y: '100%', delay:0.15 });
-      TweenMax.to( currentSlideDown, 0.4, { y: '-100%', delay:0.15 });
+        book.style.transform = "translateX(0)";
     }
     
-    TweenMax.to( currentCopy, 0.3, {autoAlpha: 0, delay:0.15});
-    TweenMax.to( nextCopy, 0.3, {autoAlpha: 1, delay:1});
-    TweenMax.to( nextSlideUp, 0.4, { y: '0%', delay:0.15 });
-    TweenMax.to( nextSlideDown, 0.4, { y: '0%', delay:0.15 });
-    
-    $(currentSlide).removeClass('active');
-    $(nextSlide).addClass('active');
-    
-  } 
+    prevBtn.style.transform = "translateX(0)";
+    nextBtn.style.transform = "translateX(0)";
 }
 
-function moveUp(currentSlide) {
-  
-  var prevSlide = currentSlide.prev();
-  var currentSlideUp = currentSlide.find('.img');
-  var currentSlideDown = currentSlide.find('.txt');
-  var prevSlideUp = prevSlide.find('.txt');
-  var prevSlideDown = prevSlide.find('.img');
-  let currentCopy = currentSlide.find('.copy');
-  let prevCopy = prevSlide.find('.copy'); 
-  
-  if( prevSlide.length !== 0 ) {
-    
-    counter = counter - 1;
-    
-    if( counter % 2 === 0 ) {
-      
-      
-      TweenMax.to(number, 0.3, {x: '-100%'});
-      TweenMax.to( currentSlideUp, 0.4, { y: '-100%', delay:0.15 });
-      TweenMax.to( currentSlideDown, 0.4, { y: '100%', delay:0.15 });
-      setTimeout(function() {number.html('')},300);
+prevBtn.style.opacity = "0.5"
 
-      
-    }else {
-      
-      number.html('0'+counter);
-      TweenMax.to(number, 0.3, {x: '0%', delay:1})
-      TweenMax.to( currentSlideUp, 0.4, { y: '100%', delay:0.15 });
-      TweenMax.to( currentSlideDown, 0.4, { y: '-100%', delay:0.15 });
+function goNextPage() {
+    if(currentLocation < maxLocation) {
+        switch(currentLocation) {
+            case 1:
+                openBook();
+                paper1.classList.add("flipped");
+                paper1.style.zIndex = 5;
+                prevBtn.style.opacity = "1"
+                console.log(currentLocation)
+                break;
+            case 2:
+                paper2.classList.add("flipped");
+                paper2.style.zIndex = 6;
+                console.log(currentLocation)
+                break;
+            case 3:
+                paper3.classList.add("flipped");
+                paper3.style.zIndex = 7;
+                console.log(currentLocation)
+                break;
+            case 4:
+                paper4.classList.add("flipped");
+                paper4.style.zIndex = 8;
+                nextBtn.style.opacity = "0.5"
+                console.log(currentLocation)
+                closeBook(false);
+                break;
+            default:
+                throw new Error("unkown state");
+        }
+        currentLocation++;
     }
-    
-    TweenMax.to( currentCopy, 0.3, {autoAlpha: 0, delay:0.15});
-    TweenMax.to( prevCopy, 0.3, {autoAlpha: 1, delay:1});
-    TweenMax.to( prevSlideUp, 0.4, { y: '0%', delay:0.15 });
-    TweenMax.to( prevSlideDown, 0.4, { y: '0%', delay:0.15 });
-    
-    $(currentSlide).removeClass('active');
-    $(prevSlide).addClass('active');
-    
-  }
-  
 }
 
-function hideNav() {
-  
-  if( counter == $('.slide').length) {    
-    TweenMax.to($('.nav-down'),0.5, {autoAlpha: 0, delay:0.5} );
-  }else {
-     TweenMax.to($('.nav-down'),0.5, {autoAlpha: 1, delay:0.5} );
-  }
-  if( counter === 1) {    
-    TweenMax.to($('.nav-up'),0.5, {autoAlpha: 0, delay:0.5} );
-  }else {
-     TweenMax.to($('.nav-up'),0.5, {autoAlpha: 1, delay:0.5} );
-  }
-  
+function goPrevPage() {
+    if(currentLocation > 1) {
+        switch(currentLocation) {
+            case 1:
+                closeBook(true);
+                paper1.classList.remove("flipped");
+                paper1.style.zIndex = 4;
+                break;
+            case 2:
+                paper2.classList.remove("flipped");
+                paper2.style.zIndex = 3;
+                break;
+            case 3:
+                paper3.classList.remove("flipped");
+                paper3.style.zIndex = 2;
+                break;   
+            case 4:
+                openBook();
+                paper4.classList.remove("flipped");
+                paper4.style.zIndex = 1;
+                break;   
+            default:
+                throw new Error("unkown state");
+        }
+
+        currentLocation--;
+    }
 }
-
-
-down.on('click', function() {
-  
-  var currentSlide = $('.active');
-  moveDown(currentSlide); 
-  hideNav();
-  
-});
-
-up.on('click', function() {
-  
-  var currentSlide = $('.active');
-  moveUp(currentSlide);
-  hideNav();
-
-});

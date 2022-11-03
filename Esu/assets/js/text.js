@@ -156,6 +156,12 @@ function iniciaModal2(modalID2) {
 const caixa1 = document.querySelector('.caixa1')
 caixa1.addEventListener('click', () => iniciaModal('modal-projeto'))
 
+//formulario 
+
+    var tags = document.querySelectorAll("#servico")
+
+    
+
 //hamburguer
 
 var menu = document.getElementById('menu')
@@ -163,3 +169,4 @@ var menu = document.getElementById('menu')
     menu.onclick = function(){
         menu.classList.toggle("openmenu")
     }
+

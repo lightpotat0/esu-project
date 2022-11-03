@@ -173,8 +173,8 @@
         <p id="sobre">SOBRE</p>
 
         <div class="mainPages">
-          <div id="pages-example-generic" class="page slide" data-ride="page">
-            <div class="pag" data-ride="pagina">
+          <div id="pages-example-generic" class="page slide" data-ride="carousel">
+            <div class="pag" data-ride="pagina" id="page">
 
               <div class="obg active">
                 <div class="estudio">
@@ -251,9 +251,9 @@
 
 
               <div class="btns">
-                <button class="lef" aria-label="Previous slide" tabindex="0" role="button" aria-disabled="true"
+                <button id="btnPrevious" class="lef" aria-label="Previous slide" tabindex="0" role="button" aria-disabled="true"
                   data-slide="esquerda"><img src="assets/img/seta_left.svg" id="left" alt=""></button>
-                <button class="rig" aria-label="Next slide" tabindex="0" role="button" aria-disabled="true"
+                <button id="btnNext" class="rig" aria-label="Next slide" tabindex="0" role="button" aria-disabled="true"
                   data-slide="direita"><img src="assets/img/seta_right.svg" id="right" alt=""></button>
               </div>
             </div>
@@ -298,13 +298,13 @@
              
              </div>
 
-             <button class="servico">Identidade Visual</button>
-             <button class="servico">Naming</button>
-             <button class="servico">Social media</button>
+             <button id="servico">Identidade Visual</button>
+             <button id="servico">Naming</button>
+             <button id="servico">Social media</button>
              <br>
-             <button class="servico">Campanha</button>
-             <button class="servico">Audiovisual</button>
-             <button class="servico">Website</button>
+             <button id="servico">Campanha</button>
+             <button id="servico">Audiovisual</button>
+             <button id="servico">Website</button>
              <br><br>
             
              <div>
@@ -385,7 +385,7 @@
 
 
             <script src="../Esu/assets/js/text.js"></script>
-            <script src="../Esu/assets/js/slidetext.js"></script>
+            <script src="../Esu/assets/js/sla.js"></script>
 </body>
 
 </html>
