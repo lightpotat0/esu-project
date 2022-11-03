@@ -202,7 +202,7 @@ caixa1.addEventListener('click', () => iniciaModal('modal-projeto'))
         tag6.style.borderColor = '#FF2600'
     }
 
-    tag1.addEventListener('', nonec)
+    tag1.addEventListener('dblclick', nonec)
     tag2.addEventListener('dblclick', nonec1)
     tag3.addEventListener('dblclick', nonec2)
     tag4.addEventListener('dblclick', nonec3)
