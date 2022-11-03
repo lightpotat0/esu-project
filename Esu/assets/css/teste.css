@@ -6,31 +6,28 @@ body{
 /* Slide Text */
 
 #slidetxt{
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: relative;
 }
 
 #page {
-  height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
+  position: relative;
 }
 
 #paginas{
-  position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+  text-align: center;
+  font-size: 640px;
+}
+
+#pag1{
+  display: none;
+}
+
+#pag2{
+  display: none;
+}
+
+#pag3{
+  display: none;
 }
 
 /* Text */
@@ -76,6 +73,7 @@ button{
   position: absolute;
   margin-top: -1%;
   margin-left: 55%;
+  transform: rotate(180deg);
 }
 
 #right{

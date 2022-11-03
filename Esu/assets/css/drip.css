@@ -881,93 +881,30 @@ li a {
 
 /* pagina slide */
 
-.pag {
+#slidetxt{
   position: relative;
-  width: 100%;
 }
 
-.pag>.obg {
+#page {
   position: relative;
+}
+
+#paginas{
+  text-align: center;
+  font-size: 640px;
+}
+
+#pag1{
   display: none;
-  -webkit-transition: .6s ease-in-out left;
-  -o-transition: .6s ease-in-out left;
-  transition: .6s ease-in-out left;
 }
 
-@media all and (transform-3d),
-  (-webkit-transform-3d) {
-    .pag>.obg {
-      -webkit-transition: -webkit-transform .6s ease-in-out;
-      -o-transition: -o-transform .6s ease-in-out;
-      transition: transform .6s ease-in-out;
-  
-      -webkit-backface-visibility: hidden;
-      backface-visibility: hidden;
-      -webkit-perspective: 1000px;
-      perspective: 1000px;
-    }
+#pag2{
+  display: none;
+}
 
-    .pag>.obg.direita,
-    .pag>.obg.active.rig {
-      left: 0;
-      -webkit-transform: translate3d(100%, 0, 0);
-      transform: translate3d(100%, 0, 0);
-    }
-
-    .pag>.obg.esquerda,
-    .pag>.obg.active.lef {
-      left: 0;
-      -webkit-transform: translate3d(-100%, 0, 0);
-      transform: translate3d(-100%, 0, 0);
-    }
-  
-    .pag>.obg.direita.lef,
-    .pag>.obg.esquerda.rig,
-    .pag>.obg.active {
-      left: 0;
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-    }
-  }
-
-  .pag>.active,
-  .pag>.direita,
-  .pag>.esquerda {
-    display: block;
-  }
-  
-  .pag>.active {
-    left: 0;
-  }
-
-  .pag>.direita,
-  .pag>.esquerda {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 6;
-  }
-  
-  .pag>.direita {
-    left: 100%;
-  }
-  
-  .pag>.esquerda {
-    left: -100%;
-  }
-
-  .pag>.direita.lef,
-  .pag>.esquerda.rig {
-    left: 0;
-  }
-  
-  .pag>.active.lef {
-    left: -100%;
-  }
-  
-  .pag>.active.rig {
-    left: 100%;
-  }
+#pag3{
+  display: none;
+}
    
 /* pagina slide end */
 

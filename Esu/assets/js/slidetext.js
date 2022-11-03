@@ -1,12 +1,12 @@
 // References to DOM Elements
-const prevBtn = document.querySelector("#prev-btn");
-const nextBtn = document.querySelector("#next-btn");
-const book = document.querySelector("#book");
+const prevBtn = document.querySelector("#btnPrevious");
+const nextBtn = document.querySelector("#btnNext");
+const book = document.querySelector("#page");
 
-const paper1 = document.querySelector("#p1");
-const paper2 = document.querySelector("#p2");
-const paper3 = document.querySelector("#p3");
-const paper4 = document.querySelector("#p4");
+const paper1 = document.querySelector("#pag");
+const paper2 = document.querySelector("#pag1");
+const paper3 = document.querySelector("#pag2");
+const paper4 = document.querySelector("#pag3");
 
 // Event Listener
 prevBtn.addEventListener("click", goPrevPage);
@@ -17,51 +17,27 @@ let currentLocation = 1;
 let numOfPapers = 4;
 let maxLocation = numOfPapers + 1;
 
-function openBook() {
-    book.style.transform = "translateX(0)";
-    prevBtn.style.transform = "translateX(0)";
-    nextBtn.style.transform = "translateX(0)";
-}
-
-function closeBook(isAtBeginning) {
-    if(isAtBeginning) {
-        book.style.transform = "translateX(0)";
-    } else {
-        book.style.transform = "translateX(0)";
-    }
-    
-    prevBtn.style.transform = "translateX(0)";
-    nextBtn.style.transform = "translateX(0)";
-}
-
 prevBtn.style.opacity = "0.5"
 
 function goNextPage() {
     if(currentLocation < maxLocation) {
         switch(currentLocation) {
             case 1:
-                openBook();
-                paper1.classList.add("flipped");
-                paper1.style.zIndex = 5;
+                paper2.style.display = 'block'
+                paper1.style.display = 'none'
                 prevBtn.style.opacity = "1"
                 console.log(currentLocation)
                 break;
             case 2:
-                paper2.classList.add("flipped");
-                paper2.style.zIndex = 6;
+                paper3.style.display = 'block'
+                paper2.style.display = 'none'
                 console.log(currentLocation)
                 break;
             case 3:
-                paper3.classList.add("flipped");
-                paper3.style.zIndex = 7;
-                console.log(currentLocation)
-                break;
-            case 4:
-                paper4.classList.add("flipped");
-                paper4.style.zIndex = 8;
+                paper4.style.display = 'block'
+                paper3.style.display = 'none'
                 nextBtn.style.opacity = "0.5"
                 console.log(currentLocation)
-                closeBook(false);
                 break;
             default:
                 throw new Error("unkown state");
@@ -73,24 +49,26 @@ function goNextPage() {
 function goPrevPage() {
     if(currentLocation > 1) {
         switch(currentLocation) {
-            case 1:
-                closeBook(true);
-                paper1.classList.remove("flipped");
-                paper1.style.zIndex = 4;
-                break;
             case 2:
-                paper2.classList.remove("flipped");
-                paper2.style.zIndex = 3;
+                paper1.style.display = 'block'
+                paper2.style.display = 'none'
+                paper3.style.display = 'none'
+                paper4.style.display = 'none'
+                prevBtn.style.opacity = "0.5"
                 break;
             case 3:
-                paper3.classList.remove("flipped");
-                paper3.style.zIndex = 2;
-                break;   
-            case 4:
-                openBook();
-                paper4.classList.remove("flipped");
-                paper4.style.zIndex = 1;
-                break;   
+                paper1.style.display = 'none'
+                paper2.style.display = 'block'
+                paper3.style.display = 'none'
+                paper4.style.display = 'none'
+                break;
+            case 4: 
+                paper1.style.display = 'none'
+                paper2.style.display = 'none'
+                paper3.style.display = 'block'
+                paper4.style.display = 'none'
+                nextBtn.style.opacity = "1"
+                break;
             default:
                 throw new Error("unkown state");
         }
