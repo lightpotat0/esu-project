@@ -1,3 +1,7 @@
+*{
+  
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -797,8 +801,6 @@ li a {
   font-family: "Homade-Bold";
   src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
 }
-
-
 
 #sobre {
   margin-top: 10%;

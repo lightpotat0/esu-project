@@ -112,19 +112,16 @@
          font-family: "Homade-Bold";
          src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
     }
-
-{
-        font-family: "Metropolis-Light ";
-        src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
-    }
-
-
+    
+    
+    
+    
+            
     @font-face {
         font-family: "Homade-Bold";
         src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
       }
           
-
       
     
     
