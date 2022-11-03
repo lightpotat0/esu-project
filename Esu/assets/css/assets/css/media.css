@@ -1,6 +1,12 @@
 
 @media (max-width:1899px) {
 
+    *{
+    }
+
+    body{
+        font-family: 'Courier New', Courier, monospace;
+    }
         
     .img-responsive,
     .thumbnail > img,
@@ -48,6 +54,7 @@
           }
     
           .box{
+            margin-top: 0.2%;
             margin-right: 2.5%;
             width: 27%;
             height: 27%;
@@ -89,7 +96,7 @@
             margin-left: 1%;
             font-size: 15px;
             font-family: "Metropolis-Light ";
-            src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+          
     
           }
     
@@ -98,7 +105,7 @@
             margin-left: 1%;
             font-size: 15px;
             font-family: "Metropolis-Light ";
-            src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+            
         }
     
         #texto2 h1 {
@@ -106,7 +113,7 @@
             margin-left: 1%;
             font-size: 15px;
             font-family: "Metropolis-Light ";
-            src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+          
         }
     
         #projetoss{
@@ -127,7 +134,7 @@
            font-size: 40px;
            color: #FF2600;
            font-family: "Homade-Bold";
-           src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
+          
     
        }
     
@@ -136,7 +143,10 @@
           margin-left: 25%;
           line-height: 36px;
           font-family: "Metropolis-Light ";
-          src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+          
+         
+    
+    
        }
     
     .cultura{
@@ -145,7 +155,7 @@
          font-size: 40px;
          color: #FF2600;
          font-family: "Homade-Bold";
-         src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
+    
     
     
     }
@@ -183,7 +193,6 @@
         text-decoration: none;
         transition: none;
         font-family: "Metropolis-Medium ";
-         src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
     }
     
     .btns{
@@ -215,7 +224,6 @@
         line-height: 34px;
         font-size: 24px;
         font-family: "Metropolis-Light ";
-        src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
     
     }
     
@@ -224,7 +232,7 @@
         font-size: 50px;
         color: #FF2600;
         font-family: "Homade-Bold";
-        src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
+   
     }
     
     #ponto2{
@@ -245,7 +253,7 @@
         font-size: 26px;
         color: #FF2600;
         font-family: "Homade-Bold";
-        src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
+     
     }
     
     
@@ -266,7 +274,7 @@
         color: gray;
         padding: 7px;
         font-family: "Metropolis-Light ";
-        src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+        
     
     
     
@@ -274,7 +282,7 @@
     #perf{
         color: rgb(183, 183, 183);
         font-family: "Metropolis-Medium ";
-        src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
+     
         
     }
     
@@ -286,7 +294,7 @@
         font-size: 26px;
         color: #FF2600;
         font-family: "Homade-Bold";
-        src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
+
     }
     
     #radio{
@@ -299,7 +307,7 @@
     #serv{
         color: rgb(183, 183, 183);
         font-family: "Metropolis-Medium ";
-        src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
+      
     }
     
     .custom-radio,
@@ -315,7 +323,7 @@
     span{
         margin-left: -19%;
         font-family: "Metropolis-Medium ";
-        src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
+
     }
     
     #opcao{
@@ -344,7 +352,7 @@
          border-color: rgb(183, 183, 183);;
          border-radius: 12px;
          font-family: "Metropolis-Medium ";
-        src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
+     
        }
     
     
@@ -356,13 +364,13 @@
      .description{
         color: rgb(183, 183, 183);
         font-family: "Metropolis-Medium ";
-        src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
+        
      }
     
      option{
         font-size: 15px;
         font-family: "Metropolis-Light ";
-        src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+  
      }
     
      #select-b52d1b93-909d-4329-8774-86fda75e0b66-field{
@@ -372,16 +380,16 @@
         height: 35px;
         width: 300px;
         font-family: "Metropolis-Light ";
-        src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+        
      }
     
      #enviar{
         background-color: #FF2600;
         margin-top: 8%;
-        width: 250px;
+        width: 200px;
         margin-left: 40%;
         border: none;
-        border-radius: 12px;
+        border-radius: 20px;
         color: #ffffff;
         font-size: 22px;
         line-height: 32px;
@@ -389,10 +397,16 @@
         cursor: pointer;
         transform: translate(10%, 10%);
         font-family: "Homade-Bold";
-        src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf);
+     
      }
     
+     #perf{
+        margin-top: 0.4%;
+     }
     
+     #serv{
+        margin-top: 0.4%;
+     }
     
     @font-face {
         font-family: "Homade-Bold";
@@ -410,28 +424,30 @@
          .footer-page a{
             font-size: 0.8em;
             font-family: "Metropolis-Light ";
-            src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+          
         }
         /*-------footer-top--------*/
     
         .footer-page-top{
             max-width: 100%;
             margin: 1.5% auto;
+            font-family: "Metropolis-Light ";
+          
         }
         .footer-page-top p{
             font-size: 0.9em;
             margin: 0px;
             padding: 0px;
             font-family: "Metropolis-Light ";
-            src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+
         }
         .logo-rodape{
             width: 15%;
         }
         .logo-rodape a{
-            width: 55%;
+            width: 100%;
             font-family: "Metropolis-Light ";
-            src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+          
         }
         .logo-rodape img {
             width: 100%;
@@ -444,7 +460,7 @@
             font-size: 0.7em;
             margin-bottom: 4%;
             font-family: "Metropolis-Light ";
-            src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+        
         }
         .apps img {
             width: 77%;
@@ -467,20 +483,20 @@
         .footer-page-bottom{
             width: 100%;
             margin: 1.5% auto;
-            font-family: "Metropolis-Light";
-            src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf);
+  
         }
         .copyright-footer {
             width: 42%;
-            font-family: "Metropolis-Light";
-            src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf);
+            margin-top: -2%;
+       
+       
         }
+
         .copyright-footer p {
-            font-size: 0.8em;
             margin: 0%;
             padding: 0%;
             font-family: "Metropolis-Light";
-            src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf);
+          
         }
 
         .social-icons {
@@ -603,7 +619,7 @@
     
     
     @font-face {
-        font-family: "Metropolis-Light ";
+        font-family: "Metropolis-Light";
          src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
        }
     
