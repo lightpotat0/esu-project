@@ -1,119 +1,78 @@
-const up = $('.nav-up');
-const down = $('.nav-down');
-let counter = 1;
-let number = $('.number');
+// References to DOM Elements
+const prevBtn = document.querySelector("#btnPrevious");
+const nextBtn = document.querySelector("#btnNext");
+const book = document.querySelector("#page");
 
-function moveDown(currentSlide) {
-  
-  var nextSlide = currentSlide.next();
-  var currentSlideUp = currentSlide.find('.txt');
-  var currentSlideDown = currentSlide.find('.img');
-  var nextSlideUp = nextSlide.find('.img');
-  var nextSlideDown = nextSlide.find('.txt');
-  let currentCopy = currentSlide.find('.copy'); 
-  let nextCopy = nextSlide.find('.copy'); 
-  
-  if( nextSlide.length !== 0 ) {
-    
-    counter = counter + 1;
-    
-    if( counter % 2 === 0 ) {
-      
-      TweenMax.to(number, 0.3, {x: '-100%'})
-      TweenMax.to( currentSlideUp, 0.4, { y: '-100%', delay:0.15 });
-      TweenMax.to( currentSlideDown, 0.4, { y: '100%', delay:0.15 });
-      setTimeout(function() {number.html('')},300);
-      
-    } else {
-      
-      number.html('0'+counter);
-      TweenMax.to(number, 0.3, {x: '0%', delay:1})
-      TweenMax.to( currentSlideUp, 0.4, { y: '100%', delay:0.15 });
-      TweenMax.to( currentSlideDown, 0.4, { y: '-100%', delay:0.15 });
+const paper1 = document.querySelector("#pag");
+const paper2 = document.querySelector("#pag1");
+const paper3 = document.querySelector("#pag2");
+const paper4 = document.querySelector("#pag3");
+
+// Event Listener
+prevBtn.addEventListener("click", goPrevPage);
+nextBtn.addEventListener("click", goNextPage);
+
+// Business Logic
+let currentLocation = 1;
+let numOfPapers = 4;
+let maxLocation = numOfPapers + 1;
+
+prevBtn.style.opacity = "0.5"
+
+function goNextPage() {
+    if(currentLocation < maxLocation) {
+        switch(currentLocation) {
+            case 1:
+                paper2.style.display = 'block'
+                paper1.style.display = 'none'
+                prevBtn.style.opacity = "1"
+                console.log(currentLocation)
+                break;
+            case 2:
+                paper3.style.display = 'block'
+                paper2.style.display = 'none'
+                console.log(currentLocation)
+                break;
+            case 3:
+                paper4.style.display = 'block'
+                paper3.style.display = 'none'
+                nextBtn.style.opacity = "0.5"
+                console.log(currentLocation)
+                break;
+            default:
+                throw new Error("unkown state");
+        }
+        currentLocation++;
     }
-    
-    TweenMax.to( currentCopy, 0.3, {autoAlpha: 0, delay:0.15});
-    TweenMax.to( nextCopy, 0.3, {autoAlpha: 1, delay:1});
-    TweenMax.to( nextSlideUp, 0.4, { y: '0%', delay:0.15 });
-    TweenMax.to( nextSlideDown, 0.4, { y: '0%', delay:0.15 });
-    
-    $(currentSlide).removeClass('active');
-    $(nextSlide).addClass('active');
-    
-  } 
 }
 
-function moveUp(currentSlide) {
-  
-  var prevSlide = currentSlide.prev();
-  var currentSlideUp = currentSlide.find('.img');
-  var currentSlideDown = currentSlide.find('.txt');
-  var prevSlideUp = prevSlide.find('.txt');
-  var prevSlideDown = prevSlide.find('.img');
-  let currentCopy = currentSlide.find('.copy');
-  let prevCopy = prevSlide.find('.copy'); 
-  
-  if( prevSlide.length !== 0 ) {
-    
-    counter = counter - 1;
-    
-    if( counter % 2 === 0 ) {
-      
-      
-      TweenMax.to(number, 0.3, {x: '-100%'});
-      TweenMax.to( currentSlideUp, 0.4, { y: '-100%', delay:0.15 });
-      TweenMax.to( currentSlideDown, 0.4, { y: '100%', delay:0.15 });
-      setTimeout(function() {number.html('')},300);
+function goPrevPage() {
+    if(currentLocation > 1) {
+        switch(currentLocation) {
+            case 2:
+                paper1.style.display = 'block'
+                paper2.style.display = 'none'
+                paper3.style.display = 'none'
+                paper4.style.display = 'none'
+                prevBtn.style.opacity = "0.5"
+                break;
+            case 3:
+                paper1.style.display = 'none'
+                paper2.style.display = 'block'
+                paper3.style.display = 'none'
+                paper4.style.display = 'none'
+                break;
+            case 4: 
+                paper1.style.display = 'none'
+                paper2.style.display = 'none'
+                paper3.style.display = 'block'
+                paper4.style.display = 'none'
+                nextBtn.style.opacity = "1"
+                break;
+            default:
+                throw new Error("unkown state");
+        }
 
-      
-    }else {
-      
-      number.html('0'+counter);
-      TweenMax.to(number, 0.3, {x: '0%', delay:1})
-      TweenMax.to( currentSlideUp, 0.4, { y: '100%', delay:0.15 });
-      TweenMax.to( currentSlideDown, 0.4, { y: '-100%', delay:0.15 });
+        currentLocation--;
     }
-    
-    TweenMax.to( currentCopy, 0.3, {autoAlpha: 0, delay:0.15});
-    TweenMax.to( prevCopy, 0.3, {autoAlpha: 1, delay:1});
-    TweenMax.to( prevSlideUp, 0.4, { y: '0%', delay:0.15 });
-    TweenMax.to( prevSlideDown, 0.4, { y: '0%', delay:0.15 });
-    
-    $(currentSlide).removeClass('active');
-    $(prevSlide).addClass('active');
-    
-  }
-  
 }
-
-function hideNav() {
-  
-  if( counter == $('.slide').length) {    
-    TweenMax.to($('.nav-down'),0.5, {autoAlpha: 0, delay:0.5} );
-  }else {
-     TweenMax.to($('.nav-down'),0.5, {autoAlpha: 1, delay:0.5} );
-  }
-  if( counter === 1) {    
-    TweenMax.to($('.nav-up'),0.5, {autoAlpha: 0, delay:0.5} );
-  }else {
-     TweenMax.to($('.nav-up'),0.5, {autoAlpha: 1, delay:0.5} );
-  }
-  
-}
-
-
-down.on('click', function() {
-  
-  var currentSlide = $('.active');
-  moveDown(currentSlide); 
-  hideNav();
-  
-});
-
-up.on('click', function() {
-  
-  var currentSlide = $('.active');
-  moveUp(currentSlide);
-  hideNav();
-
-});
