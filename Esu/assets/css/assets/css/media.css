@@ -1,9 +1,6 @@
 
 @media (max-width:1899px) {
 
-    *{
-    }
-
     body{
         font-family: 'Courier New', Courier, monospace;
     }
@@ -305,9 +302,7 @@
     
     
     #serv{
-        color: rgb(183, 183, 183);
         font-family: "Metropolis-Medium ";
-      
     }
     
     .custom-radio,
@@ -343,20 +338,18 @@
         right: 93%;
         left: auto;
       }
-    #servico{
+    .serv{
         margin-top: 2%;
          border: 2px solid;
          height: 37px;
          margin: 0.7%;
          font-size: 15px;
-         border-color: rgb(183, 183, 183);;
+         border-color: #b7b7b7;
          border-radius: 12px;
          font-family: "Metropolis-Medium ";
-     
        }
     
-    
-     #servico:hover{
+     .serv:hover{
         color: #FF2600;
         border-color: #FF2600;
      }

@@ -158,9 +158,87 @@ caixa1.addEventListener('click', () => iniciaModal('modal-projeto'))
 
 //formulario 
 
-    var tags = document.querySelectorAll("#servico")
+    var tag1 = document.getElementById('servico')
+    var tag2 = document.getElementById('servico1')
+    var tag3 = document.getElementById('servico2')
+    var tag4 = document.getElementById('servico3')
+    var tag5 = document.getElementById('servico4')
+    var tag6 = document.getElementById('servico5')
 
-    
+    tag1.addEventListener('click', redc)
+    tag2.addEventListener('click', redc1)
+    tag3.addEventListener('click', redc2)
+    tag4.addEventListener('click', redc3)
+    tag5.addEventListener('click', redc4)
+    tag6.addEventListener('click', redc5)
+
+    function redc(){
+        tag1.style.color = '#FF2600'
+        tag1.style.borderColor = '#FF2600'
+    }
+
+    function redc1(){
+        tag2.style.color = '#FF2600'
+        tag2.style.borderColor = '#FF2600'
+    }
+
+    function redc2(){
+        tag3.style.color = '#FF2600'
+        tag3.style.borderColor = '#FF2600'
+    }
+
+    function redc3(){
+        tag4.style.color = '#FF2600'
+        tag4.style.borderColor = '#FF2600'
+    }
+
+    function redc4(){
+        tag5.style.color = '#FF2600'
+        tag5.style.borderColor = '#FF2600'
+    }
+
+    function redc5(){
+        tag6.style.color = '#FF2600'
+        tag6.style.borderColor = '#FF2600'
+    }
+
+    tag1.addEventListener('', nonec)
+    tag2.addEventListener('dblclick', nonec1)
+    tag3.addEventListener('dblclick', nonec2)
+    tag4.addEventListener('dblclick', nonec3)
+    tag5.addEventListener('dblclick', nonec4)
+    tag6.addEventListener('dblclick', nonec5)
+
+    function nonec(){
+        tag1.style.color = '#000'
+        tag1.style.borderColor = '#b7b7b7'
+    }
+
+    function nonec1(){
+        tag2.style.color = '#000'
+        tag2.style.borderColor = '#b7b7b7'
+    }
+
+    function nonec2(){
+        tag3.style.color = '#000'
+        tag3.style.borderColor = '#b7b7b7'
+    }
+
+    function nonec3(){
+        tag4.style.color = '#000'
+        tag4.style.borderColor = '#b7b7b7'
+    }
+
+    function nonec4(){
+        tag5.style.color = '#000'
+        tag5.style.borderColor = '#b7b7b7'
+    }
+
+    function nonec5(){
+        tag6.style.color = '#000'
+        tag6.style.borderColor = '#b7b7b7'
+    }
+
 
 //hamburguer
 
