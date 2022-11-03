@@ -137,9 +137,6 @@
           line-height: 36px;
           font-family: "Metropolis-Light ";
           src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
-         
-    
-    
        }
     
     .cultura{
@@ -208,10 +205,6 @@
         color: gray;
         opacity: 0.4;
         text-align: center;
-    
-    }
-    
-    .drive{
     
     }
     
@@ -341,7 +334,7 @@
         right: 93%;
         left: auto;
       }
-    .servico{
+    #servico{
         margin-top: 2%;
          border: 2px solid;
          height: 37px;
@@ -354,7 +347,7 @@
        }
     
     
-     .servico:hover{
+     #servico:hover{
         color: #FF2600;
         border-color: #FF2600;
      }
@@ -473,17 +466,22 @@
         .footer-page-bottom{
             width: 100%;
             margin: 1.5% auto;
+            font-family: "Metropolis-Light";
+            src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf);
         }
         .copyright-footer {
             width: 42%;
+            font-family: "Metropolis-Light";
+            src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf);
         }
         .copyright-footer p {
             font-size: 0.8em;
             margin: 0%;
             padding: 0%;
-            font-family: "Metropolis-Light ";
-            src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+            font-family: "Metropolis-Light";
+            src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf);
         }
+
         .social-icons {
             
             text-align: center;
@@ -729,6 +727,11 @@
     
     #projetoss {
         margin-top: 20%;
+    }
+
+    @font-face {
+        font-family: "Metropolis-Light ";
+        src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf);
     }
     
     }
