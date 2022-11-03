@@ -891,23 +891,48 @@ li a {
 
 #page {
   position: relative;
+  animation: transitionIn 0.75s;
 }
 
 #paginas{
   text-align: center;
   font-size: 640px;
+  overflow: hidden;
+}
+
+#pag{
+  animation: transitionIn 0.75s;
 }
 
 #pag1{
   display: none;
+  animation: transitionIn 0.75s;
 }
 
 #pag2{
   display: none;
+  animation: transitionIn 0.75s;
 }
 
 #pag3{
   display: none;
+  animation: transitionIn 0.75s;
+}
+
+#botaosobre{
+  animation: none;
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
    
 /* pagina slide end */

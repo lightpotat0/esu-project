@@ -17,7 +17,7 @@ let currentLocation = 1;
 let numOfPapers = 4;
 let maxLocation = numOfPapers + 1;
 
-prevBtn.style.opacity = "0.5"
+prevBtn.style.opacity = "0.4"
 
 function goNextPage() {
     if(currentLocation < maxLocation) {
@@ -36,11 +36,9 @@ function goNextPage() {
             case 3:
                 paper4.style.display = 'block'
                 paper3.style.display = 'none'
-                nextBtn.style.opacity = "0.5"
+                nextBtn.style.opacity = "0.4"
                 console.log(currentLocation)
                 break;
-            default:
-                throw new Error("unkown state");
         }
         currentLocation++;
     }
@@ -54,7 +52,7 @@ function goPrevPage() {
                 paper2.style.display = 'none'
                 paper3.style.display = 'none'
                 paper4.style.display = 'none'
-                prevBtn.style.opacity = "0.5"
+                prevBtn.style.opacity = "0.4"
                 break;
             case 3:
                 paper1.style.display = 'none'
@@ -69,8 +67,6 @@ function goPrevPage() {
                 paper4.style.display = 'none'
                 nextBtn.style.opacity = "1"
                 break;
-            default:
-                throw new Error("unkown state");
         }
 
         currentLocation--;

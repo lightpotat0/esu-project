@@ -172,7 +172,7 @@
     #left{
         position: absolute;
         margin-top: -1%;
-        margin-left: 55%;
+        margin-left: 54.9%;
         transform: rotate(180deg);
     }
     
@@ -181,7 +181,7 @@
     #right{
         position: absolute;
         margin-top: -1%;
-        margin-left: 60.5%;
+        margin-left: 61%;
     }
     
     #botaosobre{
@@ -191,9 +191,8 @@
         margin-left: 63%;
         margin-top: 16.2%;
         text-decoration: none;
+        transition: none;
         font-family: "Metropolis-Medium ";
-       
-       
     }
     
     .btns{
