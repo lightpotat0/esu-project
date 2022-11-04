@@ -119,7 +119,6 @@ function iniciaModal(modalID) {
     modal.addEventListener('click', (e) => {
         if(e.target.id == modalID || e.target.classList == 'fechar') {
             modal.classList.remove('mostrar')
-            $(window).scrollTop(0);
         }
     })
 }
@@ -244,8 +243,18 @@ caixa1.addEventListener('click', () => iniciaModal('modal-projeto'))
 //hamburguer
 
 var menu = document.getElementById('menu')
+var lines = document.querySelectorAll('lines1')
+var lines2 = document.querySelectorAll('lines3')
+var boxmenu = document.getElementById('boxmenu')
+var nav = document.getElementById('nave')
+var logo = document.getElementById('menulogo')
 
-    menu.onclick = function(){
+    menu.onclick = function hamburgui(){
         menu.classList.toggle("openmenu")
+        boxmenu.style.display = 'block'
+        nav.style.backgroundColor = '#181818'
+        lines.style.background = 'gray'
+        lines2.style.background = 'gray'
+        logo.src = 'assets/img/LOGO-BRANCA.svg'
     }
 
