@@ -10,7 +10,7 @@ function sda(){
 }
 
 function sair(){
-    text.innerHTML = `Identidade Visual`
+    ///text.innerHTML = `Identidade Visual`
 }
 
 var text1 = window.document.getElementById('blocos1')
