@@ -159,7 +159,7 @@
 }
 
 
-button {
+.pass button {
     border: none;
     background-color: transparent;
     margin-top: 15%;
@@ -912,7 +912,7 @@ option {
     }
 
     .box p {
-        top: 123.1%;
+        top: 140.4%;
         text-align: center;
         width: 38%;
         font-size: 11px;
@@ -926,7 +926,7 @@ option {
     }
 
     .caixa p {
-        top: 196.4%;
+        top: 212.6%;
         text-align: center;
         width: 38%;
         font-size: 11px;
@@ -954,7 +954,7 @@ option {
     }
 
     .caixa1 p {
-        top: 269%;
+        top: 285.8%;
         text-align: center;
         width: 38%;
         font-size: 11px;
