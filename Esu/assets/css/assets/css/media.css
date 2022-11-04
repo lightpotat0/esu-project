@@ -1,742 +1,775 @@
-
 @media (max-width:1899px) {
 
-    body{
+    body {
         font-family: 'Courier New', Courier, monospace;
     }
-        
+
     .img-responsive,
-    .thumbnail > img,
-    .thumbnail a > img,
-    .carousel-inner > .item > img,
-    .carousel-inner > .item > a > img{
-    
+    .thumbnail>img,
+    .thumbnail a>img,
+    .carousel-inner>.item>img,
+    .carousel-inner>.item>a>img {
+
         height: 44rem;
     }
-    
-    
-    
-       .elemento{
-         margin-top: 15%;
-       }
-    
-       #identidade{
-          z-index: 1;
-           margin-left: 31%;
-       }
-    
-       #blocos{
-        z-index: 2;
-          margin-right: 3%;
-          width: 15%;
-       }
-    
-       
-       #blocos1{
-        z-index: 2;
-          margin-left:-2%;
-     
-       }
-    
-       
-       #blocos2{
-        z-index: 2;
-         margin-left: 4%;
-       }
-    
-     
-          }
-          .grid{
-            justify-content: center;
-          }
-    
-          .box{
-            margin-top: 0.2%;
-            margin-right: 2.5%;
-            width: 27%;
-            height: 27%;
-          }
-    
-          .caixa{
-            margin-right: 2.5%;
-            width: 27%;
-            height: 27%;
-          }
-    
-          .caixa1{
-            width: 27%;
-            height: 27%;
-          }
-    
-     
-         .box p{
-             margin-top: -1.5%;
-         }
-    
-         .caixa img{
-            margin-right: 20%;
-            
-          }
-    
-         .caixa p{
-            margin-top: -1.5%;
-         }
-    
-       
-         
-    
-         .caixa1 p {
-            margin-top: -1.5%;
-         }
-          #texto h1{
-            top: 165%;
-            margin-left: 1%;
-            font-size: 15px;
-            font-family: "Metropolis-Light ";
-          
-    
-          }
-    
-          #texto1 h1 {
-            top: 165%;
-            margin-left: 1%;
-            font-size: 15px;
-            font-family: "Metropolis-Light ";
-            
-        }
-    
-        #texto2 h1 {
-            top: 165%;
-            margin-left: 1%;
-            font-size: 15px;
-            font-family: "Metropolis-Light ";
-          
-        }
-    
-        #projetoss{
-            margin-top: 45%;
-        }
-    
-     
-    
-        .container{
-                 margin-top: 5%;
-    
-        }
-    
-    
-       #sobre{
-           margin-top: 5%;
-           margin-left: 25%;
-           font-size: 40px;
-           color: #FF2600;
-           font-family: "Homade-Bold";
-          
-    
-       }
-    
-       .estudio{
-          font-size: 23px;
-          margin-left: 25%;
-          line-height: 36px;
-          font-family: "Metropolis-Light ";
-          
-         
-    
-    
-       }
-    
-    .cultura{
-        margin-top: -29%;
-        margin-left: 70%;
-         font-size: 40px;
-         color: #FF2600;
-         font-family: "Homade-Bold";
-    
-    
-    
-    }
-    
-    
-    button{
-        border: none;
-        background-color: transparent;
+
+
+
+    .elemento {
         margin-top: 15%;
-        cursor: pointer;
-       
     }
-    
-    #left{
-        position: absolute;
-        margin-top: -1%;
-        margin-left: 54.9%;
-        transform: rotate(180deg);
+
+    #identidade {
+        z-index: 1;
+        margin-left: 31%;
     }
-    
-    
-    
-    #right{
-        position: absolute;
-        margin-top: -1%;
-        margin-left: 61%;
+
+    #blocos {
+        z-index: 2;
+        margin-right: 3%;
+        width: 15%;
     }
-    
-    #botaosobre{
-        position: absolute;
-      color: #686868;
-        font-size: 20px;
-        margin-left: 63%;
-        margin-top: 16.2%;
-        text-decoration: none;
-        transition: none;
-        font-family: "Metropolis-Medium ";
-    }
-    
-    .btns{
-        margin-left: 5%;
-        margin-top: 5%;
-    }
-    
-    
-    #ponto{
-        font-size: 100px;
-        color: gray;
-        opacity: 0.4;
-        text-align: center;
-    
-    }
-    
-    #ponto1{
-        
-        font-size: 100px;
-        color: gray;
-        opacity: 0.4;
-        text-align: center;
-    
-    }
-    
-    .drive p{
-        margin-top: -1.5%;
-        text-align: center;
-        line-height: 34px;
-        font-size: 24px;
-        font-family: "Metropolis-Light ";
-    
-    }
-    
-    #contato{
-        margin-top: 4%;
-        font-size: 50px;
-        color: #FF2600;
-        font-family: "Homade-Bold";
-   
-    }
-    
-    #ponto2{
-        margin-top: -3%;
-        font-size: 100px;
-        color: gray;
-        opacity: 0.4;
-        text-align: center;
-    }
-    
-    .inputBox{
-        margin-top: -3%;
-        margin-left: 35%;
-    }
-    
-    .inputBox label{
-        margin-top: -2%;
-        font-size: 26px;
-        color: #FF2600;
-        font-family: "Homade-Bold";
-     
-    }
-    
-    
-    
-    input{
+
+
+    #blocos1 {
+        z-index: 2;
         margin-left: -2%;
-        width: 400px;
-        border-radius: 12px;
-        border-color: black;
-    }
-    
-    
-    #nome{
-        height: 40px;
-    }
-    
-    #nome::-webkit-input-placeholder{
-        color: gray;
-        padding: 7px;
-        font-family: "Metropolis-Light ";
-        
-    
-    
-    
-    }
-    #perf{
-        color: rgb(183, 183, 183);
-        font-family: "Metropolis-Medium ";
-     
-        
-    }
-    
-    .inputBox1{
-        margin-left: 35%;
-    }
-    
-    .inputBox1 label{
-        font-size: 26px;
-        color: #FF2600;
-        font-family: "Homade-Bold";
 
     }
-    
-    #radio{
+
+
+    #blocos2 {
+        z-index: 2;
+        margin-left: 4%;
+    }
+
+
+}
+
+.grid {
+    justify-content: center;
+}
+
+.box {
+    margin-top: 0.2%;
+    margin-right: 2.5%;
+    width: 27%;
+    height: 27%;
+}
+
+.caixa {
+    margin-right: 2.5%;
+    width: 27%;
+    height: 27%;
+}
+
+.caixa1 {
+    width: 27%;
+    height: 27%;
+}
+
+
+.box p {
+    margin-top: -1.5%;
+}
+
+.caixa img {
+    margin-right: 20%;
+
+}
+
+.caixa p {
+    margin-top: -1.5%;
+}
+
+
+
+
+.caixa1 p {
+    margin-top: -1.5%;
+}
+
+#texto h1 {
+    top: 165%;
+    margin-left: 1%;
+    font-size: 15px;
+    font-family: "Metropolis-Light ";
+
+
+}
+
+#texto1 h1 {
+    top: 165%;
+    margin-left: 1%;
+    font-size: 15px;
+    font-family: "Metropolis-Light ";
+
+}
+
+#texto2 h1 {
+    top: 165%;
+    margin-left: 1%;
+    font-size: 15px;
+    font-family: "Metropolis-Light ";
+
+}
+
+#projetoss {
+    margin-top: 45%;
+}
+
+
+
+.container {
+    margin-top: 5%;
+
+}
+
+
+#sobre {
+    margin-top: 5%;
+    margin-left: 25%;
+    font-size: 40px;
+    color: #FF2600;
+    font-family: "Homade-Bold";
+
+
+}
+
+.estudio {
+    font-size: 23px;
+    margin-left: 25%;
+    line-height: 36px;
+    font-family: "Metropolis-Light ";
+
+
+
+
+}
+
+.cultura {
+    margin-top: -29%;
+    margin-left: 70%;
+    font-size: 40px;
+    color: #FF2600;
+    font-family: "Homade-Bold";
+
+
+
+}
+
+
+button {
+    border: none;
+    background-color: transparent;
+    margin-top: 15%;
+    cursor: pointer;
+
+}
+
+#left {
+    position: absolute;
+    margin-top: -1%;
+    margin-left: 54.9%;
+    transform: rotate(180deg);
+}
+
+
+
+#right {
+    position: absolute;
+    margin-top: -1%;
+    margin-left: 61%;
+}
+
+#botaosobre {
+    position: absolute;
+    color: #686868;
+    font-size: 20px;
+    margin-left: 63%;
+    margin-top: 16.2%;
+    text-decoration: none;
+    transition: none;
+    font-family: "Metropolis-Medium ";
+}
+
+.btns {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+
+#ponto {
+    font-size: 100px;
+    color: gray;
+    opacity: 0.4;
+    text-align: center;
+
+}
+
+#ponto1 {
+
+    font-size: 100px;
+    color: gray;
+    opacity: 0.4;
+    text-align: center;
+
+}
+
+.drive p {
+    margin-top: -1.5%;
+    text-align: center;
+    line-height: 34px;
+    font-size: 24px;
+    font-family: "Metropolis-Light ";
+
+}
+
+#contato {
+    margin-top: 4%;
+    font-size: 50px;
+    color: #FF2600;
+    font-family: "Homade-Bold";
+
+}
+
+#ponto2 {
+    margin-top: -3%;
+    font-size: 100px;
+    color: gray;
+    opacity: 0.4;
+    text-align: center;
+}
+
+.inputBox {
+    margin-top: -3%;
+    margin-left: 35%;
+}
+
+.inputBox label {
+    margin-top: -2%;
+    font-size: 26px;
+    color: #FF2600;
+    font-family: "Homade-Bold";
+
+}
+
+
+
+input {
+    margin-left: -2%;
+    width: 400px;
+    border-radius: 12px;
+    border-color: black;
+}
+
+
+#nome {
+    height: 40px;
+}
+
+#nome::-webkit-input-placeholder {
+    color: gray;
+    padding: 7px;
+    font-family: "Metropolis-Light ";
+
+
+
+
+}
+
+#perf {
+    color: rgb(183, 183, 183);
+    font-family: "Metropolis-Medium ";
+
+
+}
+
+.inputBox1 {
+    margin-left: 35%;
+}
+
+.inputBox1 label {
+    font-size: 26px;
+    color: #FF2600;
+    font-family: "Homade-Bold";
+
+}
+
+#radio {
+    margin-left: -15%;
+    background-color: #FF2600;
+}
+
+
+
+#serv {
+    font-family: "Metropolis-Medium ";
+}
+
+.custom-radio,
+span {
+    transition: 0.5s ease;
+    color: #000;
+}
+
+input[type='radio']:checked+.opcao0 span {
+    background: #000;
+}
+
+span {
+    margin-left: -19%;
+    font-family: "Metropolis-Medium ";
+
+}
+
+#opcao {
+    margin-top: 0.5%;
+}
+
+
+.carousel-control {
+    width: 8%;
+}
+
+.carousel-control.right {
+    left: 92%;
+}
+
+.carousel-control.left {
+    right: 93%;
+    left: auto;
+}
+
+.serv {
+    margin-top: 2%;
+    border: 2px solid;
+    height: 37px;
+    margin: 0.7%;
+    font-size: 15px;
+    border-color: #b7b7b7;
+    border-radius: 12px;
+    font-family: "Metropolis-Medium ";
+}
+
+.serv:hover {
+    color: #FF2600;
+    border-color: #FF2600;
+}
+
+.description {
+    color: rgb(183, 183, 183);
+    font-family: "Metropolis-Medium ";
+
+}
+
+option {
+    font-size: 15px;
+    font-family: "Metropolis-Light ";
+
+}
+
+#select-b52d1b93-909d-4329-8774-86fda75e0b66-field {
+
+    border-radius: 12px;
+    border: none;
+    height: 35px;
+    width: 300px;
+    font-family: "Metropolis-Light ";
+
+}
+
+#enviar {
+    background-color: #FF2600;
+    margin-top: 8%;
+    width: 200px;
+    margin-left: 40%;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 32px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transform: translate(10%, 10%);
+    font-family: "Homade-Bold";
+
+}
+
+#perf {
+    margin-top: 0.4%;
+}
+
+#serv {
+    margin-top: 0.4%;
+}
+
+@font-face {
+    font-family: "Homade-Bold";
+    src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
+}
+
+
+
+
+
+
+
+
+/*----------footer-----------*/
+.footer-page a {
+    font-size: 0.8em;
+    font-family: "Metropolis-Light ";
+
+}
+
+/*-------footer-top--------*/
+
+.footer-page-top {
+    max-width: 100%;
+    margin: 1.5% auto;
+    font-family: "Metropolis-Light ";
+
+}
+
+.footer-page-top p {
+    font-size: 0.9em;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Metropolis-Light ";
+
+}
+
+.logo-rodape {
+    width: 15%;
+    margin-left: -78%;
+}
+
+.logo-rodape a {
+    width: 100%;
+    font-family: "Metropolis-Light ";
+
+}
+
+.logo-rodape img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.apps {
+    width: 30%;
+}
+
+.apps p {
+    font-size: 0.7em;
+    margin-bottom: 4%;
+    font-family: "Metropolis-Light ";
+
+}
+
+.apps img {
+    width: 77%;
+
+}
+
+.Gplay {
+    width: 35%;
+}
+
+.Astory {
+    width: 35%;
+}
+
+.how-works {
+    width: 20%;
+}
+
+.help-support {
+    width: 15.5%;
+}
+
+/*-------footer-bottom--------*/
+
+.footer-page-bottom {
+    width: 100%;
+    margin: 1.5% auto;
+
+}
+
+.copyright-footer {
+    width: 42%;
+    margin-top: -2%;
+
+
+}
+
+.copyright-footer p {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Metropolis-Light";
+
+}
+
+.social-icons {
+
+    text-align: center;
+    width: 14%;
+}
+
+.social-icons img {
+    width: 14%;
+    margin-right: 3%;
+}
+
+.juridic {
+    width: 42%;
+}
+
+/* FOOTER */
+
+.footer-page-color {
+    background-color: black;
+    width: 100%;
+    margin-top: 14%;
+}
+
+.footer-page {
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 1210px;
+    margin: auto;
+}
+
+.footer-page p {
+    color: white;
+    letter-spacing: unset;
+    line-height: unset;
+    font-family: "Metropolis-Light";
+    src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+}
+
+.footer-page a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: unset;
+    line-height: unset;
+    font-family: "Metropolis-Light";
+    src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+}
+
+.footer-page-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.footer-page-top a {
+    text-align: left;
+    font-family: "Metropolis-Light ";
+    src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+}
+
+.logo-rodape {
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+
+.apps {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#apps {
+    justify-content: space-between;
+    display: flex;
+    width: 40%;
+    text-align: center;
+    align-items: center;
+}
+
+#apps p {
+    font-weight: bold;
+    font-family: "Metropolis-Light ";
+    src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+}
+
+#apps a {
+    background: none;
+    font-family: "Metropolis-Light ";
+    src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+}
+
+.how-works {
+    display: flex;
+    flex-flow: column;
+    align-items: baseline;
+}
+
+.help-support {
+    display: flex;
+    flex-flow: column;
+    align-items: baseline;
+}
+
+
+
+/*------------------------*/
+
+
+
+.footer-page-bottom {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.juridic {
+    flex-flow: row;
+    justify-content: space-between;
+    display: flex;
+}
+
+.hr-page {
+    align-self: center;
+    border-style: solid;
+    border-color: white;
+    width: 100%;
+    border-width: 0.01px;
+}
+
+
+
+@font-face {
+    font-family: "Metropolis-Light";
+    src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+}
+
+
+@font-face {
+    font-family: "Metropolis-Medium ";
+    src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
+}
+
+@font-face {
+    font-family: "Metropolis-Bold ";
+    src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
+}
+
+
+@media (max-width: 1366px) {
+
+    .img-responsive,
+    .thumbnail>img,
+    .thumbnail a>img,
+    .carousel-inner>.item>img,
+    .carousel-inner>.item>a>img {
+        height: 38rem;
+    }
+
+
+    .elemento {
+        margin-top: 12.5%;
+        margin-left: 11%;
+    }
+
+    #identidade {
+        margin-right: -15%;
+        margin-left: 0;
+    }
+
+    #blocos {
+        margin-left: 0;
+        margin-right: 0;
+        width: 11%;
+    }
+
+
+    #blocos1 {
         margin-left: -15%;
-       background-color: #FF2600;
     }
-    
-    
-    
-    #serv{
-        font-family: "Metropolis-Medium ";
-    }
-    
-    .custom-radio,
-    span {
-      transition: 0.5s ease;
-      color: #000;
-    }
-    
-    input[type='radio']:checked + .opcao0 span {
-        background: #000;
-      }
-    
-    span{
-        margin-left: -19%;
-        font-family: "Metropolis-Medium ";
+
+
+    #blocos2 {
+        margin-left: -16%;
 
     }
-    
-    #opcao{
-        margin-top: 0.5%;
-    }
-    
-    
-    .carousel-control {
-        width: 8%;
-      }
-      
-      .carousel-control.right {
-        left: 92%;
-      }
-      
-      .carousel-control.left {
-        right: 93%;
-        left: auto;
-      }
-    .serv{
-        margin-top: 2%;
-         border: 2px solid;
-         height: 37px;
-         margin: 0.7%;
-         font-size: 15px;
-         border-color: #b7b7b7;
-         border-radius: 12px;
-         font-family: "Metropolis-Medium ";
-       }
-    
-     .serv:hover{
-        color: #FF2600;
-        border-color: #FF2600;
-     }
-    
-     .description{
-        color: rgb(183, 183, 183);
-        font-family: "Metropolis-Medium ";
-        
-     }
-    
-     option{
-        font-size: 15px;
-        font-family: "Metropolis-Light ";
-  
-     }
-    
-     #select-b52d1b93-909d-4329-8774-86fda75e0b66-field{
-      
-        border-radius: 12px;
-        border: none;
-        height: 35px;
-        width: 300px;
-        font-family: "Metropolis-Light ";
-        
-     }
-    
-     #enviar{
-        background-color: #FF2600;
-        margin-top: 8%;
-        width: 200px;
-        margin-left: 40%;
-        border: none;
-        border-radius: 20px;
-        color: #ffffff;
-        font-size: 22px;
-        line-height: 32px;
-        text-transform: uppercase;
-        cursor: pointer;
-        transform: translate(10%, 10%);
-        font-family: "Homade-Bold";
-     
-     }
-    
-     #perf{
-        margin-top: 0.4%;
-     }
-    
-     #serv{
-        margin-top: 0.4%;
-     }
-    
-    @font-face {
-        font-family: "Homade-Bold";
-        src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
-      }
-          
-      
-    
-    
-    
-    
-     
-    
-         /*----------footer-----------*/
-         .footer-page a{
-            font-size: 0.8em;
-            font-family: "Metropolis-Light ";
-          
-        }
-        /*-------footer-top--------*/
-    
-        .footer-page-top{
-            max-width: 100%;
-            margin: 1.5% auto;
-            font-family: "Metropolis-Light ";
-          
-        }
-        .footer-page-top p{
-            font-size: 0.9em;
-            margin: 0px;
-            padding: 0px;
-            font-family: "Metropolis-Light ";
 
-        }
-        .logo-rodape{
-            width: 15%;
-            margin-left: -78%;
-        }
-        .logo-rodape a{
-            width: 100%;
-            font-family: "Metropolis-Light ";
-          
-        }
-        .logo-rodape img {
-            width: 100%;
-            height: 100%;
-            
-        }
-        .apps {
-            width: 30%;        
-        }
-        .apps p{
-            font-size: 0.7em;
-            margin-bottom: 4%;
-            font-family: "Metropolis-Light ";
-        
-        }
-        .apps img {
-            width: 77%;
-            
-        }
-        .Gplay{
-            width: 35%;
-        }
-        .Astory {
-            width: 35%;
-        }
-        .how-works{
-            width: 20%;
-        }
-        .help-support{
-            width: 15.5%;
-        }
-        /*-------footer-bottom--------*/
-    
-        .footer-page-bottom{
-            width: 100%;
-            margin: 1.5% auto;
-  
-        }
-        .copyright-footer {
-            width: 42%;
-            margin-top: -2%;
-       
-       
-        }
+    .box {
+        margin-left: 0;
 
-        .copyright-footer p {
-            margin: 0%;
-            padding: 0%;
-            font-family: "Metropolis-Light";
-          
-        }
+    }
 
-        .social-icons {
-            
-            text-align: center;
-            width: 14%;
-        }
-        .social-icons img {
-            width: 14%;
-            margin-right: 3%;
-        }
-        .juridic {
-            width: 42%;
-        }
-    
-        /* FOOTER */
-    
-    .footer-page-color {
-        background-color: black;
-        width: 100%;
-        margin-top: 14%;
+    .caixa {
+        margin-left: 0;
+
     }
-    .footer-page {
-        display: flex;
-        flex-flow: column nowrap;
-        max-width: 1210px;
-        margin: auto;
+
+    .caixa1 {
+        margin-left: 0;
+
     }
-    .footer-page p {
-        color: white;
-        letter-spacing: unset;
-        line-height: unset;
-        font-family: "Metropolis-Light";
-        src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+
+    .box p {
+        margin-top: 0;
     }
-    .footer-page a {
-        color: white;
-        text-align: center;
-        text-decoration: none;
-        letter-spacing: unset;
-        line-height: unset;
-        font-family: "Metropolis-Light";
-        src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+
+
+    .box p {
+        margin-top: 0;
+
     }
-    .footer-page-top{
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
+
+    .box img {
+        margin-left: 0;
+        margin-top: 0;
+
     }
-    .footer-page-top a{
-        text-align: left;
-        font-family: "Metropolis-Light ";
-        src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+
+    .caixa img {
+        margin-right: 0;
+
     }
-    .logo-rodape {
-        display: flex;
-        align-items: center;
-        align-self: center;
-    }
-    .apps {
-        display: flex;
-        align-items: center;
-        text-align: center;
-    }
-    #apps {
-        justify-content: space-between;
-        display: flex;
-        width: 40%;
-        text-align: center;
-        align-items: center;
-    }
-    #apps p {
-        font-weight: bold;
-        font-family: "Metropolis-Light ";
-        src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
-    }
-    #apps a{
-        background: none;
-        font-family: "Metropolis-Light ";
-        src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
-    }
-    .how-works {
-        display: flex;
-        flex-flow: column;
-        align-items: baseline;
-    }
-    .help-support {
-        display: flex;
-        flex-flow: column;
-        align-items: baseline;
-    }
-    
-    
-    
-    /*------------------------*/
-    
-    
-    
-    .footer-page-bottom {
-        display: flex;
-        flex-flow: row;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    .juridic {
-        flex-flow: row;
-        justify-content: space-between;
-        display: flex;
-    }
-    
-    .hr-page {
-        align-self: center;
-        border-style: solid;
-        border-color: white;
-        width: 100%;
-        border-width: 0.01px;
-    }
-    
-    
-    
-    @font-face {
-        font-family: "Metropolis-Light";
-         src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
-       }
-    
-    
-       @font-face {
-        font-family: "Metropolis-Medium ";
-         src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
-       }
-       
-       @font-face {
-        font-family: "Metropolis-Bold ";
-         src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
-       }
-    
-    
-    @media (max-width: 1366px){
-    
-        .img-responsive,
-    .thumbnail > img,
-    .thumbnail a > img,
-    .carousel-inner > .item > img,
-    .carousel-inner > .item > a > img{
-       height: 38rem;
-    }
-    
-    
-        .elemento{
-            margin-top: 12.5%;
-             margin-left: 11%;
-          }
-    
-          #identidade{
-            margin-right: -15%;
-            margin-left: 0;
-         }
-    
-         #blocos{
-            margin-left: 0;
-            margin-right: 0;
-            width: 11%;
-          }
-     
-          
-          #blocos1{
-             margin-left: -15%;
-           }
-     
-           
-          #blocos2{
-             margin-left: -16%;
-      
-           }
-    
-           .box{
-            margin-left: 0;
-    
-         }
-    
-         .caixa{
-           margin-left: 0;
-    
-         }
-    
-         .caixa1{
-               margin-left:0;
-    
-         }
-    
-         .box p{
-            margin-top: 0;
-         }
-    
-    
-       .box p{
-           margin-top: 0;
-    
-       }
-     
-       .box img{
-           margin-left: 0;
-            margin-top: 0;
-    
-       }
-    
-       .caixa img{
-         margin-right: 0;
-    
-       }
-    
-       #botaosobre{
+
+    #botaosobre {
         margin-top: 16%;
         margin-left: 62.9%;
-       }
-    
-       #texto h1{
+    }
+
+    #texto h1 {
         margin-top: 0;
         margin-left: 0;
         top: 156%;
         font-size: 14px;
-        font-family: "Metropolis-Light ";
-        src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
-    
-      }
-    
-      #texto1 h1 {
-        margin-top: 0;
-        margin-left: 0;
-        top: 156%;
-        font-size: 14px;
+        display: block;
         font-family: "Metropolis-Light ";
         src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
     }
-    
+
+    #texto1 h1 {
+        margin-top: 0;
+        margin-left: 0;
+        top: 156%;
+        font-size: 14px;
+        display: block;
+        font-family: "Metropolis-Light ";
+        src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+    }
+
     #texto2 h1 {
         margin-top: 0;
         margin-left: 0;
         top: 156%;
         font-size: 14px;
+        display: block;
         font-family: "Metropolis-Light ";
         src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
     }
-    
+
     #projetoss {
         margin-top: 20%;
     }
@@ -745,141 +778,267 @@
         font-family: "Metropolis-Light ";
         src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf);
     }
-    
+
+}
+
+
+@media (max-width: 320px) {
+
+    /* Carousel Image Mobile */
+
+    .slide h1 {
+        text-align: center;
+        font-size: 62%;
+        margin-top: -16%;
+        left: 29%;
+        margin-left: 0;
     }
-    
-    
-    @media (max-width: 320px){
-    
-        .mainCarousel{
-            display: none;
-        }
-    
-        .carousel-inner img{
-            margin-top: 0;
-        }
-    
-        nav{
-            top: 0;
-            height: 10%;
-        }
-        
-        logo img {
-            height: 20%;
-        }
-    
-      #menu1 {
+
+    .carousel-indicators {
         display: none;
-      }
-    
-      #menu2 {
+    }
+
+    .carousel-control {
         display: none;
-      }
-    
-      #menu3 {
+    }
+
+    .carousel-inner img {
+        margin-top: 15%;
+    }
+
+    .img-responsive,
+    .thumbnail>img,
+    .thumbnail a>img,
+    .carousel-inner>.item>img,
+    .carousel-inner>.item>a>img {
+        display: block;
+        width: 100%;
+        height: 14rem;
+    }
+
+    /* Menu */
+
+    nav {
+        top: 0;
+        height: 12%;
+    }
+
+
+    #menu1 {
         display: none;
-      }
-    
-      #submit{
+    }
+
+    #menu2 {
         display: none;
-      }
-    
-      .mbhamburguer{
+    }
+
+    #menu3 {
+        display: none;
+    }
+
+    #submit {
+        display: none;
+    }
+
+    .mbhamburguer {
         display: block;
         width: 5%;
-      }
-    
-      .container-hamburguer{
+    }
+
+    .container-hamburguer {
         background: 0;
-      }
-    
-      .menu {
+    }
+
+    .menu {
         width: 200px;
         height: 200px;
         margin: 8px;
         border-radius: 5px;
         cursor: pointer;
-      }
-    
-      .logo img{
-        left: -40%;
+    }
+
+    .logo img {
+        left: -34%;
         width: 100%;
-      }
-    
+        height: 54%;
     }
-    
-    
-    @media (max-width: 2560px) and (min-width: 2560px) {
-        
-        .img-responsive,
-        .thumbnail > img,
-        .thumbnail a > img,
-        .carousel-inner > .item > img,
-        .carousel-inner > .item > a > img{
-           height: 58rem;
-        }
-    
-        .elemento{
-            margin-top: 12.5%;
-             margin-left: 11%;
-          }
-    
-          #identidade{
-            margin-right: -15%;
-            margin-left: 0;
-         }
-    
-         #blocos{
-            margin-left: 0;
-            margin-right: 0;
-            width: 11%;
-          }
-     
-          
-          #blocos1{
-             margin-left: -15%;
-           }
-     
-           
-          #blocos2{
-             margin-left: -16%;
-      
-           }
-    
-           .box{
-            margin-left: 0;
-    
-         }
-    
-         .caixa{
-           margin-left: 0;
-    
-         }
-    
-         .caixa1{
-               margin-left:0;
-    
-         }
-    
-         .box p{
-            margin-top: 0;
-         }
-    
-    
-       .box p{
-           margin-top: 0;
-    
-       }
-     
-       .box img{
-           margin-left: 0;
-            margin-top: 0;
-    
-       }
-    
-       .caixa img{
-         margin-right: 0;
-       }
-    
-    
+
+/* Projetos */
+
+#projetoss {
+    display: none;
+}
+
+.elemento {
+    display: none;
+}
+
+.grid {
+    width: 118%;
+    margin-left: 8%;
+    display: block;
+    flex-direction: none;
+}
+
+.box {
+    margin-top: 1%;
+    width: 70%;
+    height: 67%;
+}
+
+#texto h1 {
+    display: none;
+}
+
+.box img:hover {
+    opacity: 1;
+    transition: none;
+    z-index: 10;
+}
+
+.box img:not(:hover) {
+    opacity: 1;
+    transition: none;
+}
+
+.box p {
+    top: 122%;
+    text-align: center;
+    width: 38%;
+    font-size: 11px;
+}
+
+.caixa {
+    margin-right: 2.5%;
+    width: 70%;
+    height: 67%;
+    margin-top: -8%;
+}
+
+.caixa p {
+    top: 187.6%;
+    text-align: center;
+    width: 38%;
+    font-size: 11px;
+}
+
+.caixa img:hover {
+    opacity: 1;
+    transition: none;
+    z-index: 10;
+}
+
+.caixa img:not(:hover) {
+    opacity: 1;
+    transition: none;
+}
+
+#texto1 h1 {
+    display: none;
+}
+
+.caixa1 {
+    width: 70%;
+    height: 67%;
+    margin-top: -3%;
+}
+
+.caixa1 p {
+    top: 252%;
+    text-align: center;
+    width: 38%;
+    font-size: 11px;
+}
+
+.caixa1 img:hover {
+    opacity: 1;
+    transition: none;
+    z-index: 10;
+}
+
+.caixa1 img:not(:hover) {
+    opacity: 1;
+    transition: none;
+}
+
+#texto2 h1 {
+    display: none;
+}
+
+}
+
+
+@media (max-width: 2560px) and (min-width: 2560px) {
+
+    .img-responsive,
+    .thumbnail>img,
+    .thumbnail a>img,
+    .carousel-inner>.item>img,
+    .carousel-inner>.item>a>img {
+        height: 58rem;
     }
+
+    .elemento {
+        margin-top: 12.5%;
+        margin-left: 11%;
+    }
+
+    #identidade {
+        margin-right: -15%;
+        margin-left: 0;
+    }
+
+    #blocos {
+        margin-left: 0;
+        margin-right: 0;
+        width: 11%;
+    }
+
+
+    #blocos1 {
+        margin-left: -15%;
+    }
+
+
+    #blocos2 {
+        margin-left: -16%;
+
+    }
+
+    .box {
+        margin-left: 0;
+
+    }
+
+    .caixa {
+        margin-left: 0;
+
+    }
+
+    .caixa1 {
+        margin-left: 0;
+
+    }
+
+    .box p {
+        margin-top: 0;
+    }
+
+
+    .box p {
+        margin-top: 0;
+
+    }
+
+    .box img {
+        margin-left: 0;
+        margin-top: 0;
+
+    }
+
+    .caixa img {
+        margin-right: 0;
+    }
+
+
+}
