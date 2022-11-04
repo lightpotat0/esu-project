@@ -715,13 +715,7 @@ option {
     }
 
     .box p {
-        margin-top: 0;
-    }
-
-
-    .box p {
-        margin-top: 0;
-
+        top: 181%;
     }
 
     .box img {
@@ -883,7 +877,7 @@ option {
 .box {
     margin-top: 1%;
     width: 70%;
-    height: 67%;
+    height: 75%;
 }
 
 #texto h1 {
@@ -902,7 +896,7 @@ option {
 }
 
 .box p {
-    top: 122%;
+    top: 123.1%;
     text-align: center;
     width: 38%;
     font-size: 11px;
@@ -911,12 +905,12 @@ option {
 .caixa {
     margin-right: 2.5%;
     width: 70%;
-    height: 67%;
+    height: 75%;
     margin-top: -8%;
 }
 
 .caixa p {
-    top: 187.6%;
+    top: 196.4%;
     text-align: center;
     width: 38%;
     font-size: 11px;
@@ -944,7 +938,7 @@ option {
 }
 
 .caixa1 p {
-    top: 252%;
+    top: 269%;
     text-align: center;
     width: 38%;
     font-size: 11px;
