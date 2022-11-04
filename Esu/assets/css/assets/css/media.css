@@ -14,7 +14,7 @@
         height: 44rem;
     }
     
-    
+    /*projetos*/
     
        .elemento{
          margin-top: 15%;
@@ -82,7 +82,6 @@
             margin-top: -1.5%;
          }
     
-       
          
     
          .caixa1 p {
@@ -123,7 +122,18 @@
                  margin-top: 5%;
     
         }
+
+        .modal img{
+            margin-left: -5%;
+            width: 120%;
+            height: 110%;
+        }
+
+
+        
+        
     
+        /*sobre*/
     
        #sobre{
            margin-top: 5%;
@@ -215,6 +225,8 @@
     
     }
     
+/*orçamento*/
+
     .drive p{
         margin-top: -1.5%;
         text-align: center;
@@ -411,8 +423,9 @@
     
     
     
-     
-    
+     *------Rodapé-------*/
+
+
          /*----------footer-----------*/
          .footer-page a{
             font-size: 0.8em;

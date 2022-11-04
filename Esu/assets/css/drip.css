@@ -454,10 +454,12 @@ li a {
 
 ::-webkit-scrollbar {
   width: 10px;
+ 
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: rgb(26, 25, 25);
+ 
 }
 
 .slide h1 {
@@ -818,7 +820,7 @@ li a {
   display: none;
   justify-content: center;
   align-items: center;
-  overflow-y: scroll;
+
 }
 
 .modal-container.mostrar{
@@ -830,10 +832,18 @@ li a {
 .modal {
   
   background-color: white;
-  width: 80%;
+  margin-top: 5%;
+  width: 60%;
+  height: 150%;
   padding: 40px;
-  box-shadow: 0 0 0 10px white;
+  box-shadow: 0 0 0 0px white;
   position: relative;
+  overflow: scroll;
+  
+}
+
+.modal img{
+   margin-left: 6%;
 }
 
 #tam {
@@ -858,7 +868,7 @@ li a {
 }
 
 .fechar {
-  z-index: 1232;
+  z-index: 1;
   position: absolute;
   color: gray;
   font-size: 1.2em;
