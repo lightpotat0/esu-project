@@ -119,6 +119,7 @@ function iniciaModal(modalID) {
     modal.addEventListener('click', (e) => {
         if(e.target.id == modalID || e.target.classList == 'fechar') {
             modal.classList.remove('mostrar')
+            $(window).scrollTop(0);
         }
     })
 }
