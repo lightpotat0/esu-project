@@ -17,7 +17,7 @@
     /*projetos*/
     
        .elemento{
-         margin-top: 15%;
+         margin-top: 5%;
        }
     
        #identidade{
@@ -113,7 +113,7 @@
         }
     
         #projetoss{
-            margin-top: 45%;
+            margin-top: 10%;
         }
     
      
@@ -124,9 +124,10 @@
         }
 
         .modal img{
+            object-fit: fill;
+            margin-top:-5%;
             margin-left: -5%;
-            width: 120%;
-            height: 110%;
+            
         }
 
 
