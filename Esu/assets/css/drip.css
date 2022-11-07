@@ -68,23 +68,23 @@ nav {
 
 .menu span{
   background: #000;
-  width: 8%;
-  height: 2px;
+  width: 9%;
+  height: 3px;
   border-radius: 5px;
   display: block;
   position: absolute;
   top: 50%;
-  left: 107%;
+  left: 108%;
   transform: translate(-50%, -50%);
   transition: transform 0.5s, width 0.5s;
 }
 
 .menu .line-1{
-  transform: translate(-50%, -9px);
+  transform: translate(-50%, -12px);
 }
 
 .menu .line-3{
-  transform: translate(-50%, 7px);
+  transform: translate(-50%, 10px);
 }
 
 .openmenu .line-1{
@@ -101,6 +101,23 @@ nav {
 
 #ver-mais{
   display: none;
+}
+
+#ponto3{
+  display: none;
+}
+
+.copyright-footer1{
+  display: none;
+}
+
+.drive1{
+  display: none;
+  margin-top: -1.5%;
+    text-align: center;
+    line-height: 34px;
+    font-size: 24px;
+    font-family: "Metropolis-Light ";
 }
 
 li {
@@ -784,11 +801,18 @@ li a {
 }
 
 .estudio {
-  font-size: 23px;
-  margin-left: 25%;
-  line-height: 40px;
+    font-size: 23px;
+    margin-left: 25%;
+    line-height: 36px;
+    font-family: "Metropolis-Light ";
+}
+
+.estudio1 {
+  display: none;
+  font-size: 25px;
+  margin-left: 7%;
+  line-height: 30px;
   font-family: "Metropolis-Light ";
-  src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
 }
 
 .cultura {
