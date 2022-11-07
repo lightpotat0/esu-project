@@ -4,11 +4,6 @@ body {
   overflow-y: scroll;
 }
 
-html{
-  overflow-y: scroll;
-  overscroll-behavior: none;
-}
-
 .carousel-inner img{
     margin-left: 0;
     width: 100%;
@@ -73,23 +68,23 @@ nav {
 
 .menu span{
   background: #000;
-  width: 8%;
-  height: 2px;
+  width: 100%;
+  height: 10px;
   border-radius: 5px;
   display: block;
   position: absolute;
   top: 50%;
-  left: 107%;
+  left: 50%;
   transform: translate(-50%, -50%);
   transition: transform 0.5s, width 0.5s;
 }
 
 .menu .line-1{
-  transform: translate(-50%, -9px);
+  transform: translate(-50%, -50px);
 }
 
 .menu .line-3{
-  transform: translate(-50%, 7px);
+  transform: translate(-50%, 40px);
 }
 
 .openmenu .line-1{
@@ -104,9 +99,7 @@ nav {
   width: 0;
 }
 
-#ver-mais{
-  display: none;
-}
+
 
 li {
   float: left;
@@ -851,7 +844,7 @@ li a {
 
 .modal img{
  margin-left: 6%;
- object-fit: cover;
+
 }
 
 #tam {
