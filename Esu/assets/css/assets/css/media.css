@@ -795,7 +795,7 @@ option {
     .carousel-inner>.item>a>img {
         display: block;
         width: 100%;
-        height: 22rem;
+        height: 20rem;
     }
 
     /* Menu */
@@ -873,8 +873,8 @@ option {
     }
 
     .grid {
-        width: 90%;
-        margin-left: 6%;
+        width: 86%;
+        margin-left: 8%;
         display: block;
         flex-direction: none;
     }
@@ -882,7 +882,7 @@ option {
     .box {
         margin-top: 1%;
         width: 97%;
-        height: 75%;
+        height: 66%;
     }
 
     #texto h1 {
@@ -901,7 +901,7 @@ option {
     }
 
     .box p {
-        top: 128%;
+        top: 120%;
         text-align: center;
         width: 40%;
         font-size: 16px;
@@ -910,12 +910,12 @@ option {
     .caixa {
         margin-right: 2.5%;
         width: 97%;
-        height: 75%;
+        height: 66%;
         margin-top: -8%;
     }
 
     .caixa p {
-        top: 201%;
+        top: 184%;
         text-align: center;
         width: 40%;
         font-size: 16px;
@@ -943,7 +943,7 @@ option {
     }
 
     .caixa1 p {
-        top: 274%;
+        top: 248%;
         text-align: center;
         width: 40%;
         font-size: 16px;
@@ -974,7 +974,7 @@ option {
         width: 30%;
         height: 9%;
         margin-left: 35%;
-        margin-top: -3%;
+        margin-top: 5%;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -1030,7 +1030,7 @@ option {
 
     #ponto1 {
         font-size: 62px;
-        margin-top: -12%;
+        margin-top: -8%;
         height: 10%;
         letter-spacing: -15px;
     }
@@ -1071,7 +1071,7 @@ option {
     }
 
     .inputBox label {
-        font-size: 20px;
+        font-size: 24px;
     }
 
     input {
@@ -1083,11 +1083,11 @@ option {
     }
 
     .inputBox1 label {
-        font-size: 20px;
+        font-size: 24px;
     }
 
     #perf {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     #radio {
@@ -1104,11 +1104,11 @@ option {
     }
 
     .inputBox2 label {
-        font-size: 20px;
+        font-size: 24px;
     }
 
     #serv {
-        font-size: 12px;
+        font-size: 15px;
         color: rgb(183, 183, 183);
         font-family: "Metropolis-Medium ";
     }
@@ -1164,7 +1164,7 @@ option {
     /* Footer */
 
     .footer-page-color {
-        height: 61%;
+        height: 56%;
         margin-top: 0;
     }
 
@@ -1186,7 +1186,7 @@ option {
 
     .copyright-footer1 {
         display: block;
-        margin-top: 59%;
+        margin-top: 33%;
         margin-left: 4%;
     }
 
@@ -1208,8 +1208,8 @@ option {
         justify-content: center;
         align-items: center;
         width: 200%;
-        margin-right: 16%;
-        margin-top: -32%;
+        margin-right: 17%;
+        margin-top: -15%;
     }
 
     .social-icons img {
@@ -1226,10 +1226,10 @@ option {
     }
 
     .logo-rodape img {
-        width: 78%;
+        width: 125%;
         height: 100%;
-        margin-left: -5%;
-        margin-top: 40%;
+        margin-left: -10%;
+        margin-top: 88%;
     }
 
 }

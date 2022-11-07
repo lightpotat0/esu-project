@@ -10,6 +10,10 @@ body {
     margin-top: 4rem;
 } 
 
+a{
+  text-decoration: none;
+}
+
 .sr-only {
   position: absolute;
   left: -9999999px;
@@ -454,6 +458,7 @@ li a {
 #botaoo {
   position: absolute;
   text-align: center;
+  color: white;
   top: 25%;
   left: 80%;
   width: 10%;
