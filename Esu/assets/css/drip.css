@@ -104,7 +104,9 @@ nav {
   width: 0;
 }
 
-
+#ver-mais{
+  display: none;
+}
 
 li {
   float: left;
