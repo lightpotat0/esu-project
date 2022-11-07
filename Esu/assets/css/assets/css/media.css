@@ -124,11 +124,15 @@
         }
 
         .modal img{
-            object-fit: fill;
             margin-top:-5%;
             margin-left: -5%;
             
         }
+    
+       
+
+
+
 
 
         
@@ -449,7 +453,7 @@
 
         }
         .logo-rodape{
-            width: 15%;
+            width: 100%;
             margin-left: -78%;
         }
         .logo-rodape a{
@@ -752,7 +756,7 @@
     }
     
     #projetoss {
-        margin-top: 20%;
+        margin-top: 26%;
     }
 
     @font-face {
