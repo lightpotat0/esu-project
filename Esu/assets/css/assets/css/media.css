@@ -1142,7 +1142,7 @@ option {
         width: 385px;
     }
 
-    option{
+    option {
         font-size: 12px;
     }
 
@@ -1163,28 +1163,28 @@ option {
 
     /* Footer */
 
-    .footer-page-color{
+    .footer-page-color {
         height: 61%;
         margin-top: 0;
     }
 
-    .how-works{
+    .how-works {
         display: none;
     }
 
-    .help-support{
+    .help-support {
         display: none;
     }
 
-    .hr-page{
+    .hr-page {
         display: none;
     }
 
-    .copyright-footer{
+    .copyright-footer {
         display: none;
     }
 
-    .copyright-footer1{
+    .copyright-footer1 {
         display: block;
         margin-top: 59%;
         margin-left: 4%;
@@ -1195,26 +1195,41 @@ option {
         padding: 0%;
         font-size: 14px;
         line-height: 22px;
-        width: 231%;
+        width: 343%;
         font-family: "Metropolis-Medium ";
     }
 
-    #be{
+    #be {
         display: none;
     }
 
-    .social-icons{
+    .social-icons {
         text-align: center;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-right: 25%;
-    margin-top: -7%;
+        justify-content: center;
+        align-items: center;
+        width: 200%;
+        margin-right: 16%;
+        margin-top: -32%;
     }
 
     .social-icons img {
         width: 18%;
         margin-right: 9%;
+    }
+
+    .footer-page-top a {
+        text-align: center;
+    }
+
+    .logo-rodape {
+        display: contents;
+    }
+
+    .logo-rodape img {
+        width: 78%;
+        height: 100%;
+        margin-left: -5%;
+        margin-top: 40%;
     }
 
 }
