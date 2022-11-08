@@ -104,7 +104,9 @@ nav {
   width: 0;
 }
 
-
+#ver-mais{
+  display: none;
+}
 
 #ponto3{
   display: none;
@@ -164,10 +166,7 @@ li a {
   src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf);
 }
 
-
-
 #submit:hover {
-
   cursor: pointer;
 }
 
@@ -480,12 +479,10 @@ li a {
 
 ::-webkit-scrollbar {
   width: 10px;
- 
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: rgb(26, 25, 25);
- 
 }
 
 .slide h1 {
@@ -508,12 +505,13 @@ li a {
 
 
 .projeto {
-
-
-  width: 100%;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 42.5%;
 }
 
-#projetoss {  
+#projetoss {
+  margin-top: 6%;
   text-align: center;
   font-size: 40px;
   color: #FF2600;
@@ -856,7 +854,7 @@ li a {
   display: none;
   justify-content: center;
   align-items: center;
-
+  overflow-y: scroll;
 }
 
 .modal-container.mostrar{
@@ -868,20 +866,10 @@ li a {
 .modal {
   
   background-color: white;
-  margin-top: 5%;
-  width: 72.5%;
-  height: 80%;
+  width: 80%;
   padding: 40px;
-  box-shadow: 0 0 0 0px white;
+  box-shadow: 0 0 0 10px white;
   position: relative;
-  overflow: scroll;
-  overflow-x: hidden;
-  
-}
-
-.modal img{
- margin-left: 6%;
-
 }
 
 #tam {
@@ -906,14 +894,14 @@ li a {
 }
 
 .fechar {
-  z-index: 999;
+  z-index: 1232;
   position: absolute;
-  color: white;
-  font-size: 1.5em;
-  top:  -32%;
-  right:  1%;
-  width: 100px;
-  height: 100px;
+  color: gray;
+  font-size: 1.2em;
+  top:  -120%;
+  right: -1%;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   cursor: pointer;
   font-family: "Metropolis-Medium ";
