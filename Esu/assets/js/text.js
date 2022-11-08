@@ -130,6 +130,8 @@ function nonec5() {
 
 //ver mais
 
+var imge = document.getElementById('gridbile')
+var ver = document.getElementById('gridbile')
 
 
 
@@ -138,15 +140,43 @@ function nonec5() {
 
 var menu = document.getElementById('menu')
 var boxmenu = document.getElementById('boxmenu')
+var nav = document.getElementById('nave')
+var logo = document.getElementById('exulog')
+var line1 = document.getElementById('linas1')
+var line2 = document.getElementById('linas2')
+var line3 = document.getElementById('linas3')
+var burga = document.getElementById('burguin')
 
 menu.onclick = function openmenus() {
-        menu.classList.toggle("openmenu")
-        
-        if(boxmenu.style.display == 'block'){
-            boxmenu.style.display = 'none'
-        } else{
-            boxmenu.style.display = 'block'
-        }
+    menu.classList.toggle("openmenu")
+
+    if (boxmenu.style.display == 'block' || logo.src == 'assets/img/LOGO-BRANCA.svg' || nav.style.backgroundColor == 'black') {
+        boxmenu.style.display = 'none'
+        logo.src = 'assets/img/Nova_Logo_studio.svg'
+        nav.style.backgroundColor = 'white'
+    } else {
+        boxmenu.style.display = 'block'
+        logo.src = 'assets/img/LOGO-BRANCA.svg'
+        nav.style.backgroundColor = 'black'
+    }
+
+    if (line1.style.backgroundColor == 'gray' || line2.style.backgroundColor == 'gray' || line3.style.backgroundColor == 'gray') {
+        line1.style.backgroundColor = 'black'
+        line2.style.backgroundColor = 'black'
+        line3.style.backgroundColor = 'black'
+    } else {
+        line1.style.backgroundColor = 'gray'
+        line2.style.backgroundColor = 'gray'
+        line3.style.backgroundColor = 'gray'
+    }
+
+    if (burga.style.background == 'black' || burga.style.opacity == '0.9'){
+        burga.style.background = 'transparent'
+        burga.style.opacity = '1'
+    } else{
+        burga.style.background = 'black'
+        burga.style.opacity = '0.9'
+    }
 }
 
 
