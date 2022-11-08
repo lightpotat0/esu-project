@@ -1416,7 +1416,7 @@ option {
 
     /* Carousel Image Mobile */
 
-    .slide h1 {
+    /*.slide h1 {
         text-align: center;
         font-size: 100%;
         margin-top: -16%;
@@ -1468,7 +1468,7 @@ option {
 
     /* Menu */
 
-    nav {
+  /*  nav {
         top: 0;
         height: 12.1%;
         box-shadow: 3px 3px 3px rgb(0 0 0 / 10%);
@@ -1525,7 +1525,7 @@ option {
 
     /* Projetos */
 
-    #projetoss {
+   /* #projetoss {
         display: none;
     }
 
@@ -1663,7 +1663,7 @@ option {
 
     /* Sobre */
 
-    #sobre {
+   /* #sobre {
         margin-top: 20%;
         margin-left: 7%;
         line-height: 0.5;
@@ -1698,7 +1698,7 @@ option {
 
     /* Formulario */
 
-    .drive1 {
+   /* .drive1 {
         display: block;
         line-height: 33px;
         margin-left: 8%;
@@ -1824,7 +1824,7 @@ option {
 
     /* Footer */
 
-    .footer-page-color {
+ /*   .footer-page-color {
         height: 56%;
         margin-top: 0;
     }
@@ -1890,7 +1890,7 @@ option {
         width: 125%;
         height: 100%;
         margin-left: -10%;
-        margin-top: 88%;
+        margin-top: 88%;*/
     }
 
 }

@@ -12,6 +12,7 @@ body {
 
 a{
   text-decoration: none;
+  color: #fff;
 }
 
 .sr-only {
@@ -147,7 +148,7 @@ li a {
   height: 50%;
 }
 
-#submit {
+#submit  {
   background-color: #FF2600;
   margin-top: -1%;
   border: none;
@@ -478,7 +479,7 @@ li a {
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 1px;
  
 }
 
