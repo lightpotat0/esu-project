@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="../Esu/assets/css/drip.css">
   <link rel="stylesheet" href="../Esu/assets/css/assets/css/media.css">
   <link rel="shortcut icon" href="../Esu/assets/img/ESU-ICONE.ico" type="image/x-icon">
+  <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="../Esu/assets/js/projeto.js"></script>
   <title>Studio Exú</title>
@@ -37,16 +38,16 @@
 
       <section id="boxmenu">
         <div class="layout2" id="menu1">
-          <li><a href="#">PROJETOS</a></li>
+          <li><a href="#projetoss">PROJETOS</a></li>
         </div>
         <div class="layout2" id="menu2">
-          <li><a href="#">SOBRE</a></li>
+          <li><a href="#ponto">SOBRE</a></li>
         </div>
         <div class="layout2" id="menu3">
-          <li><a href="#">CONTATO</a></li>
+          <li><a href="#ponto1">CONTATO</a></li>
         </div>
         <div class="layout2" id="botaoo">
-          <button name="button" id="submit">ORÇAMENTO</button>
+          <button name="button" id="submit"><a href="#ponto2">ORÇAMENTO</a></button>
         </div>
       </div>
       </div>
@@ -109,7 +110,7 @@
             src="../Esu/assets/img/botão-slide-esquerda.png"></span>
         <span class="sr-only">Previous</span>
       </a>
-      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" id="bu" data-slide="next">
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"><img
             src="../Esu/assets/img/botão-slide-direita.png"></span>
         <span class="sr-only">Next</span>
@@ -162,8 +163,14 @@
 
       <div id="modal-projeto" class="modal-container">
         <button class="fechar">X</button>
+        <div class="btns">
+          <button id="btnPrevious" class="lef" aria-label="Previous slide" tabindex="0" role="button"
+            aria-disabled="true" data-slide="esquerda"><img src="assets/img/seta_right.svg" id="left"
+              alt=""></button>
+          <button id="btnNext" class="rig" aria-label="Next slide" tabindex="0" role="button" aria-disabled="true"
+            data-slide="direita"><img src="assets/img/seta_right.svg" id="right" alt=""></button>
+        </div>
        
-   
         
 
         <div class="modal">
@@ -182,8 +189,6 @@
 
       <p id="ponto">...</p>
 
-      <!--Sobre-->
-
       <div class="preto">
         <p id="sobre">SOBRE</p>
 
@@ -199,11 +204,12 @@
                 <p id="paragra">Estamos em trânsito constante no futuro-<br>presente-passado, vislumbrando um fazer<br> criativo,
                   ainda
                   não
-                  feito, vivemos em uma<br> utopia real, desenvolvendo projeto plurais<br> em um movimento de resgate
+                  feito, vivemos em uma<br> utopia real, desenvolvendo projetos plurais<br> em um movimento de resgate
                   e
                   ruptura com<br> o design europeu-estaudinense, um design<br> decolonial. </p>
               </div>
-        
+
+
               <div class="cultura">
                 <p>Unimos<br>o digital,<br>cultura<br>e tradição.</p>
               </div>
@@ -278,10 +284,10 @@
             </div>
         
             <div class="btns">
-              <button id="btnPrevious" class="pass" aria-label="Previous slide" tabindex="0" role="button"
+              <button id="btnPrevious" class="lef" aria-label="Previous slide" tabindex="0" role="button"
                 aria-disabled="true" data-slide="esquerda"><img src="assets/img/seta_right.svg" id="left"
                   alt=""></button>
-              <button id="btnNext" class="pass" aria-label="Next slide" tabindex="0" role="button" aria-disabled="true"
+              <button id="btnNext" class="rig" aria-label="Next slide" tabindex="0" role="button" aria-disabled="true"
                 data-slide="direita"><img src="assets/img/seta_right.svg" id="right" alt=""></button>
             </div>
           </div>
@@ -292,86 +298,99 @@
 
    <!--Orçamento-->
         <div class="orcamento">
-           <div  class="drive">
-           <p id="contato">Vamos trabalhar juntos </p>
-           <p>O nosso objetivo aqui é conhecer <br>            um pouco sobre o seu projeto e as<br>suas necessidades,para prosseguir<br>basta responder as perguntas<br>abaixo que entraremos em contato.</p>
+          <div class="drive">
+            <p id="contato">Vamos trabalhar juntos </p>
+            <p>O nosso objetivo aqui é conhecer <br> um pouco sobre o seu projeto e as<br>suas necessidades,para
+              prosseguir<br>basta responder as perguntas<br>abaixo que entraremos em contato.</p>
+          </div>
+
+          <p id="ponto2">...</p>
+
+
+          <div class="inputBox">
+            <label for="nome">Seu Nome*</label>
+            <br><br>
+            <input type="text" name="nome" id="nome" class="inputUser" required autocomplete="off" placeholder="Nome">
+          </div>
+          <br></br>
+          <div class="inputBox1">
+            <label for="perfil">Selecione o seu perfil*</label>
+
+            <p id="perf">Com qual perfil você melhor se identifica?</p>
+
+            <div class="opcao0">
+              <input type="radio" name="empreender" id="radio">
+              <span id="busco">Sou um empreendedor (a) e busco por um projeto de Design</span>
             </div>
 
-            <p id="ponto2">...</p>
+            <div class="opcao">
+              <input type="radio" name="empreender" id="radio">
+              <span id="busco">Trabalho em uma empresa que busca por um projeto de Design</span>
+            </div>
+            <br><br>
 
-          
-              <div class="inputBox">
-              <label for="nome">Seu Nome*</label>
-              <br><br>
-              <input type="text" name="nome" id="nome" class="inputUser" required autocomplete="off" placeholder="Nome">
-              </div>
-              <br></br>
-              <div class="inputBox1">
-                 <label for="perfil">Selecione o seu perfil*</label>
-                
-                 <p id="perf">Com qual perfil você melhor se identifica?</p>
-            
-                 <div class="opcao0">
-                 <input type="radio" name="empreender" id="radio">
-                 <span id="busco">Sou um empreendedor (a) e busco por um projeto de Design</span>
-                 </div>
+            <button id="servico" class="serv">Identidade Visual</button>
+            <button id="servico1" class="serv">Naming</button>
+            <button id="servico2" class="serv">Social media</button>
+            <br id="br">
+            <button id="servico3" class="serv">Campanha</button>
+            <button id="servico4" class="serv">Audiovisual</button>
+            <button id="servico5" class="serv">Website</button>
+            <br><br>
 
-                 <div class="opcao">
-                 <input type="radio" name="empreender" id="radio">
-                 <span id="busca">Trabalho em uma empresa que busca por um projeto de Design</span>
-                 </div>
-                 <br><br>
+            <div class="inputBox3">
+              <label for="porte">Porte da Empresa*</label>
+              <br>
+              <div class="description">Selecionar no Menu abaixo.</div>
+              <br>
+              <select id="select-b52d1b93-909d-4329-8774-86fda75e0b66-field"
+                name="select-b52d1b93-909d-4329-8774-86fda75e0b66-field">
 
-                 <div class="inputBox2">
-                 <label for="servico">Quais serviços você procura?*</label>
-                 <br>
-                 <p id="serv">Selecione quantas opções você quiser</p> 
-             
-             </div>
+                <option value="Profissional Liberal">Profissional Liberal</option>
+                <option value="Microempreendedor Individual  ">Microempreendedor Individual </option>
+                <option value="Micro (2-10 Funcionários)">Micro (2-10 Funcionários)</option>
+                <option value="Pequena (10-50 Funcionários)">Pequena (10-50 Funcionários)</option>
+                <option value="Média (50-100 Funcionários)">Média (50-100 Funcionários)</option>
+                <option value="Grande (Mais de 100 Funcionários)">Grande (Mais de 100 Funcionários)</option>
 
-             <button id="servico" class="serv">Identidade Visual</button>
-             <button id="servico1" class="serv">Naming</button>
-             <button id="servico2" class="serv">Social media</button>
-             <br>
-             <button id="servico3" class="serv">Campanha</button>
-             <button id="servico4" class="serv">Audiovisual</button>
-             <button id="servico5" class="serv">Website</button>
-             <br><br>
-            
-             <div>
-            <label for="porte">Porte da Empresa*</label>
-            <br>
-            <div class="description">Selecionar no Menu abaixo.</div>
-            <br>
-            <select id="select-b52d1b93-909d-4329-8774-86fda75e0b66-field" name="select-b52d1b93-909d-4329-8774-86fda75e0b66-field">
-                  
-              <option value="Profissional Liberal">Profissional Liberal</option>
-              <option value="Microempreendedor Individual  ">Microempreendedor Individual  </option>
-              <option value="Micro (2-10 Funcionários)">Micro (2-10 Funcionários)</option>
-              <option value="Pequena (10-50 Funcionários)">Pequena (10-50 Funcionários)</option>
-              <option value="Média (50-100 Funcionários)">Média (50-100 Funcionários)</option>
-              <option value="Grande (Mais de 100 Funcionários)">Grande (Mais de 100 Funcionários)</option>
-            
-          </select>
+              </select>
 
 
             </div>
 
+          </div>
+
+          <input type="submit" value="Enviar" id="enviar">
+
+          <p id="ponto3">...</p>
+
+          </form>
+        </div>
+
+        <div class="footer-page-color">
+          <footer class="footer-page">
+            <div class="footer-page-top">
+              <div class="logo-rodape">
+
+                <a href=""><img src="assets/img/LOGO-BRANCA.svg" alt="logo-rodape" /></a>
               </div>
 
-              <input type="submit" value="Enviar" id="enviar">
+
 
               </form>
             </div>
-           
-            <!--Rodapé-->
-            <div class="footer-page-color">
-              <footer class="footer-page">
-                <div class="footer-page-top">
-                  <div class="logo-rodape">
+            <hr class="hr-page">
+            <div class="footer-page-bottom">
+              <div class="copyright-footer">
+                <p>&copy;Copyright © 2022 Estúdio Exu | Todos os direitos reservados</p>
+              </div>
 
-                    <a href="" ><img src="assets/img/LOGO-BRANCA.svg" alt="logo-rodape" /></a>
-                  </div>
+              <div class="social-icons">
+
+                <a href="" target="_blank"><img src="assets/img/instagram.png" alt="instagram-icon" /></a>
+                <a href="" target="_blank"><img id="be" src="assets/img/behance.png" alt="instagram-icon" /></a>
+                <a href="" target="_blank"><img src="assets/img/linkedin (1).png" alt="instagram-icon" /></a>
+                <a href="" target="_blank"><img src="assets/img/whatsapp.png" alt="instagram-icon" /></a>
 
                   <div class="how-works">
                     <p><b class="tituloRodape"></p>
@@ -386,20 +405,7 @@
                   </div>
                 </div>
                 <hr class="hr-page">
-                <div class="footer-page-bottom">
-                  <div class="copyright-footer">
-                    <p>&copy;Copyright © 2022 Estúdio Exu | Todos os direitos reservados</p>
-                  </div>
-                  <div class="social-icons">
-
-                    <a href="https://www.instagram.com/esu.cc/" target="_blank"><img src="assets/img/instagram.png"
-                        alt="instagram-icon" /></a>
-                        <a href="" target="_blank"><img src="assets/img/behance.png"
-                          alt="instagram-icon" /></a>
-                          <a href="https://www.linkedin.com/company/studio-jose/" target="_blank"><img src="assets/img/linkedin (1).png"
-                            alt="instagram-icon" /></a>
-                            <a href="https://api.whatsapp.com/send?phone=5588993458251&text=" target="_blank"><img src="assets/img/whatsapp.png"
-                              alt="instagram-icon" /></a>
+                
 
                     <div class="juridic">
 
