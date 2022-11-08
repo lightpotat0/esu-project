@@ -12,6 +12,7 @@ body {
 
 a{
   text-decoration: none;
+  color: white;
 }
 
 .sr-only {
@@ -516,6 +517,10 @@ li a {
   color: #FF2600;
   font-family: "Homade-Bold";
   src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
+}
+
+#gridbile{
+  display: none;
 }
 
 #identidade {
