@@ -4,13 +4,13 @@ body {
   overflow-y: scroll;
 }
 
-.carousel-inner img{
-    margin-left: 0;
-    width: 100%;
-    margin-top: 4rem;
-} 
+.carousel-inner img {
+  margin-left: 0;
+  width: 100%;
+  margin-top: 4rem;
+}
 
-a{
+a {
   text-decoration: none;
   color: white;
 }
@@ -46,11 +46,11 @@ nav {
   z-index: 20;
 }
 
-.mbhamburguer{
+.mbhamburguer {
   display: none;
 }
 
-.container-hamburguer{
+.container-hamburguer {
   width: 100%;
   height: 100%;
   display: flex;
@@ -64,65 +64,76 @@ nav {
   cursor: pointer;
 }
 
-.menu div{
+.menu div {
   width: 120px;
   height: 120px;
   margin: 40px;
   position: relative;
 }
 
-.menu span{
-  background: #000;
+#linas1 {
+  background: black;
+}
+
+#linas2 {
+  background: black;
+}
+
+#linas3 {
+  background: black;
+}
+
+.menu span {
   width: 9%;
   height: 3px;
   border-radius: 5px;
   display: block;
-  position: absolute;
-  top: 50%;
+  position: fixed;
+  top: 6%;
   left: 108%;
   transform: translate(-50%, -50%);
   transition: transform 0.5s, width 0.5s;
 }
 
-.menu .line-1{
+.menu .line-1 {
   transform: translate(-50%, -12px);
 }
 
-.menu .line-3{
+.menu .line-3 {
   transform: translate(-50%, 10px);
 }
 
-.openmenu .line-1{
+.openmenu .line-1 {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
 
-.openmenu .line-3{
+.openmenu .line-3 {
   transform: translate(-50%, -50%) rotate(45deg);
 }
 
-.openmenu .line-2{
+.openmenu .line-2 {
   width: 0;
 }
 
-#ver-mais{
+#ver-mais {
   display: none;
 }
 
-#ponto3{
+#ponto3 {
   display: none;
 }
 
-.copyright-footer1{
+.copyright-footer1 {
   display: none;
 }
 
-.drive1{
+.drive1 {
   display: none;
   margin-top: -1.5%;
-    text-align: center;
-    line-height: 34px;
-    font-size: 24px;
-    font-family: "Metropolis-Light ";
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-family: "Metropolis-Light ";
 }
 
 li {
@@ -498,11 +509,10 @@ li a {
   src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 }
 
-.slide a {  
+.slide a {
   font-size: 1.5rem;
   text-decoration: none;
 }
-
 
 .projeto {
   position: absolute;
@@ -519,7 +529,7 @@ li a {
   src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
 }
 
-#gridbile{
+#gridbile {
   display: none;
 }
 
@@ -536,29 +546,29 @@ li a {
   src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 }
 
-#identidade:hover{
-    margin-top: -1%;
-    margin-right: 2%;
-    font-size: 155%;
-    color:  #FF2600;
-    transition: font-size 50ms;
-    cursor: pointer;
-    font-family: "Metropolis-Bold ";
-    src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
+#identidade:hover {
+  margin-top: -1%;
+  margin-right: 2%;
+  font-size: 155%;
+  color: #FF2600;
+  transition: font-size 50ms;
+  cursor: pointer;
+  font-family: "Metropolis-Bold ";
+  src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
 }
 
-#blocos:hover{
-    margin-top: 1.2%;
-    margin-right: 9%;
-       color:  #FF2600;
-       font-size: 155%;
-       transition: font-size 50ms;
-       cursor: pointer;
-       font-family: "Metropolis-Bold ";
-   src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
+#blocos:hover {
+  margin-top: 1.2%;
+  margin-right: 9%;
+  color: #FF2600;
+  font-size: 155%;
+  transition: font-size 50ms;
+  cursor: pointer;
+  font-family: "Metropolis-Bold ";
+  src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
 }
 
-#blocos1:hover{
+#blocos1:hover {
   margin-top: -1%;
   font-size: 155%;
   color: #FF2600;
@@ -654,9 +664,9 @@ li a {
   justify-content: space-evenly;
 }
 
-.box{
+.box {
   display: grid;
-  position:static;
+  position: static;
   width: 80%;
   height: 80%;
   margin-top: 10%;
@@ -811,10 +821,10 @@ li a {
 }
 
 .estudio {
-    font-size: 23px;
-    margin-left: 25%;
-    line-height: 36px;
-    font-family: "Metropolis-Light ";
+  font-size: 23px;
+  margin-left: 25%;
+  line-height: 36px;
+  font-family: "Metropolis-Light ";
 }
 
 .estudio1 {
@@ -843,7 +853,7 @@ li a {
   src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
 }
 
-.modal-container{
+.modal-container {
   width: 100vw;
   height: 100vh;
   background: rgba(0, 0, 0, .6);
@@ -857,14 +867,13 @@ li a {
   overflow-y: scroll;
 }
 
-.modal-container.mostrar{
+.modal-container.mostrar {
   display: flex;
   animation: modal .4s;
   overflow: hidden;
 }
 
 .modal {
-  
   background-color: white;
   width: 80%;
   padding: 40px;
@@ -883,7 +892,7 @@ li a {
     transform: translate3d(0, 0, -60px);
   }
 
-  to{
+  to {
     opacity: 1;
     transform: translate3d(0, 0, 0);
   }
@@ -898,7 +907,7 @@ li a {
   position: absolute;
   color: gray;
   font-size: 1.2em;
-  top:  -120%;
+  top: -120%;
   right: -1%;
   width: 50px;
   height: 50px;
@@ -918,7 +927,7 @@ li a {
 
 /* pagina slide */
 
-#slidetxt{
+#slidetxt {
   position: relative;
 }
 
@@ -927,32 +936,32 @@ li a {
   animation: transitionIn 0.75s;
 }
 
-#paginas{
+#paginas {
   text-align: center;
   font-size: 640px;
   overflow: hidden;
 }
 
-#pag{
+#pag {
   animation: transitionIn 0.75s;
 }
 
-#pag1{
+#pag1 {
   display: none;
   animation: transitionIn 0.75s;
 }
 
-#pag2{
+#pag2 {
   display: none;
   animation: transitionIn 0.75s;
 }
 
-#pag3{
+#pag3 {
   display: none;
   animation: transitionIn 0.75s;
 }
 
-#botaosobre{
+#botaosobre {
   animation: none;
 }
 
@@ -967,7 +976,7 @@ li a {
     transform: translateX(0);
   }
 }
-   
+
 /* pagina slide end */
 
 @font-face {
