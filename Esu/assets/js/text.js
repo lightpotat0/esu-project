@@ -130,12 +130,6 @@ function nonec5() {
 
 //ver mais
 
-var imge = document.getElementById('gridbile')
-var ver = document.getElementById('gridbile')
-
-
-
-
 //hamburguer
 
 var menu = document.getElementById('menu')

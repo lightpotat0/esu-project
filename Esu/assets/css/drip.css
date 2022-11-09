@@ -902,6 +902,10 @@ li a {
   animation: modal .4s;
 }
 
+#gridbile{
+  display: none;
+}
+
 .fechar {
   z-index: 1232;
   position: absolute;
