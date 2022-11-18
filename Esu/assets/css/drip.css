@@ -694,7 +694,6 @@ li a {
 }
 
 .box p {
-  position: absolute;
   z-index: 11;
   margin-left: 0%;
   margin-top: -2%;
