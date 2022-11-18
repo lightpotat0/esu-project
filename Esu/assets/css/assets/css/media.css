@@ -710,7 +710,7 @@ option {
     }
 
     #texto h1 {
-        margin-top: 13%;
+        margin-top: 0%;
         margin-left: -1%;
         font-size: 14px;
         font-family: "Metropolis-Light ";
@@ -718,7 +718,7 @@ option {
     }
 
     #texto1 h1 {
-        margin-top: 13%;
+        margin-top: 0%;
         margin-left: -1%;
         font-size: 14px;
         font-family: "Metropolis-Light ";
@@ -726,7 +726,7 @@ option {
     }
 
     #texto2 h1 {
-        margin-top: 13%;
+        margin-top: 0%;
         margin-left: -1%;
         font-size: 14px;
         font-family: "Metropolis-Light ";

@@ -502,7 +502,7 @@ li a {
 
 .slide h1 {
   color: white;
-  position: absolute;
+  position: relative;
   z-index: 12;
   text-shadow: rgb(0, 0, 0) 2px 2px 5px;
   margin-left: 4rem;
@@ -768,9 +768,9 @@ li a {
 }
 
 .caixa1 p {
-  position: absolute;
+  position: relative;
   z-index: 11;
-  margin-top: -2%;
+  margin-top: -9%;
   background-color: white;
   padding: 5px;
   color: black;
@@ -806,7 +806,6 @@ li a {
 
 #texto1 h1 {
   position: absolute;
-  display: none;
   z-index: 8;
   top: 179%;
   left: 41%;
@@ -817,7 +816,6 @@ li a {
 
 #texto3 h1 {
   position: absolute;
-  display: none;
   z-index: 8;
   top: 179%;
   left: 64.5%;
