@@ -58,7 +58,6 @@ function escap() {
 var img = document.getElementById('img')
 var p1 = document.getElementById('tx1')
 var msg = document.getElementById('texto')
-msg.style.display = 'none'
 
 img.addEventListener('mouseout', pas)
 img.addEventListener('mouseenter', paz)
@@ -76,7 +75,6 @@ function paz() {
 var img1 = document.getElementById('img1')
 var p2 = document.getElementById('tx2')
 var msg1 = document.getElementById('texto1')
-msg1.style.display = 'none'
 
 img1.addEventListener('mouseout', ka)
 img1.addEventListener('mouseenter', ka1)
@@ -91,10 +89,9 @@ function ka1() {
     msg1.style.display = 'block'
 }
 
-var img2 = document.getElementById('img2')
-var p3 = document.getElementById('tx3')
-var msg2 = document.getElementById('texto2')
-msg2.style.display = 'none'
+var img2 = document.getElementById('img3')
+var p3 = document.getElementById('tx4')
+var msg2 = document.getElementById('texto3')
 
 img2.addEventListener('mouseout', among)
 img2.addEventListener('mouseenter', us)

@@ -661,7 +661,7 @@ option {
 
 
     .elemento {
-        margin-top: 12.5%;
+        margin-top: 5.5%;
         margin-left: 11%;
     }
 
@@ -703,7 +703,7 @@ option {
     }
 
     .box p {
-        top: 181%;
+        top: 213%;
     }
 
     .box img {
@@ -723,31 +723,25 @@ option {
     }
 
     #texto h1 {
-        margin-top: 0;
-        margin-left: 0;
-        top: 156%;
+        margin-top: 13%;
+        margin-left: -1%;
         font-size: 14px;
-        display: block;
         font-family: "Metropolis-Light ";
         src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
     }
 
     #texto1 h1 {
-        margin-top: 0;
-        margin-left: 0;
-        top: 156%;
+        margin-top: 13%;
+        margin-left: -1%;
         font-size: 14px;
-        display: block;
         font-family: "Metropolis-Light ";
         src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
     }
 
     #texto2 h1 {
-        margin-top: 0;
-        margin-left: 0;
-        top: 156%;
+        margin-top: 13%;
+        margin-left: -1%;
         font-size: 14px;
-        display: block;
         font-family: "Metropolis-Light ";
         src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
     }
