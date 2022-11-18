@@ -709,8 +709,8 @@ li a {
 }
 
 .caixa {
-  width: 30%;
-  height: 30%;
+  width: 80%;
+  height: 80%;
   z-index: 10;
   display: grid;
   position: static;
@@ -748,8 +748,8 @@ li a {
 }
 
 .caixa1 {
-  width: 30%;
-  height: 30%;
+  width: 80%;
+  height: 80%;
   z-index: 10;
   display: grid;
   position: static;
