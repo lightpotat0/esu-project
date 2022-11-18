@@ -40,7 +40,7 @@
 
     #blocos2 {
         z-index: 2;
-        margin-left: 4%;
+        margin-left: 4%
     }
 
 
@@ -1284,15 +1284,16 @@ option {
     }
 
     .social-icons {
-
+     align-content: center;
         width: 150%;
        
     }
 
     .social-icons img {
+        align-content: center;
         width: 9.5%;
         margin-top: 12%;
-        margin-left: 2%;
+    
     
        
     }
