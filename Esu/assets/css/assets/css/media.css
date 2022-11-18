@@ -10,13 +10,16 @@
     .carousel-inner>.item>img,
     .carousel-inner>.item>a>img {
 
-        height: 44rem;
+        height: 48.5rem;
+    }
+
+    .item h1{
+        margin-top: -10%;
     }
 
 
-
     .elemento {
-        margin-top: 15%;
+        margin-top: -13%;
     }
 
     #identidade {
@@ -57,10 +60,18 @@
     height: 27%;
 }
 
+.box p{
+    margin-top: -7.8%;
+}
+
 .caixa {
     margin-right: 2.5%;
     width: 27%;
     height: 27%;
+}
+
+.caixa p{
+    margin-top: -7.8%;
 }
 
 .caixa1 {
@@ -74,11 +85,11 @@
 }
 
 .caixa1 p {
-    margin-top: -1.5%;
+    margin-top: -0.5%;
 }
 
 #texto h1 {
-    top: 165%;
+    top: 170%;
     margin-left: 1%;
     font-size: 15px;
     font-family: "Metropolis-Light ";
@@ -87,22 +98,23 @@
 }
 
 #texto1 h1 {
-    top: 165%;
+    top: 170%;
     margin-left: 1%;
     font-size: 15px;
     font-family: "Metropolis-Light ";
 
 }
 
-#texto2 h1 {
-    top: 165%;
-    margin-left: 1%;
+#texto3 h1 {
+    top: 170%;
+    margin-left: 2%;
     font-size: 15px;
     font-family: "Metropolis-Light ";
 }
 
 #projetoss {
-    margin-top: 30%;
+   margin-top: 30%;
+ 
 }
 
 
@@ -164,8 +176,8 @@ button {
     position: absolute;
     color: #686868;
     font-size: 20px;
-    margin-left: 63%;
-    margin-top: 16.2%;
+    margin-left: 62.5%;
+    margin-top: 18.6%;
     text-decoration: none;
     transition: none;
     font-family: "Metropolis-Medium ";
@@ -248,7 +260,7 @@ input {
 
 #nome::-webkit-input-placeholder {
     color: gray;
-    padding: 7%;
+    padding: 5%;
     font-family: "Metropolis-Light ";
 
 
@@ -275,7 +287,7 @@ input {
 }
 
 #radio {
-    margin-left: -25%;
+    margin-left: -18%;
     background-color: #FF2600;
 }
 
@@ -298,7 +310,7 @@ input[type='radio']:checked+.opcao0 span {
 }
 
 span {
-    margin-left: -23%;
+    margin-left: -20%;
     font-family: "Metropolis-Medium ";
 
 }
@@ -735,7 +747,8 @@ option {
     }
 
     #projetoss {
-        margin-top: 13%;
+        
+        margin-top: 5%;
     }
 
     @font-face {
