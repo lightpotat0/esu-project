@@ -68,22 +68,10 @@
     height: 27%;
 }
 
-
-.box p {
-    margin-top: -1.5%;
-}
-
 .caixa img {
     margin-right: 20%;
 
 }
-
-.caixa p {
-    margin-top: -1.5%;
-}
-
-
-
 
 .caixa1 p {
     margin-top: -1.5%;
@@ -111,7 +99,6 @@
     margin-left: 1%;
     font-size: 15px;
     font-family: "Metropolis-Light ";
-
 }
 
 #projetoss {
@@ -208,7 +195,7 @@ button {
 }
 
 .drive p {
-    margin-top: -1.5%;
+    margin-top: 2.5%;
     text-align: center;
     line-height: 34px;
     font-size: 24px;
@@ -225,7 +212,7 @@ button {
 }
 
 #ponto2 {
-    margin-top: -3%;
+    margin-top: 0%;
     font-size: 100px;
     color: gray;
     opacity: 0.4;
@@ -233,7 +220,7 @@ button {
 }
 
 .inputBox {
-    margin-top: -3%;
+    margin-top: 5%;
     margin-left: 35%;
 }
 
@@ -288,11 +275,13 @@ input {
 }
 
 #radio {
-    margin-left: -15%;
+    margin-left: -25%;
     background-color: #FF2600;
 }
 
-
+.opcao0{
+    margin-top: 2%;
+}
 
 #serv {
     font-family: "Metropolis-Medium ";
@@ -309,7 +298,7 @@ input[type='radio']:checked+.opcao0 span {
 }
 
 span {
-    margin-left: -19%;
+    margin-left: -23%;
     font-family: "Metropolis-Medium ";
 
 }
@@ -658,12 +647,12 @@ option {
     .thumbnail a>img,
     .carousel-inner>.item>img,
     .carousel-inner>.item>a>img {
-        height: 38rem;
+        height: 41rem;
     }
 
 
     .elemento {
-        margin-top: 12.5%;
+        margin-top: 5.5%;
         margin-left: 11%;
     }
 
@@ -704,10 +693,6 @@ option {
 
     }
 
-    .box p {
-        top: 181%;
-    }
-
     .box img {
         margin-left: 0;
         margin-top: 0;
@@ -720,42 +705,37 @@ option {
     }
 
     #botaosobre {
-        margin-top: 16%;
-        margin-left: 62.9%;
+        font-size: 18px;
+        margin-top: 19%;
+        margin-left: 62.5%;
     }
 
     #texto h1 {
-        margin-top: 0;
-        margin-left: 0;
-        top: 156%;
+        margin-top: 0%;
+        margin-left: -1%;
         font-size: 14px;
-        display: block;
         font-family: "Metropolis-Light ";
         src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
     }
 
     #texto1 h1 {
-        margin-top: 0;
-        margin-left: 0;
-        top: 156%;
+        margin-top: 0%;
+        margin-left: -1%;
         font-size: 14px;
-        display: block;
         font-family: "Metropolis-Light ";
         src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
     }
 
     #texto2 h1 {
-        margin-top: 0;
-        margin-left: 0;
-        top: 156%;
+        margin-top: 0%;
+        margin-left: -1%;
         font-size: 14px;
-        display: block;
         font-family: "Metropolis-Light ";
         src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
     }
 
     #projetoss {
-        margin-top: 20%;
+        margin-top: 13%;
     }
 
     @font-face {
@@ -804,6 +784,7 @@ option {
 
     nav {
         top: 0;
+        width: 100%;
         height: 12.1%;
         box-shadow: 3px 3px 3px rgb(0 0 0 / 10%);
     }
@@ -818,8 +799,8 @@ option {
     }
 
     .hamburguer {
-        width: 100vw;
-        height: 100vh;
+        width: 0vw;
+        height: 0vh;
         position: fixed;
         top: 12%;
         left: 0px;
@@ -884,6 +865,18 @@ option {
         width: 4.6%;
     }
 
+    #menu1 a:hover {
+        color: white;
+    }
+
+    #menu2 a:hover {
+        color: white;
+    }
+
+    #menu3 a:hover {
+        color: white;
+    }
+
     #botaoo {
         position: absolute;
         text-align: center;
@@ -920,7 +913,7 @@ option {
     }
 
     .grid {
-        width: 86%;
+        width: 100%;
         margin-left: 8%;
         display: block;
         flex-direction: none;
@@ -948,7 +941,6 @@ option {
     }
 
     .box p {
-        top: 120%;
         text-align: center;
         width: 40%;
         font-size: 16px;
@@ -956,15 +948,14 @@ option {
 
     .caixa {
         margin-right: 2.5%;
-        width: 97%;
+        width: 84%;
         height: 66%;
         margin-top: -8%;
     }
 
     .caixa p {
-        top: 184%;
         text-align: center;
-        width: 40%;
+        width: 84%;
         font-size: 16px;
     }
 
@@ -984,7 +975,7 @@ option {
     }
 
     .caixa1 {
-        width: 97%;
+        width: 84%;
         height: 67%;
         margin-top: -3%;
     }
@@ -1021,34 +1012,22 @@ option {
 
     #ver-mais {
         display: block;
-        background-color: #f1f1f1;
-        width: 30%;
-        height: 9%;
-        margin-left: 35%;
-        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
         justify-content: center;
         align-items: center;
         text-align: center;
-        border-radius: 17px;
-        box-shadow: 3px 3px 3px rgb(0 0 0 / 10%);
+        cursor: pointer;
+        width: 11%;
+        height: 5%;
     }
 
-    #ver-mais:hover {
-        transform: scale(1.1);
-        transition: all 0.5s;
-    }
-
-    #ver-mais:not( :hover) {
-        transform: scale(1.0);
-        transition: transform 300ms;
-    }
-
-    #seta_down {
-        opacity: 0.3;
+    #seta-down {
         justify-content: center;
         align-items: center;
-        width: 20%;
-        margin-top: 12%;
+        width: 100%;
+        margin-top: 15%;
+        opacity: 0.5;
     }
 
     #gridbile {
@@ -1311,6 +1290,36 @@ option {
         height: 100%;
         margin-left: -10%;
         margin-top: 88%;
+    }
+
+}
+
+@media (max-width: 450px){
+
+    .img-responsive,
+    .thumbnail>img,
+    .thumbnail a>img,
+    .carousel-inner>.item>img,
+    .carousel-inner>.item>a>img {
+        display: block;
+        width: auto 100%;
+        height: 20rem;
+    }
+
+    .container {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .carousel-inner img {
+        margin-top: 28%;
+    }
+
+    .logo img {
+        left: -34%;
+        width: 100%;
+        height: 54%;
+        float: left;
     }
 
 }

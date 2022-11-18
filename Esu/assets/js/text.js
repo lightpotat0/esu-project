@@ -130,10 +130,40 @@ function nonec5() {
 
 //ver mais
 
-var imge = document.getElementById('gridbile')
-var ver = document.getElementById('gridbile')
+var ver = document.getElementById('ver-mais')
+var seta = document.getElementById('seta-down')
+const imig = document.querySelectorAll("div#gridbile")
 
+ver.addEventListener('click', verm)
 
+function verm() {
+
+    if (imig[0].style.display == 'block' || imig[1].style.display == 'block' || imig[2].style.display == 'block' || imig[3].style.display == 'block'
+    || imig[4].style.display == 'block' || imig[5].style.display == 'block' || imig[6].style.display == 'block' || imig[7].style.display == 'block'
+    || imig[8].style.display == 'block' || imig[9].style.display == 'block') {
+        imig[0].style.display = 'none'
+        imig[1].style.display = 'none'
+        imig[2].style.display = 'none'
+        imig[3].style.display = 'none'
+        imig[4].style.display = 'none'
+        imig[5].style.display = 'none'
+        imig[6].style.display = 'none'
+        imig[7].style.display = 'none'
+        imig[8].style.display = 'none'
+        imig[9].style.display = 'none'
+    } else{
+        imig[0].style.display = 'block'
+        imig[1].style.display = 'block'
+        imig[2].style.display = 'block'
+        imig[3].style.display = 'block'
+        imig[4].style.display = 'block'
+        imig[5].style.display = 'block'
+        imig[6].style.display = 'block'
+        imig[7].style.display = 'block'
+        imig[8].style.display = 'block'
+        imig[9].style.display = 'block'
+    }
+}
 
 
 //hamburguer
@@ -170,12 +200,16 @@ menu.onclick = function openmenus() {
         line3.style.backgroundColor = 'gray'
     }
 
-    if (burga.style.background == 'black' || burga.style.opacity == '0.9'){
+    if (burga.style.background == 'black' || burga.style.opacity == '0.9' || burga.style.width == '100vw' || burga.style.height == '100vh'){
         burga.style.background = 'transparent'
         burga.style.opacity = '1'
+        burga.style.width = '0vw'
+        burga.style.height = '0vh'
     } else{
         burga.style.background = 'black'
         burga.style.opacity = '0.9'
+        burga.style.width = '100vw'
+        burga.style.height = '100vh'
     }
 }
 

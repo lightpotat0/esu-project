@@ -1,8 +1,11 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   margin: 0;
   padding: 0;
-  overflow-y: scroll;
-  overflow-x: hidden;
 }
 
 .carousel-inner img {
@@ -499,7 +502,7 @@ li a {
 
 .slide h1 {
   color: white;
-  position: absolute;
+  position: relative;
   z-index: 12;
   text-shadow: rgb(0, 0, 0) 2px 2px 5px;
   margin-left: 4rem;
@@ -516,9 +519,7 @@ li a {
 }
 
 .projeto {
-  position: absolute;
-  margin-top: -8%;
-  margin-left: 42.5%;
+  position: relative;
 }
 
 #projetoss {
@@ -539,7 +540,7 @@ li a {
   margin: 2%;
   top: 2%;
   width: 16%;
-  height: 2%;
+  height: 70%;
   text-decoration: none;
   font-size: 120%;
   color: #686868;
@@ -549,7 +550,7 @@ li a {
 
 #identidade:hover {
   margin-top: -1%;
-  margin-right: 2%;
+  height: 70%;
   font-size: 155%;
   color: #FF2600;
   transition: font-size 50ms;
@@ -560,7 +561,6 @@ li a {
 
 #blocos:hover {
   margin-top: 1.2%;
-  margin-right: 9%;
   color: #FF2600;
   font-size: 155%;
   transition: font-size 50ms;
@@ -673,6 +673,7 @@ li a {
   margin-top: 10%;
   margin-right: 10%;
   margin: 17px;
+  z-index: 10;
 }
 
 .box img {
@@ -683,6 +684,7 @@ li a {
 .box img:hover {
   opacity: 0.2;
   transition: opacity 300ms;
+  z-index: 15;
 }
 
 .box img:not(:hover) {
@@ -691,14 +693,14 @@ li a {
 }
 
 .box p {
-  position: absolute;
+  position: relative;
   z-index: 11;
   margin-left: 0%;
-  margin-top: -2%;
+  margin-top: -9%;
   background-color: white;
   padding: 5px;
   color: black;
-  width: 10%;
+  width: 50%;
   grid-column: 1;
   grid-row: 2;
   font-size: 16px;
@@ -709,15 +711,17 @@ li a {
 .caixa {
   width: 30%;
   height: 30%;
+  z-index: 10;
+  display: grid;
+  position: static;
 }
 
 .caixa img {
-  z-index: 10;
   width: 100%;
 }
 
 .caixa img:hover {
-  z-index: 12;
+  z-index: 15;
   opacity: 0.2;
   transition: opacity 300ms;
 }
@@ -728,13 +732,13 @@ li a {
 }
 
 .caixa p {
-  position: absolute;
+  position: relative;
   z-index: 11;
-  margin-top: -2%;
+  margin-top: -9%;
   background-color: white;
   padding: 5px;
   color: black;
-  width: 10%;
+  width: 50%;
   grid-column: 1;
   grid-row: 2;
   font-size: 16px;
@@ -746,6 +750,9 @@ li a {
 .caixa1 {
   width: 30%;
   height: 30%;
+  z-index: 10;
+  display: grid;
+  position: static;
 }
 
 .caixa1 img {
@@ -754,7 +761,7 @@ li a {
 }
 
 .caixa1 img:hover {
-  z-index: 12;
+  z-index: 15;
   opacity: 0.2;
   transition: opacity 300ms;
 }
@@ -765,9 +772,9 @@ li a {
 }
 
 .caixa1 p {
-  position: absolute;
+  position: relative;
   z-index: 11;
-  margin-top: -2%;
+  margin-top: -9%;
   background-color: white;
   padding: 5px;
   color: black;
@@ -793,7 +800,7 @@ li a {
 
 #texto h1 {
   position: absolute;
-  z-index: 7;
+  z-index: 8;
   top: 179%;
   left: 17.5%;
   font-size: 14px;
@@ -803,7 +810,7 @@ li a {
 
 #texto1 h1 {
   position: absolute;
-  z-index: 7;
+  z-index: 8;
   top: 179%;
   left: 41%;
   font-size: 14px;
@@ -811,11 +818,11 @@ li a {
   src: local(Metropolis-Light) url(../fonts/Metropolis-Light.otf);
 }
 
-#texto2 h1 {
+#texto3 h1 {
   position: absolute;
-  z-index: 7;
-  top: 179%;
-  left: 64.5%;
+  z-index: 8;
+  top: 165%;
+  left: 63.5%;
   font-size: 14px;
   font-family: "Metropolis-Light";
   src: local(Metropolis-Light) url(../fonts/Metropolis-Light.otf);
@@ -846,7 +853,7 @@ li a {
 }
 
 #sobre {
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: 25%;
   font-size: 40px;
   color: #FF2600;
@@ -912,6 +919,10 @@ li a {
   animation: modal .4s;
 }
 
+#gridbile {
+  display: none;
+}
+
 .fechar {
   z-index: 999;
   position: absolute;
@@ -943,6 +954,7 @@ li a {
 }
 
 #page {
+  margin-top: 3%;
   position: relative;
   animation: transitionIn 0.75s;
 }
