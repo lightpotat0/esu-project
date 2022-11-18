@@ -68,22 +68,10 @@
     height: 27%;
 }
 
-
-.box p {
-    margin-top: -1.5%;
-}
-
 .caixa img {
     margin-right: 20%;
 
 }
-
-.caixa p {
-    margin-top: -1.5%;
-}
-
-
-
 
 .caixa1 p {
     margin-top: -1.5%;
@@ -208,7 +196,7 @@ button {
 }
 
 .drive p {
-    margin-top: -1.5%;
+    margin-top: 2.5%;
     text-align: center;
     line-height: 34px;
     font-size: 24px;
@@ -225,7 +213,7 @@ button {
 }
 
 #ponto2 {
-    margin-top: -3%;
+    margin-top: 0%;
     font-size: 100px;
     color: gray;
     opacity: 0.4;
@@ -233,7 +221,7 @@ button {
 }
 
 .inputBox {
-    margin-top: -3%;
+    margin-top: 5%;
     margin-left: 35%;
 }
 
@@ -288,11 +276,13 @@ input {
 }
 
 #radio {
-    margin-left: -15%;
+    margin-left: -25%;
     background-color: #FF2600;
 }
 
-
+.opcao0{
+    margin-top: 2%;
+}
 
 #serv {
     font-family: "Metropolis-Medium ";
@@ -309,7 +299,7 @@ input[type='radio']:checked+.opcao0 span {
 }
 
 span {
-    margin-left: -19%;
+    margin-left: -23%;
     font-family: "Metropolis-Medium ";
 
 }
@@ -718,8 +708,9 @@ option {
     }
 
     #botaosobre {
-        margin-top: 16%;
-        margin-left: 62.9%;
+        font-size: 18px;
+        margin-top: 19%;
+        margin-left: 62.5%;
     }
 
     #texto h1 {
@@ -747,7 +738,7 @@ option {
     }
 
     #projetoss {
-        margin-top: 20%;
+        margin-top: 13%;
     }
 
     @font-face {
@@ -953,7 +944,6 @@ option {
     }
 
     .box p {
-        top: 120%;
         text-align: center;
         width: 40%;
         font-size: 16px;
@@ -967,7 +957,6 @@ option {
     }
 
     .caixa p {
-        top: 184%;
         text-align: center;
         width: 84%;
         font-size: 16px;

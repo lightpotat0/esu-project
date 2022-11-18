@@ -694,13 +694,14 @@ li a {
 }
 
 .box p {
+  position: relative;
   z-index: 11;
   margin-left: 0%;
-  margin-top: -2%;
+  margin-top: -9%;
   background-color: white;
   padding: 5px;
   color: black;
-  width: 10%;
+  width: 50%;
   grid-column: 1;
   grid-row: 2;
   font-size: 16px;
@@ -730,13 +731,13 @@ li a {
 }
 
 .caixa p {
-  position: absolute;
+  position: relative;
   z-index: 11;
-  margin-top: -2%;
+  margin-top: -9%;
   background-color: white;
   padding: 5px;
   color: black;
-  width: 10%;
+  width: 50%;
   grid-column: 1;
   grid-row: 2;
   font-size: 16px;
@@ -851,7 +852,7 @@ li a {
 }
 
 #sobre {
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: 25%;
   font-size: 40px;
   color: #FF2600;
@@ -942,6 +943,7 @@ li a {
 }
 
 #page {
+  margin-top: 3%;
   position: relative;
   animation: transitionIn 0.75s;
 }
