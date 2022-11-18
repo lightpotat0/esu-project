@@ -115,7 +115,7 @@
 }
 
 #projetoss {
-    margin-top: 45%;
+    margin-top: 30%;
 }
 
 
@@ -261,7 +261,7 @@ input {
 
 #nome::-webkit-input-placeholder {
     color: gray;
-    padding: 7px;
+    padding: 7%;
     font-family: "Metropolis-Light ";
 
 
@@ -418,6 +418,7 @@ option {
 
 .footer-page-top {
     max-width: 100%;
+
     margin: 1.5% auto;
     font-family: "Metropolis-Light ";
 
@@ -432,7 +433,7 @@ option {
 }
 
 .logo-rodape {
-    width: 15%;
+    width: 100%;
     margin-left: -78%;
 }
 
@@ -519,6 +520,7 @@ option {
 .footer-page-color {
     background-color: black;
     width: 100%;
+    
     margin-top: 14%;
 }
 
@@ -768,7 +770,7 @@ option {
 
     /* Carousel Image Mobile */
 
-    /*.slide h1 {
+    .slide h1 {
         text-align: center;
         font-size: 100%;
         margin-top: -16%;
@@ -800,7 +802,7 @@ option {
 
     /* Menu */
 
-  /*  nav {
+    nav {
         top: 0;
         height: 12.1%;
         box-shadow: 3px 3px 3px rgb(0 0 0 / 10%);
@@ -909,7 +911,7 @@ option {
 
     /* Projetos */
 
-   /* #projetoss {
+   #projetoss {
         display: none;
     }
 
@@ -1069,7 +1071,7 @@ option {
 
     /* Sobre */
 
-   /* #sobre {
+    #sobre {
         margin-top: 20%;
         margin-left: 7%;
         line-height: 0.5;
@@ -1104,7 +1106,7 @@ option {
 
     /* Formulario */
 
-   /* .drive1 {
+    .drive1 {
         display: block;
         line-height: 33px;
         margin-left: 8%;
@@ -1230,7 +1232,7 @@ option {
 
     /* Footer */
 
- /*   .footer-page-color {
+   .footer-page-color {
         height: 56%;
         margin-top: 0;
     }
@@ -1248,12 +1250,22 @@ option {
     }
 
     .copyright-footer {
-        display: none;
+      
+    }
+
+    .copyright-footer p{
+       position: absolute;
+       margin: 5%;
+     
+        margin-top: 20%;
+        color: #686868;
+        width: 200%;
+     
     }
 
     .copyright-footer1 {
         display: block;
-        margin-top: 33%;
+        margin-top: 25%;
         margin-left: 4%;
     }
 
@@ -1262,26 +1274,27 @@ option {
         padding: 0%;
         font-size: 14px;
         line-height: 22px;
-        width: 343%;
+        width: 5%;
+        color: #686868;
         font-family: "Metropolis-Medium ";
     }
 
     #be {
-        display: none;
+      
     }
 
     .social-icons {
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        width: 200%;
-        margin-right: 17%;
-        margin-top: -15%;
+
+        width: 150%;
+       
     }
 
     .social-icons img {
-        width: 18%;
-        margin-right: 9%;
+        width: 9.5%;
+        margin-top: 12%;
+        margin-left: 2%;
+    
+       
     }
 
     .footer-page-top a {
@@ -1296,11 +1309,11 @@ option {
         width: 125%;
         height: 100%;
         margin-left: -10%;
-        margin-top: 88%;*/
+        margin-top: 88%;
     }
 
-
 }
+
 
 @media (max-width: 2560px) and (min-width: 2560px) {
 
