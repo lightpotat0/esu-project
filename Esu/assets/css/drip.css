@@ -2,17 +2,18 @@ body {
   margin: 0;
   padding: 0;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 
-.carousel-inner img{
-    margin-left: 0;
-    width: 100%;
-    margin-top: 4rem;
-} 
+.carousel-inner img {
+  margin-left: 0;
+  width: 100%;
+  margin-top: 4rem;
+}
 
-a{
+a {
   text-decoration: none;
-  color: #fff;
+  color: white;
 }
 
 .sr-only {
@@ -46,11 +47,11 @@ nav {
   z-index: 20;
 }
 
-.mbhamburguer{
+.mbhamburguer {
   display: none;
 }
 
-.container-hamburguer{
+.container-hamburguer {
   width: 100%;
   height: 100%;
   display: flex;
@@ -64,63 +65,76 @@ nav {
   cursor: pointer;
 }
 
-.menu div{
+.menu div {
   width: 120px;
   height: 120px;
   margin: 40px;
   position: relative;
 }
 
-.menu span{
-  background: #000;
+#linas1 {
+  background: black;
+}
+
+#linas2 {
+  background: black;
+}
+
+#linas3 {
+  background: black;
+}
+
+.menu span {
   width: 9%;
   height: 3px;
   border-radius: 5px;
   display: block;
-  position: absolute;
-  top: 50%;
+  position: fixed;
+  top: 6%;
   left: 108%;
   transform: translate(-50%, -50%);
   transition: transform 0.5s, width 0.5s;
 }
 
-.menu .line-1{
+.menu .line-1 {
   transform: translate(-50%, -12px);
 }
 
-.menu .line-3{
+.menu .line-3 {
   transform: translate(-50%, 10px);
 }
 
-.openmenu .line-1{
+.openmenu .line-1 {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
 
-.openmenu .line-3{
+.openmenu .line-3 {
   transform: translate(-50%, -50%) rotate(45deg);
 }
 
-.openmenu .line-2{
+.openmenu .line-2 {
   width: 0;
 }
 
-
-
-#ponto3{
+#ver-mais {
   display: none;
 }
 
-.copyright-footer1{
+#ponto3 {
   display: none;
 }
 
-.drive1{
+.copyright-footer1 {
+  display: none;
+}
+
+.drive1 {
   display: none;
   margin-top: -1.5%;
-    text-align: center;
-    line-height: 34px;
-    font-size: 24px;
-    font-family: "Metropolis-Light ";
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-family: "Metropolis-Light ";
 }
 
 li {
@@ -164,10 +178,7 @@ li a {
   src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf);
 }
 
-
-
 #submit:hover {
-
   cursor: pointer;
 }
 
@@ -480,12 +491,10 @@ li a {
 
 ::-webkit-scrollbar {
   width: 1px;
- 
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: rgb(26, 25, 25);
- 
 }
 
 .slide h1 {
@@ -501,19 +510,19 @@ li a {
   src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 }
 
-.slide a {  
+.slide a {
   font-size: 1.5rem;
   text-decoration: none;
 }
 
-
 .projeto {
-
-
-  width: 100%;
+  position: absolute;
+  margin-top: -8%;
+  margin-left: 42.5%;
 }
 
-#projetoss {  
+#projetoss {
+  margin-top: 6%;
   text-align: center;
   font-size: 40px;
   color: #FF2600;
@@ -521,12 +530,16 @@ li a {
   src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
 }
 
+#gridbile {
+  display: none;
+}
+
 #identidade {
   z-index: 1;
   margin: 2%;
   top: 2%;
   width: 16%;
-  height: 5%;
+  height: 2%;
   text-decoration: none;
   font-size: 120%;
   color: #686868;
@@ -534,29 +547,29 @@ li a {
   src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 }
 
-#identidade:hover{
-    margin-top: -1%;
-    margin-right: 2%;
-    font-size: 155%;
-    color:  #FF2600;
-    transition: font-size 50ms;
-    cursor: pointer;
-    font-family: "Metropolis-Bold ";
-    src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
+#identidade:hover {
+  margin-top: -1%;
+  margin-right: 2%;
+  font-size: 155%;
+  color: #FF2600;
+  transition: font-size 50ms;
+  cursor: pointer;
+  font-family: "Metropolis-Bold ";
+  src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
 }
 
-#blocos:hover{
-    margin-top: 1.2%;
-    margin-right: 9%;
-       color:  #FF2600;
-       font-size: 155%;
-       transition: font-size 50ms;
-       cursor: pointer;
-       font-family: "Metropolis-Bold ";
-   src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
+#blocos:hover {
+  margin-top: 1.2%;
+  margin-right: 9%;
+  color: #FF2600;
+  font-size: 155%;
+  transition: font-size 50ms;
+  cursor: pointer;
+  font-family: "Metropolis-Bold ";
+  src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
 }
 
-#blocos1:hover{
+#blocos1:hover {
   margin-top: -1%;
   font-size: 155%;
   color: #FF2600;
@@ -652,9 +665,9 @@ li a {
   justify-content: space-evenly;
 }
 
-.box{
+.box {
   display: grid;
-  position:static;
+  position: static;
   width: 80%;
   height: 80%;
   margin-top: 10%;
@@ -809,10 +822,10 @@ li a {
 }
 
 .estudio {
-    font-size: 23px;
-    margin-left: 25%;
-    line-height: 36px;
-    font-family: "Metropolis-Light ";
+  font-size: 23px;
+  margin-left: 25%;
+  line-height: 36px;
+  font-family: "Metropolis-Light ";
 }
 
 .estudio1 {
@@ -841,7 +854,7 @@ li a {
   src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
 }
 
-.modal-container{
+.modal-container {
   width: 100vw;
   height: 100vh;
   background: rgba(0, 0, 0, .6);
@@ -852,33 +865,31 @@ li a {
   display: none;
   justify-content: center;
   align-items: center;
-
+  overflow-y: scroll;
 }
 
-.modal-container.mostrar{
+.modal-container.mostrar {
   display: flex;
   animation: modal .4s;
   overflow: hidden;
 }
 
 .modal {
-  
   background-color: white;
-  margin-top: 5%;
   width: 72.5%;
   height: 80%;
+  margin-top: 5%;
   padding: 40px;
-  box-shadow: 0 0 0 0px white;
+  box-shadow: 0 0 0 1px white;
   position: relative;
-  overflow: scroll;
   overflow-x: hidden;
-  
+  overflow: scroll;
 }
 
 .modal img{
- margin-left: 6%;
-
-}
+  margin-left: -6%;
+  object-fit: cover;
+ }
 
 #tam {
   z-index: 50;
@@ -891,7 +902,7 @@ li a {
     transform: translate3d(0, 0, -60px);
   }
 
-  to{
+  to {
     opacity: 1;
     transform: translate3d(0, 0, 0);
   }
@@ -906,10 +917,10 @@ li a {
   position: absolute;
   color: white;
   font-size: 1.5em;
-  top:  -32%;
-  right:  1%;
-  width: 100px;
-  height: 100px;
+  top: -30%;
+  right: 1%;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   cursor: pointer;
   font-family: "Metropolis-Medium ";
@@ -918,6 +929,7 @@ li a {
 
 .copyright-footer p {
   font-size: 0.8em;
+  
   margin: 0%;
   padding: 0%;
   font-family: "Metropolis-Light";
@@ -926,7 +938,7 @@ li a {
 
 /* pagina slide */
 
-#slidetxt{
+#slidetxt {
   position: relative;
 }
 
@@ -935,32 +947,32 @@ li a {
   animation: transitionIn 0.75s;
 }
 
-#paginas{
+#paginas {
   text-align: center;
   font-size: 640px;
   overflow: hidden;
 }
 
-#pag{
+#pag {
   animation: transitionIn 0.75s;
 }
 
-#pag1{
+#pag1 {
   display: none;
   animation: transitionIn 0.75s;
 }
 
-#pag2{
+#pag2 {
   display: none;
   animation: transitionIn 0.75s;
 }
 
-#pag3{
+#pag3 {
   display: none;
   animation: transitionIn 0.75s;
 }
 
-#botaosobre{
+#botaosobre {
   animation: none;
 }
 
@@ -975,7 +987,7 @@ li a {
     transform: translateX(0);
   }
 }
-   
+
 /* pagina slide end */
 
 @font-face {

@@ -1,316 +1,39 @@
-
 @media (max-width:1899px) {
 
-    body{
+    body {
         font-family: 'Courier New', Courier, monospace;
     }
-        
+
     .img-responsive,
-    .thumbnail > img,
-    .thumbnail a > img,
-    .carousel-inner > .item > img,
-    .carousel-inner > .item > a > img{
-    
+    .thumbnail>img,
+    .thumbnail a>img,
+    .carousel-inner>.item>img,
+    .carousel-inner>.item>a>img {
+
         height: 44rem;
     }
-    
-    /*projetos*/
-    
-       .elemento{
-         margin-top: 15%;
-       }
-    
-       #identidade{
-          z-index: 1;
-           margin-left: 31%;
-       }
-    
-       #blocos{
-        z-index: 2;
-          margin-right: 3%;
-          width: 15%;
-       }
-    
-       
-       #blocos1{
-        z-index: 2;
-          margin-left:-2%;
-     
-       }
-    
-       
-       #blocos2{
-        z-index: 2;
-         margin-left: 4%;
-       }
-    
-     
-          }
-          .grid{
-            justify-content: center;
-          }
-    
-          .box{
-            margin-top: 0.2%;
-            margin-right: 2.5%;
-            width: 27%;
-            height: 27%;
-          }
-    
-          .caixa{
-            margin-right: 2.5%;
-            width: 27%;
-            height: 27%;
-          }
-    
-          .caixa1{
-            width: 27%;
-            height: 27%;
-          }
-    
-     
-         .box p{
-             margin-top: -1.5%;
-         }
-    
-         .caixa img{
-            margin-right: 20%;
-            
-          }
-    
-         .caixa p{
-            margin-top: -1.5%;
-         }
-    
-         
-    
-         .caixa1 p {
-            margin-top: -1.5%;
-         }
-          #texto h1{
-            top: 165%;
-            margin-left: 1%;
-            font-size: 15px;
-            font-family: "Metropolis-Light ";
-          
-    
-          }
-    
-          #texto1 h1 {
-            top: 165%;
-            margin-left: 1%;
-            font-size: 15px;
-            font-family: "Metropolis-Light ";
-            
-        }
-    
-        #texto2 h1 {
-            top: 165%;
-            margin-left: 1%;
-            font-size: 15px;
-            font-family: "Metropolis-Light ";
-          
-        }
-    
-        #projetoss{
-            position: absolute;
-            margin-left: 45%;
-            top: 30%;
-        }
-    
-     
-    
-        .container{
-                 margin-top: 3%;
-    
-        }
-                                   
-        .modal img{
-            margin-top:-5%;
-            margin-left: -5%;
-            
-        }
-
-       
-       
 
 
 
-
-
-        
-        
-    
-        /*sobre*/
-    
-       #sobre{
-           margin-top: 5%;
-           margin-left: 25%;
-           font-size: 40px;
-           color: #FF2600;
-           font-family: "Homade-Bold";
-          
-    
-       }
-    
-       .estudio{
-          font-size: 23px;
-          margin-left: 25%;
-          line-height: 36px;
-          font-family: "Metropolis-Light ";
-          
-         
-    
-    
-       }
-    
-    .cultura{
-        margin-top: -29%;
-        margin-left: 70%;
-         font-size: 40px;
-         color: #FF2600;
-         font-family: "Homade-Bold";
-    
-    
-    
-    }
-    
-    
-    button{
-        border: none;
-        background-color: transparent;
+    .elemento {
         margin-top: 15%;
-        cursor: pointer;
-       
     }
-    
-    #left{
-        position: absolute;
-        margin-top: -1%;
-        margin-left: 54.9%;
-        transform: rotate(180deg);
-    }
-    
-    
-    
-    #right{
-        position: absolute;
-        margin-top: -1%;
-        margin-left: 61%;
-    }
-    
-    #botaosobre{
-        position: absolute;
-      color: #686868;
-        font-size: 20px;
-        margin-left: 63%;
-        margin-top: 16.2%;
-        text-decoration: none;
-        transition: none;
-        font-family: "Metropolis-Medium ";
-    }
-    
-    .btns{
-        margin-left: 5%;
-        margin-top: 5%;
-    }
-    
-    
-    #ponto{
-        font-size: 100px;
-        color: gray;
-        opacity: 0.4;
-        text-align: center;
-    
-    }
-    
-    #ponto1{
-        
-        font-size: 100px;
-        color: gray;
-        opacity: 0.4;
-        text-align: center;
-    
-    }
-    
-/*orçamento*/
 
-    .drive p{
-        margin-top: -1.5%;
-        text-align: center;
-        line-height: 34px;
-        font-size: 24px;
-        font-family: "Metropolis-Light ";
-    
+    #identidade {
+        z-index: 1;
+        margin-left: 31%;
     }
-    
-    #contato{
-        margin-top: 4%;
-        font-size: 50px;
-        color: #FF2600;
-        font-family: "Homade-Bold";
-   
+
+    #blocos {
+        z-index: 2;
+        margin-right: 3%;
+        width: 15%;
     }
-    
-    #ponto2{
-        margin-top: -3%;
-        font-size: 100px;
-        color: gray;
-        opacity: 0.4;
-        text-align: center;
-    }
-    
-    .inputBox{
-        margin-top: -3%;
-        margin-left: 35%;
-    }
-    
-    .inputBox label{
-        margin-top: -2%;
-        font-size: 26px;
-        color: #FF2600;
-        font-family: "Homade-Bold";
-     
-    }
-    
-    
-    
-    input{
+
+
+    #blocos1 {
+        z-index: 2;
         margin-left: -2%;
-        width: 400px;
-        border-radius: 12px;
-        border-color: black;
-    }
-    
-    
-    #nome{
-        height: 40px;
-    }
-    
-    #nome::-webkit-input-placeholder{
-        color: gray;
-        padding: 7px;
-        font-family: "Metropolis-Light ";
-        
-    
-    
-    
-    }
-    #perf{
-        color: rgb(183, 183, 183);
-        font-family: "Metropolis-Medium ";
-     
-        
-    }
-    
-    .inputBox1{
-        margin-left: 35%;
-    }
-    
-    .inputBox1 label{
-        font-size: 26px;
-        color: #FF2600;
-        font-family: "Homade-Bold";
 
     }
 
@@ -321,7 +44,7 @@
     }
 
 
-
+}
 
 .grid {
     justify-content: center;
@@ -709,7 +432,7 @@ option {
 }
 
 .logo-rodape {
-    width: 100%;
+    width: 15%;
     margin-left: -78%;
 }
 
@@ -956,452 +679,81 @@ option {
 
     #blocos1 {
         margin-left: -15%;
-       background-color: #FF2600;
     }
-    
-    
-    
-    #serv{
-        font-family: "Metropolis-Medium ";
-    }
-    
-    .custom-radio,
-    span {
-      transition: 0.5s ease;
-      color: #000;
-    }
-    
-    input[type='radio']:checked + .opcao0 span {
-        background: #000;
-      }
-    
-    span{
-        margin-left: -19%;
-        font-family: "Metropolis-Medium ";
-
-    }
-    
-    #opcao{
-        margin-top: 0.5%;
-    }
-    
-    
-    .carousel-control {
-        width: 8%;
-      }
-      
-      .carousel-control.right {
-        left: 92%;
-      }
-      
-      .carousel-control.left {
-        right: 93%;
-        left: auto;
-      }
-    .serv{
-        margin-top: 2%;
-         border: 2px solid;
-         height: 37px;
-         margin: 0.7%;
-         font-size: 15px;
-         border-color: #b7b7b7;
-         border-radius: 12px;
-         font-family: "Metropolis-Medium ";
-       }
-    
-     .serv:hover{
-        color: #FF2600;
-        border-color: #FF2600;
-     }
-    
-     .description{
-        color: rgb(183, 183, 183);
-        font-family: "Metropolis-Medium ";
-        
-     }
-    
-     option{
-        font-size: 15px;
-        font-family: "Metropolis-Light ";
-  
-     }
-    
-     #select-b52d1b93-909d-4329-8774-86fda75e0b66-field{
-      
-        border-radius: 12px;
-        border: none;
-        height: 35px;
-        width: 300px;
-        font-family: "Metropolis-Light ";
-        
-     }
-    
-     #enviar{
-        background-color: #FF2600;
-        margin-top: 8%;
-        width: 200px;
-        margin-left: 40%;
-        border: none;
-        border-radius: 20px;
-        color: #ffffff;
-        font-size: 22px;
-        line-height: 32px;
-        text-transform: uppercase;
-        cursor: pointer;
-        transform: translate(10%, 10%);
-        font-family: "Homade-Bold";
-     
-     }
-    
-     #perf{
-        margin-top: 0.4%;
-     }
-    
-     #serv{
-        margin-top: 0.4%;
-     }
 
 
-    
-    @font-face {
-        font-family: "Homade-Bold";
-        src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
-      }
-          
-      
-    
-    
-    
-    
-     *------Rodapé-------*/
+    #blocos2 {
+        margin-left: -16%;
 
+    }
 
-         /*----------footer-----------*/
-         .footer-page a{
-            font-size: 0.8em;
-            font-family: "Metropolis-Light ";
-          
-        }
-        /*-------footer-top--------*/
-    
-        .footer-page-top{
-            max-width: 100%;
-            margin: 1.5% auto;
-            font-family: "Metropolis-Light ";
-          
-        }
-        .footer-page-top p{
-            font-size: 0.9em;
-            margin: 0px;
-            padding: 0px;
-            font-family: "Metropolis-Light ";
+    .box {
+        margin-left: 0;
 
-        }
-        .logo-rodape{
-            width: 100%;
-            margin-left: -78%;
-        }
-        .logo-rodape a{
-            width: 100%;
-            font-family: "Metropolis-Light ";
-          
-        }
-        .logo-rodape img {
-            width: 100%;
-            height: 100%;
-            
-        }
-        .apps {
-            width: 30%;        
-        }
-        .apps p{
-            font-size: 0.7em;
-            margin-bottom: 4%;
-            font-family: "Metropolis-Light ";
-        
-        }
-        .apps img {
-            width: 77%;
-            
-        }
-        .Gplay{
-            width: 35%;
-        }
-        .Astory {
-            width: 35%;
-        }
-        .how-works{
-            width: 20%;
-        }
-        .help-support{
-            width: 15.5%;
-        }
-        /*-------footer-bottom--------*/
-    
-        .footer-page-bottom{
-            width: 100%;
-            margin: 1.5% auto;
-  
-        }
-        .copyright-footer {
-            width: 42%;
-            margin-top: -2%;
-       
-       
-        }
+    }
 
-        .copyright-footer p {
-            margin: 0%;
-            padding: 0%;
-            font-family: "Metropolis-Light";
-          
-        }
+    .caixa {
+        margin-left: 0;
 
-        .social-icons {
-            
-            text-align: center;
-            width: 14%;
-        }
-        .social-icons img {
-            width: 14%;
-            margin-right: 3%;
-        }
-        .juridic {
-            width: 42%;
-        }
-    
-        /* FOOTER */
-    
-    .footer-page-color {
-        background-color: black;
-        width: 100%;
-        margin-top: 14%;
     }
-    .footer-page {
-        display: flex;
-        flex-flow: column nowrap;
-        max-width: 1210px;
-        margin: auto;
+
+    .caixa1 {
+        margin-left: 0;
+
     }
-    .footer-page p {
-        color: white;
-        letter-spacing: unset;
-        line-height: unset;
-        font-family: "Metropolis-Light";
-        src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+
+    .box p {
+        top: 181%;
     }
-    .footer-page a {
-        color: white;
-        text-align: center;
-        text-decoration: none;
-        letter-spacing: unset;
-        line-height: unset;
-        font-family: "Metropolis-Light";
-        src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+
+    .box img {
+        margin-left: 0;
+        margin-top: 0;
+
     }
-    .footer-page-top{
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
+
+    .caixa img {
+        margin-right: 0;
+
     }
-    .footer-page-top a{
-        text-align: left;
-        font-family: "Metropolis-Light ";
-        src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
-    }
-    .logo-rodape {
-        display: flex;
-        align-items: center;
-        align-self: center;
-    }
-    .apps {
-        display: flex;
-        align-items: center;
-        text-align: center;
-    }
-    #apps {
-        justify-content: space-between;
-        display: flex;
-        width: 40%;
-        text-align: center;
-        align-items: center;
-    }
-    #apps p {
-        font-weight: bold;
-        font-family: "Metropolis-Light ";
-        src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
-    }
-    #apps a{
-        background: none;
-        font-family: "Metropolis-Light ";
-        src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
-    }
-    .how-works {
-        display: flex;
-        flex-flow: column;
-        align-items: baseline;
-    }
-    .help-support {
-        display: flex;
-        flex-flow: column;
-        align-items: baseline;
-    }
-    
-    
-    
-    /*------------------------*/
-    
-    
-    
-    .footer-page-bottom {
-        display: flex;
-        flex-flow: row;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    .juridic {
-        flex-flow: row;
-        justify-content: space-between;
-        display: flex;
-    }
-    
-    .hr-page {
-        align-self: center;
-        border-style: solid;
-        border-color: white;
-        width: 100%;
-        border-width: 0.01px;
-    }
-    
-    
-    
-    @font-face {
-        font-family: "Metropolis-Light";
-         src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
-       }
-    
-    
-       @font-face {
-        font-family: "Metropolis-Medium ";
-         src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
-       }
-       
-       @font-face {
-        font-family: "Metropolis-Bold ";
-         src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
-       }
-    
-    
-    @media (max-width: 1366px){
-    
-        .img-responsive,
-    .thumbnail > img,
-    .thumbnail a > img,
-    .carousel-inner > .item > img,
-    .carousel-inner > .item > a > img{
-       height: 38rem;
-    }
-    
-    
-        .elemento{
-            margin-top: 12.5%;
-             margin-left: 11%;
-          }
-    
-          #identidade{
-            margin-right: -15%;
-            margin-left: 0;
-         }
-    
-         #blocos{
-            margin-left: 0;
-            margin-right: 0;
-            width: 11%;
-          }
-     
-          
-          #blocos1{
-             margin-left: -15%;
-           }
-     
-           
-          #blocos2{
-             margin-left: -16%;
-      
-           }
-    
-           .box{
-            margin-left: 0;
-    
-         }
-    
-         .caixa{
-           margin-left: 0;
-    
-         }
-    
-         .caixa1{
-               margin-left:0;
-    
-         }
-    
-         .box p{
-            margin-top: 0;
-         }
-    
-    
-       .box p{
-           margin-top: 0;
-    
-       }
-     
-       .box img{
-           margin-left: 0;
-            margin-top: 0;
-    
-       }
-    
-       .caixa img{
-         margin-right: 0;
-    
-       }
-    
-       #botaosobre{
+
+    #botaosobre {
         margin-top: 16%;
         margin-left: 62.9%;
-       }
-    
-       #texto h1{
+    }
+
+    #texto h1 {
         margin-top: 0;
         margin-left: 0;
         top: 156%;
         font-size: 14px;
-        font-family: "Metropolis-Light ";
-        src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
-    
-      }
-    
-      #texto1 h1 {
-        margin-top: 0;
-        margin-left: 0;
-        top: 156%;
-        font-size: 14px;
+        display: block;
         font-family: "Metropolis-Light ";
         src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
     }
-    
+
+    #texto1 h1 {
+        margin-top: 0;
+        margin-left: 0;
+        top: 156%;
+        font-size: 14px;
+        display: block;
+        font-family: "Metropolis-Light ";
+        src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
+    }
+
     #texto2 h1 {
         margin-top: 0;
         margin-left: 0;
         top: 156%;
         font-size: 14px;
+        display: block;
         font-family: "Metropolis-Light ";
         src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
     }
-    
+
     #projetoss {
-        margin-top: 26%;
+        margin-top: 20%;
     }
 
     @font-face {
@@ -1423,32 +775,12 @@ option {
         left: 29%;
         margin-left: 0;
     }
-    
-    
-    @media (max-width: 320px){
-    
-        .mainCarousel{
-            display: none;
-        }
-    
-        .carousel-inner img{
-            margin-top: 0;
-        }
-    
-        nav{
-            top: 0;
-            height: 10%;
-        }
-        
-        logo img {
-            height: 20%;
-        }
-    
-      #menu1 {
+
+    .carousel-indicators {
         display: none;
-      }
-    
-      #menu2 {
+    }
+
+    .carousel-control {
         display: none;
     }
 
@@ -1474,54 +806,106 @@ option {
         box-shadow: 3px 3px 3px rgb(0 0 0 / 10%);
     }
 
-
-    #menu1 {
-        display: none;
-      }
-    
-      #submit{
-        display: none;
-      }
-    
-      .mbhamburguer{
+    .mbhamburguer {
         display: block;
         width: 5%;
-      }
-    
-      .container-hamburguer{
+    }
+
+    .container-hamburguer {
         background: 0;
-      }
-    
-      .menu {
+    }
+
+    .hamburguer {
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 12%;
+        left: 0px;
+        z-index: 2000;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu {
         width: 200px;
         height: 200px;
         margin: 8px;
         border-radius: 5px;
         cursor: pointer;
-      }
-    
-      .logo img{
-        left: -40%;
+    }
+
+    .logo img {
+        left: -34%;
         width: 100%;
-      }
-    
+        height: 54%;
     }
 
     #boxmenu {
         display: none;
-        width: 70%;
+        width: 30%;
         height: 100%;
-        opacity: 0.9;
-        animation: hamburgui .4s;
     }
 
     #linebox {
-        position: initial;
-        margin-left: 495%;
-        width: 72%;
-        height: 13%;
-        margin-top: -21%;
+        position: fixed;
+        float: right;
+        right: -3%;
+        width: 10%;
+        height: 6%;
+        top: -3%;
     }
+
+    #menu1 a {
+        position: absolute;
+        color: white;
+        top: 11%;
+        left: 62%;
+        font-size: 30px;
+        width: 6.8%;
+    }
+
+    #menu2 a {
+        position: absolute;
+        color: white;
+        top: 18%;
+        left: 71%;
+        font-size: 30px;
+        width: 6.5%;
+    }
+
+    #menu3 a {
+        position: absolute;
+        color: white;
+        top: 25%;
+        left: 64%;
+        font-size: 30px;
+        width: 4.6%;
+    }
+
+    #botaoo {
+        position: absolute;
+        text-align: center;
+        top: 34%;
+        left: 55.2%;
+        width: 10%;
+    }
+
+    #botaoo a {
+        color: red;
+    }
+
+    #submit {
+        font-size: 30px;
+        background-color: none;
+        border-radius: none;
+        margin-top: 0;
+        padding: 0;
+        line-height: 0;
+        transform: none;
+        border-radius: 0;
+        background-color: 0;
+    }
+
 
     /* Projetos */
 
@@ -1629,6 +1013,10 @@ option {
         display: none;
     }
 
+    #oshi {
+        display: none;
+    }
+
     #ver-mais {
         display: block;
         background-color: #f1f1f1;
@@ -1659,6 +1047,24 @@ option {
         align-items: center;
         width: 20%;
         margin-top: 12%;
+    }
+
+    #gridbile {
+        display: none;
+    }
+
+    #img3::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 100px;
+
+        -webkit-filter: blur(15px);
+        -moz-filter: blur(15px);
+        -o-filter: blur(15px);
+        -ms-filter: blur(15px);
+        filter: blur(15px);
     }
 
     /* Sobre */
@@ -1893,8 +1299,8 @@ option {
         margin-top: 88%;*/
     }
 
-}
 
+}
 
 @media (max-width: 2560px) and (min-width: 2560px) {
 

@@ -20,8 +20,8 @@ let maxLocation = numOfPapers + 1;
 prevBtn.style.opacity = "0.4"
 
 function goNextPage() {
-    if(currentLocation < maxLocation) {
-        switch(currentLocation) {
+    if (currentLocation < maxLocation) {
+        switch (currentLocation) {
             case 1:
                 paper2.style.display = 'block'
                 paper1.style.display = 'none'
@@ -45,8 +45,8 @@ function goNextPage() {
 }
 
 function goPrevPage() {
-    if(currentLocation > 1) {
-        switch(currentLocation) {
+    if (currentLocation > 1) {
+        switch (currentLocation) {
             case 2:
                 paper1.style.display = 'block'
                 paper2.style.display = 'none'
@@ -60,7 +60,7 @@ function goPrevPage() {
                 paper3.style.display = 'none'
                 paper4.style.display = 'none'
                 break;
-            case 4: 
+            case 4:
                 paper1.style.display = 'none'
                 paper2.style.display = 'none'
                 paper3.style.display = 'block'
