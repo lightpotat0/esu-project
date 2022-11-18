@@ -78,6 +78,7 @@ var msg1 = document.getElementById('texto1')
 
 img1.addEventListener('mouseout', ka)
 img1.addEventListener('mouseenter', ka1)
+msg1.style.display = 'none'
 
 function ka() {
     p2.style.display = 'block'
@@ -95,6 +96,7 @@ var msg2 = document.getElementById('texto3')
 
 img2.addEventListener('mouseout', among)
 img2.addEventListener('mouseenter', us)
+msg2.style.display = 'none'
 
 function among() {
     p3.style.display = 'block'

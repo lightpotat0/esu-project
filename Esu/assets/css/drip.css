@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
 }
@@ -712,6 +712,8 @@ li a {
   width: 30%;
   height: 30%;
   z-index: 10;
+  display: grid;
+  position: static;
 }
 
 .caixa img {
@@ -749,6 +751,8 @@ li a {
   width: 30%;
   height: 30%;
   z-index: 10;
+  display: grid;
+  position: static;
 }
 
 .caixa1 img {
@@ -817,8 +821,8 @@ li a {
 #texto3 h1 {
   position: absolute;
   z-index: 8;
-  top: 179%;
-  left: 64.5%;
+  top: 165%;
+  left: 63.5%;
   font-size: 14px;
   font-family: "Metropolis-Light";
   src: local(Metropolis-Light) url(../fonts/Metropolis-Light.otf);
@@ -906,7 +910,7 @@ li a {
   animation: modal .4s;
 }
 
-#gridbile{
+#gridbile {
   display: none;
 }
 
