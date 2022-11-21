@@ -13,7 +13,7 @@
         height: 48.5rem;
     }
 
-    .item h1{
+    .item h1 {
         margin-top: -10%;
     }
 
@@ -60,7 +60,7 @@
     height: 27%;
 }
 
-.box p{
+.box p {
     margin-top: -7.8%;
 }
 
@@ -70,7 +70,7 @@
     height: 27%;
 }
 
-.caixa p{
+.caixa p {
     margin-top: -7.8%;
 }
 
@@ -113,8 +113,8 @@
 }
 
 #projetoss {
-   margin-top: 30%;
- 
+    margin-top: 30%;
+
 }
 
 
@@ -521,7 +521,7 @@ option {
 .footer-page-color {
     background-color: black;
     width: 100%;
-    
+
     margin-top: 14%;
 }
 
@@ -747,7 +747,7 @@ option {
     }
 
     #projetoss {
-        
+
         margin-top: 5%;
     }
 
@@ -917,7 +917,7 @@ option {
 
     /* Projetos */
 
-   #projetoss {
+    #projetoss {
         display: none;
     }
 
@@ -1224,7 +1224,7 @@ option {
 
     /* Footer */
 
-   .footer-page-color {
+    .footer-page-color {
         height: 56%;
         margin-top: 0;
     }
@@ -1241,18 +1241,13 @@ option {
         display: none;
     }
 
-    .copyright-footer {
-      
-    }
-
-    .copyright-footer p{
-       position: absolute;
-       margin: 5%;
-     
-        margin-top: 20%;
+    .copyright-footer p {
+        position: absolute;
+        margin: 5%;
+        margin-top: 50%;
         color: #686868;
-        width: 200%;
-     
+        width: 95%;
+
     }
 
     .copyright-footer1 {
@@ -1271,23 +1266,19 @@ option {
         font-family: "Metropolis-Medium ";
     }
 
-    #be {
-      
-    }
-
     .social-icons {
-     align-content: center;
+        align-content: center;
         width: 150%;
-       
+        margin-left: -22%;
     }
 
     .social-icons img {
         align-content: center;
         width: 9.5%;
         margin-top: 12%;
-    
-    
-       
+
+
+
     }
 
     .footer-page-top a {
@@ -1316,15 +1307,20 @@ option {
     }
 
     .logo img {
-        left: -32%;
-        width: 100%;
-        height: 54%;
+        left: 3%;
+        width: 30%;
+        height: 56%;
         float: left;
     }
 
     .menu span {
-        top: 5.5%;
+        width: 11%;
+        top: 5%;
         left: 108%;
+    }
+
+    .hamburguer{
+        top: 5%;
     }
 
     /* Carousel */
@@ -1366,7 +1362,51 @@ option {
         margin-left: 5%;
     }
 
+    .box p{
+        margin-top: -51%;
+    }
+
+    .caixa {
+        width: 90%;
+        height: 68%;
+        margin-top: -55%;
+        margin-left: 5%;
+    }
+
+    .caixa p{
+        margin-top: -42%;
+        width: 40%;
+    }
+
+    .caixa1 {
+        width: 90%;
+        margin-top: 4%;
+        margin-left: 5%;
+    }
+
+    /* Sobre */
+
+    #page{
+        margin-top: 10%;
+    }
+
+    #ponto1 {
+        margin-top: 0;
+    }
+
     /* Formulario */
+
+    .drive1{
+        line-height: 36px;
+    }
+
+    #cont {
+        margin-top: 5%;
+    }
+    
+    #ponto2{
+        margin-top: 0;
+    }
 
     #radio {
         left: -50%;
