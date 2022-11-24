@@ -89,16 +89,14 @@
 }
 
 #texto h1 {
-    top: 170%;
+    top: 157%;
     margin-left: 1%;
     font-size: 15px;
     font-family: "Metropolis-Light ";
-
-
 }
 
 #texto1 h1 {
-    top: 170%;
+    top: 157%;
     margin-left: 1%;
     font-size: 15px;
     font-family: "Metropolis-Light ";
@@ -106,8 +104,8 @@
 }
 
 #texto3 h1 {
-    top: 170%;
-    margin-left: 2%;
+    top: 157%;
+    margin-left: -0.4%;
     font-size: 15px;
     font-family: "Metropolis-Light ";
 }
@@ -233,7 +231,7 @@ button {
 
 .inputBox {
     margin-top: 5%;
-    margin-left: 35%;
+    margin-left: 3%;
 }
 
 .inputBox label {
@@ -241,15 +239,13 @@ button {
     font-size: 26px;
     color: #FF2600;
     font-family: "Homade-Bold";
-
 }
 
 
 
 input {
-    margin-left: -2%;
-    width: 400px;
-    border-radius: 12px;
+    width: 98%;
+    border-radius: 5px;
     border-color: black;
 }
 
@@ -855,7 +851,7 @@ option {
         position: absolute;
         color: white;
         top: 11%;
-        left: 62%;
+        left: 58.4%;
         font-size: 30px;
         width: 6.8%;
     }
@@ -864,7 +860,7 @@ option {
         position: absolute;
         color: white;
         top: 18%;
-        left: 71%;
+        left: 69.9%;
         font-size: 30px;
         width: 6.5%;
     }
@@ -873,7 +869,7 @@ option {
         position: absolute;
         color: white;
         top: 25%;
-        left: 64%;
+        left: 61%;
         font-size: 30px;
         width: 4.6%;
     }
@@ -894,7 +890,7 @@ option {
         position: absolute;
         text-align: center;
         top: 34%;
-        left: 55.2%;
+        left: 49.7%;
         width: 10%;
     }
 
@@ -932,6 +928,14 @@ option {
         flex-direction: none;
     }
 
+    #cax{
+        margin-top: -15%;
+    }
+
+    #cax1{
+        margin-top: -15%;
+    }
+
     .box {
         margin-top: 1%;
         width: 97%;
@@ -960,10 +964,10 @@ option {
     }
 
     .caixa {
+        margin-top: -15%;
         margin-right: 2.5%;
         width: 84%;
         height: 66%;
-        margin-top: -8%;
     }
 
     .caixa p {
@@ -1027,6 +1031,7 @@ option {
         display: block;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 0%;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -1039,7 +1044,6 @@ option {
         justify-content: center;
         align-items: center;
         width: 100%;
-        margin-top: 15%;
         opacity: 0.5;
     }
 
@@ -1127,7 +1131,7 @@ option {
     }
 
     .inputBox {
-        margin-left: 12%;
+        margin-left: 3%;
         line-height: 60%;
     }
 
@@ -1136,11 +1140,11 @@ option {
     }
 
     input {
-        width: 96%;
+        width: 98%;
     }
 
     .inputBox1 {
-        margin-left: 11%;
+        margin-left: 3%;
     }
 
     .inputBox1 label {
@@ -1176,8 +1180,8 @@ option {
 
     .serv {
         border: 1px solid;
-        margin: 1.7%;
-        margin-left: 1%;
+        margin-top: 3%;
+        margin-left: 4%;
         font-size: 19px;
         border-radius: 5px;
         height: 40px;
@@ -1225,7 +1229,7 @@ option {
     /* Footer */
 
     .footer-page-color {
-        height: 56%;
+        height: 50%;
         margin-top: 0;
     }
 
@@ -1319,8 +1323,8 @@ option {
         left: 108%;
     }
 
-    .hamburguer{
-        top: 5%;
+    .hamburguer {
+        top: 10%;
     }
 
     /* Carousel */
@@ -1333,7 +1337,7 @@ option {
         display: block;
         width: auto 100%;
         height: 20rem;
-        margin-top: 18%;
+        margin-top: 16%;
     }
 
     .carousel-inner img {
@@ -1358,23 +1362,27 @@ option {
 
     .box {
         width: 90%;
-        margin-top: 4%;
+        margin-top: 0;
         margin-left: 5%;
     }
 
-    .box p{
-        margin-top: -51%;
+    .box p {
+        margin-top: -22%;
     }
 
     .caixa {
         width: 90%;
         height: 68%;
-        margin-top: -55%;
+        margin-top: -15%;
         margin-left: 5%;
     }
 
+    #cax p {
+        margin-top: -20%;
+        width: 40%;
+    }
+
     .caixa p{
-        margin-top: -42%;
         width: 40%;
     }
 
@@ -1386,7 +1394,7 @@ option {
 
     /* Sobre */
 
-    #page{
+    #page {
         margin-top: 10%;
     }
 
@@ -1396,26 +1404,35 @@ option {
 
     /* Formulario */
 
-    .drive1{
+    .drive1 {
         line-height: 36px;
     }
 
     #cont {
         margin-top: 5%;
     }
-    
-    #ponto2{
+
+    #ponto2 {
         margin-top: 0;
     }
 
     #radio {
+        margin-top: 3%;
         left: -50%;
+    }
+
+    .opcao0 {
+        margin-top: 3%;
+    }
+
+    #enviar{
+        margin-left: 18%;
     }
 
     /* Footer */
 
     #select-b52d1b93-909d-4329-8774-86fda75e0b66-field {
-        width: 300px;
+        width: 98%;
     }
 
 

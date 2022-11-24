@@ -801,7 +801,7 @@ li a {
 #texto h1 {
   position: absolute;
   z-index: 8;
-  top: 179%;
+  top: 156%;
   left: 17.5%;
   font-size: 14px;
   font-family: "Metropolis-Light";
@@ -811,7 +811,7 @@ li a {
 #texto1 h1 {
   position: absolute;
   z-index: 8;
-  top: 179%;
+  top: 156%;
   left: 41%;
   font-size: 14px;
   font-family: "Metropolis-Light";
@@ -821,7 +821,7 @@ li a {
 #texto3 h1 {
   position: absolute;
   z-index: 8;
-  top: 165%;
+  top: 156%;
   left: 63.5%;
   font-size: 14px;
   font-family: "Metropolis-Light";
