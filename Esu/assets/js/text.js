@@ -218,9 +218,6 @@ menu.onclick = function openmenus() {
         burga.style.height = '100vh'
     }
 
-    if (){
-
-    }
 }
 
 
