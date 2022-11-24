@@ -231,7 +231,7 @@ button {
 
 .inputBox {
     margin-top: 5%;
-    margin-left: 3%;
+    margin-left: 35%;
 }
 
 .inputBox label {
@@ -244,7 +244,7 @@ button {
 
 
 input {
-    width: 98%;
+    width: 45%;
     border-radius: 5px;
     border-color: black;
 }
@@ -283,7 +283,7 @@ input {
 }
 
 #radio {
-    margin-left: -18%;
+    margin-left: -15%;
     background-color: #FF2600;
 }
 
@@ -306,7 +306,7 @@ input[type='radio']:checked+.opcao0 span {
 }
 
 span {
-    margin-left: -20%;
+    margin-left: -22%;
     font-family: "Metropolis-Medium ";
 
 }
