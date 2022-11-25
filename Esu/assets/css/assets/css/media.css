@@ -1102,18 +1102,18 @@ option {
     }
 
     #contato {
-        margin-top: 0%;
-        font-size: 49%;
+        margin-top: 10%;
+        font-size: 180%;
     }
 
     #cont {
-        margin-top: -8%;
+        margin-top: 5%;
         font-size: 25px;
     }
 
     #ponto2 {
         font-size: 62px;
-        margin-top: -12%;
+        margin-top: 3%;
         height: 10%;
         letter-spacing: -15px;
     }
@@ -1121,6 +1121,7 @@ option {
     .inputBox {
         margin-left: 3%;
         line-height: 60%;
+        border-radius: 12px;
     }
 
     .inputBox label {
@@ -1137,6 +1138,7 @@ option {
 
     .inputBox1 label {
         font-size: 24px;
+        border-radius: 12px;
     }
 
     #perf {
@@ -1144,7 +1146,7 @@ option {
     }
 
     #radio {
-        margin-left: -46%;
+        margin-left: -30%;
     }
 
     #busco {
