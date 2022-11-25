@@ -183,7 +183,7 @@ button {
 
 .btns {
     margin-left: 5%;
-    margin-top: 5%;
+    margin-top: -15.5%;
 }
 
 
@@ -231,7 +231,7 @@ button {
 
 .inputBox {
     margin-top: 5%;
-    margin-left: 3%;
+    margin-left: 35%;
 }
 
 .inputBox label {
@@ -244,7 +244,7 @@ button {
 
 
 input {
-    width: 98%;
+    width: 45%;
     border-radius: 5px;
     border-color: black;
 }
@@ -283,7 +283,8 @@ input {
 }
 
 #radio {
-    margin-left: -18%;
+    margin-left: -22%;
+    margin-top: 4%;
     background-color: #FF2600;
 }
 
@@ -306,7 +307,7 @@ input[type='radio']:checked+.opcao0 span {
 }
 
 span {
-    margin-left: -20%;
+    margin-left: -22%;
     font-family: "Metropolis-Medium ";
 
 }
@@ -362,7 +363,7 @@ option {
     border-radius: 12px;
     border: none;
     height: 35px;
-    width: 300px;
+    width: 400px;
     font-family: "Metropolis-Light ";
 
 }
@@ -496,17 +497,6 @@ option {
     padding: 0%;
     font-family: "Metropolis-Light";
 }
-
-.social-icons {
-
-    
-}
-
-.social-icons img {
-   
-}
-
-
 
 .juridic {
     width: 42%;
@@ -1176,7 +1166,8 @@ option {
 
     #serv {
         font-size: 15px;
-        color: rgb(183, 183, 183);
+        color: #000;
+        border-color: #b7b7b7;
         font-family: "Metropolis-Medium ";
     }
 
@@ -1186,6 +1177,7 @@ option {
         margin-left: 4%;
         font-size: 19px;
         border-radius: 5px;
+        border-color: #b7b7b7;
         height: 40px;
     }
 
@@ -1282,9 +1274,6 @@ option {
         align-content: center;
         width: 9.5%;
         margin-top: 12%;
-
-
-
     }
 
     .footer-page-top a {

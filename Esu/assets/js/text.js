@@ -62,71 +62,72 @@ tag5.addEventListener('click', redc4)
 tag6.addEventListener('click', redc5)
 
 function redc() {
-    tag1.style.color = '#FF2600'
-    tag1.style.borderColor = '#FF2600'
+
+    if (tag1.style.color == 'red' || tag1.style.borderColor == 'red') {
+        tag1.style.color = '#000'
+        tag1.style.borderColor = '#b7b7b7'
+    } else {
+        tag1.style.color = 'red'
+        tag1.style.borderColor = 'red'
+    }
 }
 
 function redc1() {
-    tag2.style.color = '#FF2600'
-    tag2.style.borderColor = '#FF2600'
+
+    if (tag2.style.color == 'red' || tag2.style.borderColor == 'red') {
+        tag2.style.color = '#000'
+        tag2.style.borderColor = '#b7b7b7'
+    } else {
+        tag2.style.color = 'red'
+        tag2.style.borderColor = 'red'
+    }
 }
 
 function redc2() {
-    tag3.style.color = '#FF2600'
-    tag3.style.borderColor = '#FF2600'
+
+    if (tag3.style.color == 'red' || tag1.style.borderColor == 'red') {
+        tag3.style.color = '#000'
+        tag3.style.borderColor = '#b7b7b7'
+    } else {
+        tag3.style.color = 'red'
+        tag3.style.borderColor = 'red'
+    }
 }
 
 function redc3() {
-    tag4.style.color = '#FF2600'
-    tag4.style.borderColor = '#FF2600'
+
+    if (tag4.style.color == 'red' || tag1.style.borderColor == 'red') {
+        tag4.style.color = '#000'
+        tag4.style.borderColor = '#b7b7b7'
+    } else {
+        tag4.style.color = 'red'
+        tag4.style.borderColor = 'red'
+    }
 }
 
 function redc4() {
-    tag5.style.color = '#FF2600'
-    tag5.style.borderColor = '#FF2600'
+
+    if (tag5.style.color == 'red' || tag1.style.borderColor == 'red') {
+        tag5.style.color = '#000'
+        tag5.style.borderColor = '#b7b7b7'
+    } else {
+        tag5.style.color = 'red'
+        tag5.style.borderColor = 'red'
+    }
 }
 
 function redc5() {
-    tag6.style.color = '#FF2600'
-    tag6.style.borderColor = '#FF2600'
+
+    if (tag6.style.color == 'red' || tag1.style.borderColor == 'red') {
+        tag6.style.color = '#000'
+        tag6.style.borderColor = '#b7b7b7'
+    } else {
+        tag6.style.color = 'red'
+        tag6.style.borderColor = 'red'
+    }
 }
 
-tag1.addEventListener('dblclick', nonec)
-tag2.addEventListener('dblclick', nonec1)
-tag3.addEventListener('dblclick', nonec2)
-tag4.addEventListener('dblclick', nonec3)
-tag5.addEventListener('dblclick', nonec4)
-tag6.addEventListener('dblclick', nonec5)
 
-function nonec() {
-    tag1.style.color = '#000'
-    tag1.style.borderColor = '#b7b7b7'
-}
-
-function nonec1() {
-    tag2.style.color = '#000'
-    tag2.style.borderColor = '#b7b7b7'
-}
-
-function nonec2() {
-    tag3.style.color = '#000'
-    tag3.style.borderColor = '#b7b7b7'
-}
-
-function nonec3() {
-    tag4.style.color = '#000'
-    tag4.style.borderColor = '#b7b7b7'
-}
-
-function nonec4() {
-    tag5.style.color = '#000'
-    tag5.style.borderColor = '#b7b7b7'
-}
-
-function nonec5() {
-    tag6.style.color = '#000'
-    tag6.style.borderColor = '#b7b7b7'
-}
 
 //ver mais
 
@@ -139,8 +140,8 @@ ver.addEventListener('click', verm)
 function verm() {
 
     if (imig[0].style.display == 'block' || imig[1].style.display == 'block' || imig[2].style.display == 'block' || imig[3].style.display == 'block'
-    || imig[4].style.display == 'block' || imig[5].style.display == 'block' || imig[6].style.display == 'block' || imig[7].style.display == 'block'
-    || imig[8].style.display == 'block' || imig[9].style.display == 'block') {
+        || imig[4].style.display == 'block' || imig[5].style.display == 'block' || imig[6].style.display == 'block' || imig[7].style.display == 'block'
+        || imig[8].style.display == 'block' || imig[9].style.display == 'block') {
         imig[0].style.display = 'none'
         imig[1].style.display = 'none'
         imig[2].style.display = 'none'
@@ -151,7 +152,7 @@ function verm() {
         imig[7].style.display = 'none'
         imig[8].style.display = 'none'
         imig[9].style.display = 'none'
-    } else{
+    } else {
         imig[0].style.display = 'block'
         imig[1].style.display = 'block'
         imig[2].style.display = 'block'
@@ -176,6 +177,11 @@ var line1 = document.getElementById('linas1')
 var line2 = document.getElementById('linas2')
 var line3 = document.getElementById('linas3')
 var burga = document.getElementById('burguin')
+var projeto = document.getElementById('menu1')
+var sobre = document.getElementById('menu2')
+var contato = document.getElementById('menu3')
+var orçamento = document.getElementById('botaoo')
+
 
 menu.onclick = function openmenus() {
     menu.classList.toggle("openmenu")
@@ -200,17 +206,60 @@ menu.onclick = function openmenus() {
         line3.style.backgroundColor = 'gray'
     }
 
-    if (burga.style.background == 'black' || burga.style.opacity == '0.9' || burga.style.width == '100vw' || burga.style.height == '100vh'){
+    if (burga.style.background == 'black' || burga.style.opacity == '0.9' || burga.style.width == '100vw' || burga.style.height == '100vh') {
         burga.style.background = 'transparent'
         burga.style.opacity = '1'
         burga.style.width = '0vw'
         burga.style.height = '0vh'
-    } else{
+    } else {
         burga.style.background = 'black'
         burga.style.opacity = '0.9'
         burga.style.width = '100vw'
         burga.style.height = '100vh'
     }
+}
+
+projeto.addEventListener('click', fecha)
+sobre.addEventListener('click', fecha)
+contato.addEventListener('click', fecha)
+orçamento.addEventListener('click', fecha)
+
+function fecha() {
+    menu.classList.toggle("openmenu")
+
+    if (burga.style.background == 'black' || burga.style.opacity == '0.9' || burga.style.width == '100vw' || burga.style.height == '100vh') {
+        burga.style.background = 'transparent'
+        burga.style.opacity = '1'
+        burga.style.width = '0vw'
+        burga.style.height = '0vh'
+    } else {
+        burga.style.background = 'black'
+        burga.style.opacity = '0.9'
+        burga.style.width = '100vw'
+        burga.style.height = '100vh'
+    }
+
+    if (boxmenu.style.display == 'block' || logo.src == 'assets/img/LOGO-BRANCA.svg' || nav.style.backgroundColor == 'black') {
+        boxmenu.style.display = 'none'
+        logo.src = 'assets/img/Nova_Logo_studio.svg'
+        nav.style.backgroundColor = 'white'
+    } else {
+        boxmenu.style.display = 'block'
+        logo.src = 'assets/img/LOGO-BRANCA.svg'
+        nav.style.backgroundColor = 'black'
+    }
+
+    if (line1.style.backgroundColor == 'gray' || line2.style.backgroundColor == 'gray' || line3.style.backgroundColor == 'gray') {
+        line1.style.backgroundColor = 'black'
+        line2.style.backgroundColor = 'black'
+        line3.style.backgroundColor = 'black'
+    } else {
+        line1.style.backgroundColor = 'gray'
+        line2.style.backgroundColor = 'gray'
+        line3.style.backgroundColor = 'gray'
+    }
+
+    
 }
 
 
