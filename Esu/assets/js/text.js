@@ -1,4 +1,4 @@
-//caixa pop up
+//caixa pop up//
 
 //box
 
@@ -163,6 +163,12 @@ function verm() {
         imig[7].style.display = 'block'
         imig[8].style.display = 'block'
         imig[9].style.display = 'block'
+    }
+
+    if (seta.style.transform == 'rotate(180deg)') {
+        seta.style.transform = 'rotate(0deg)'    
+    } else {
+        seta.style.transform = 'rotate(180deg)'
     }
 }
 

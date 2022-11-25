@@ -2,6 +2,7 @@
 const prevBtn = document.querySelector("#btnPrevious");
 const nextBtn = document.querySelector("#btnNext");
 const book = document.querySelector("#page");
+const numeracao = document.getElementById('botaosobre')
 
 const paper1 = document.querySelector("#pag");
 const paper2 = document.querySelector("#pag1");
@@ -18,6 +19,8 @@ let numOfPapers = 4;
 let maxLocation = numOfPapers + 1;
 
 prevBtn.style.opacity = "0.4"
+numeracao.style.animation = 'none'
+
 
 function goNextPage() {
     if (currentLocation < maxLocation) {
