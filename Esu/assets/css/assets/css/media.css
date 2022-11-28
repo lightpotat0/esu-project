@@ -213,7 +213,7 @@ button {
 }
 
 #contato {
-    margin-top: 4%;
+    margin-top: 8%;
     font-size: 50px;
     color: #FF2600;
     font-family: "Homade-Bold";
@@ -611,10 +611,12 @@ option {
 }
 
 .hr-page {
+    margin-top: 0;
     align-self: center;
     border-style: solid;
     border-color: white;
     width: 100%;
+    right: 0;
     border-width: 0.01px;
 }
 
@@ -1084,7 +1086,6 @@ option {
     #ponto1 {
         font-size: 62px;
         margin-top: -8%;
-        height: 10%;
         letter-spacing: -15px;
     }
 
@@ -1114,7 +1115,6 @@ option {
     #ponto2 {
         font-size: 62px;
         margin-top: 3%;
-        height: 10%;
         letter-spacing: -15px;
     }
 
@@ -1214,7 +1214,6 @@ option {
         opacity: 0.4;
         text-align: center;
         margin-top: 0%;
-        height: 45%;
         letter-spacing: -15px;
     }
 
