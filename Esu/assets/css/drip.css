@@ -14,8 +14,14 @@ body {
   margin-top: 4rem;
 }
 
+#boxmenu1{
+  display: none;
+  width: 30%;
+  height: 100%;
+}
+
 #hr1 {
-  margin-top: -3%;
+  margin-top: -12%;
   color: transparent;
   width: 24%;
   justify-content: center;
@@ -28,7 +34,7 @@ body {
 }
 
 hr{
-  margin-top: 3%;
+  margin-top: 6%;
   color: transparent;
   width: 24%;
   justify-content: center;
@@ -1139,13 +1145,15 @@ li a {
   display: flex;
   flex-flow: column nowrap;
   max-width: 1210px;
+  height: 25%;
   margin: auto;
 }
 
 .footer-page p {
   color: white;
   letter-spacing: unset;
-  line-height: unset;
+  line-height: 170%;
+  margin-top: 15%;
   font-family: "Metropolis-Light";
   src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
 }
@@ -1247,17 +1255,13 @@ li a {
 }
 
 .social-icons{
-  justify-content: center;
-  align-items: center;
-  float: right;
-  text-align: center;
-  position: relative;
-  margin-right: 39%;
+  margin-top: 5%;
 }
 
 .social-icons img{
-  width: 7%;
-  margin: 2%;
+  width: 8%;
+  margin: 3%;
+  float: right;
 }
 
 /* pagina slide end */

@@ -176,17 +176,17 @@ function verm() {
 //hamburguer
 
 var menu = document.getElementById('menu')
-var boxmenu = document.getElementById('boxmenu')
+var boxmenu = document.getElementById('boxmenu1')
 var nav = document.getElementById('nave')
 var logo = document.getElementById('exulog')
 var line1 = document.getElementById('linas1')
 var line2 = document.getElementById('linas2')
 var line3 = document.getElementById('linas3')
 var burga = document.getElementById('burguin')
-var projeto = document.getElementById('menu1')
-var sobre = document.getElementById('menu2')
-var contato = document.getElementById('menu3')
-var orçamento = document.getElementById('botaoo')
+var projeto = document.getElementById('menus1')
+var sobre = document.getElementById('menus2')
+var contato = document.getElementById('menus3')
+var orçamento = document.getElementById('botaoos')
 
 
 menu.onclick = function openmenus() {
@@ -264,8 +264,6 @@ function fecha() {
         line2.style.backgroundColor = 'gray'
         line3.style.backgroundColor = 'gray'
     }
-
-    
 }
 
 

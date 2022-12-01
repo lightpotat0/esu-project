@@ -283,7 +283,12 @@ input {
 
 #radio {
     margin-left: -22%;
-    margin-top: 4%;
+    background-color: #FF2600;
+}
+
+#radio1{
+    margin-top: 0%;
+    margin-left: -22%;
     background-color: #FF2600;
 }
 
@@ -521,7 +526,8 @@ option {
 .footer-page p {
     color: white;
     letter-spacing: unset;
-    line-height: unset;
+    margin-top: 15%;
+    line-height: 170%;
     font-family: "Metropolis-Light";
     src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
 }
@@ -748,7 +754,7 @@ option {
 
     .slide h1 {
         text-align: center;
-        font-size: 200%;
+        font-size: 100%;
         margin-top: -16%;
         left: 0;
         margin-left: 0;
@@ -834,7 +840,7 @@ option {
         top: -3%;
     }
 
-    #menu1 a {
+    #menus1 a {
         position: absolute;
         color: white;
         top: 11%;
@@ -843,7 +849,7 @@ option {
         width: 6.8%;
     }
 
-    #menu2 a {
+    #menus2 a {
         position: absolute;
         color: white;
         top: 18%;
@@ -852,7 +858,7 @@ option {
         width: 6.5%;
     }
 
-    #menu3 a {
+    #menus3 a {
         position: absolute;
         color: white;
         top: 25%;
@@ -861,19 +867,19 @@ option {
         width: 4.6%;
     }
 
-    #menu1 a:hover {
-        color: white;
+    #menus1 a:hover {
+        color: red;
     }
 
-    #menu2 a:hover {
-        color: white;
+    #menus2 a:hover {
+        color: red;
     }
 
-    #menu3 a:hover {
-        color: white;
+    #menus3 a:hover {
+        color: red;
     }
 
-    #botaoo {
+    #botaoos {
         position: absolute;
         text-align: center;
         top: 34%;
@@ -881,7 +887,7 @@ option {
         width: 10%;
     }
 
-    #botaoo a {
+    #botaoos a:hover{
         color: red;
     }
 
@@ -1056,7 +1062,7 @@ option {
 
     #sobre {
         margin-top: 20%;
-        margin-left: 7%;
+        margin-left: 2%;
         line-height: 0.5;
     }
 
@@ -1100,12 +1106,14 @@ option {
     }
 
     #contato {
-        margin-top: 10%;
+        margin-top: 20%;
+        margin-left: -5%;
         font-size: 180%;
     }
 
     #cont {
         margin-top: 5%;
+        margin-left: -5%;
         font-size: 25px;
     }
 
@@ -1118,6 +1126,7 @@ option {
     .inputBox {
         margin-left: 3%;
         line-height: 60%;
+        margin-top: 16%;
         border-radius: 12px;
     }
 
@@ -1143,11 +1152,18 @@ option {
     }
 
     #radio {
-        margin-left: -30%;
+        margin-left: -47%;
+        margin-top: 2%;
+        float: left;
+    }
+
+    #radio1{
+        margin-left: -47%;
+        float: left;
     }
 
     #busco {
-        margin-left: -47%;
+        margin-left: -45%;
         font-size: 16px;
     }
 
@@ -1218,7 +1234,7 @@ option {
 
     .footer-page-color {
         height: 50%;
-        margin-top: 0;
+        margin-top: 25%;
     }
 
     .how-works {
@@ -1237,6 +1253,8 @@ option {
         position: absolute;
         margin: 5%;
         margin-top: 50%;
+        margin-left: 3%;
+        text-align: center;
         color: #686868;
         width: 95%;
 
@@ -1260,14 +1278,16 @@ option {
 
     .social-icons {
         align-content: center;
-        width: 150%;
-        margin-left: -22%;
+        width: 100%;
+        margin-right: 23%;
+        height: 100%;
     }
 
     .social-icons img {
         align-content: center;
-        width: 9.5%;
-        margin-top: 12%;
+        width: 16%;
+        margin: 4%;
+        margin-top: 44%;
     }
 
     .footer-page-top a {
@@ -1381,6 +1401,7 @@ option {
 
     #page {
         margin-top: 10%;
+        margin-left: -5%;
     }
 
     #ponto1 {
@@ -1402,8 +1423,7 @@ option {
     }
 
     #radio {
-        margin-top: 3%;
-        left: -50%;
+        margin-top: 0%;
     }
 
     .opcao0 {
