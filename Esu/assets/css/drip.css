@@ -21,7 +21,7 @@ body {
 }
 
 #hr1 {
-  margin-top: -12%;
+  margin-top: -3%;
   color: transparent;
   width: 24%;
   justify-content: center;
@@ -34,7 +34,7 @@ body {
 }
 
 hr{
-  margin-top: 6%;
+  margin-top: 2%;
   color: transparent;
   width: 24%;
   justify-content: center;
@@ -406,18 +406,19 @@ li a {
 
 .carousel-indicators li {
   display: flex;
-  padding: 0.5px;
-  padding-left: 20px;
-  width: 25px;
-  height: 3px;
-  margin: 15px;
-  margin-top: 100px;
-  text-indent: -999px;
-  cursor: pointer;
-  border-color: #686868;
-  background-color: #686868;
-  border-radius: 30px;
-  opacity: 30%;
+    padding: 0.5px;
+    padding-left: 20px;
+    width: 25px;
+    height: 3px;
+    margin: 15px;
+    margin-top: 100px;
+    text-indent: -999px;
+    cursor: pointer;
+    border-color: gray;
+    background-color: gray;
+    border: 1px solid #000;
+    border-radius: 30px;
+    opacity: 30%;
 }
 
 .carousel-indicators .active {
@@ -425,10 +426,8 @@ li a {
   height: 3px;
   margin: 15px;
   margin-top: 100px;
-  border-color: black;
-  border-radius: 30px;
-  background-color: white;
-  opacity: 90%;
+  background-color: #fff;
+  opacity: 100%;
 }
 
 .carousel-caption {
@@ -827,7 +826,7 @@ li a {
   src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 }
 
-.shadow {
+#shadow {
   box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.1);
 }
 

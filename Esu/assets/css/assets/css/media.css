@@ -171,7 +171,7 @@ button {
 }
 
 #botaosobre {
-   
+
     color: #686868;
     font-size: 20px;
     margin-left: 62.5%;
@@ -286,7 +286,7 @@ input {
     background-color: #FF2600;
 }
 
-#radio1{
+#radio1 {
     margin-top: 0%;
     margin-left: -22%;
     background-color: #FF2600;
@@ -750,6 +750,19 @@ option {
 
 @media (max-width: 900px) {
 
+    hr {
+        margin-top: 6%;
+        color: transparent;
+        width: 24%;
+        justify-content: center;
+        align-items: center;
+        float: right;
+        text-align: center;
+        position: relative;
+        right: 38%;
+        box-shadow: 3px 3px 3px rgb(0 0 0 / 6%);
+    }
+
     /* Carousel Image Mobile */
 
     .slide h1 {
@@ -887,7 +900,7 @@ option {
         width: 10%;
     }
 
-    #botaoos a:hover{
+    #botaoos a:hover {
         color: red;
     }
 
@@ -921,11 +934,11 @@ option {
         flex-direction: none;
     }
 
-    #cax{
+    #cax {
         margin-top: -15%;
     }
 
-    #cax1{
+    #cax1 {
         margin-top: -15%;
     }
 
@@ -1157,7 +1170,7 @@ option {
         float: left;
     }
 
-    #radio1{
+    #radio1 {
         margin-left: -47%;
         float: left;
     }
@@ -1387,7 +1400,7 @@ option {
         width: 40%;
     }
 
-    .caixa p{
+    .caixa p {
         width: 40%;
     }
 
@@ -1430,7 +1443,7 @@ option {
         margin-top: 3%;
     }
 
-    #enviar{
+    #enviar {
         margin-left: 18%;
     }
 
