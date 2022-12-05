@@ -3,9 +3,8 @@
   padding: 0px;
 }
 
-body {
-  margin: 0;
-  padding: 0;
+html{
+  scroll-behavior: smooth;
 }
 
 .carousel-inner img {
@@ -193,8 +192,8 @@ li a {
 .logo img {
   position: absolute;
   top: 25%;
-  left: -38%;
-  width: 100%;
+  left: 5%;
+  width: 8%;
   height: 50%;
 }
 
@@ -534,13 +533,13 @@ li a {
 
 .slide h1 {
   color: white;
-  position: relative;
+  position: absolute;
   z-index: 12;
   text-shadow: rgb(0, 0, 0) 2px 2px 5px;
   margin-left: 4rem;
   text-align: left;
   font-size: 2rem;
-  margin-top: -8rem;
+  margin-top: -6rem;
   font-family: "Metropolis-Medium ";
   src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 }
@@ -732,7 +731,7 @@ li a {
   background-color: white;
   padding: 5px;
   color: black;
-  width: 50%;
+  width: 66%;
   grid-column: 1;
   grid-row: 2;
   font-size: 16px;
@@ -770,7 +769,7 @@ li a {
   background-color: white;
   padding: 5px;
   color: black;
-  width: 50%;
+  width: 66%;
   grid-column: 1;
   grid-row: 2;
   font-size: 16px;
@@ -810,7 +809,7 @@ li a {
   background-color: white;
   padding: 5px;
   color: black;
-  width: 10%;
+  width: 66%;
   grid-column: 1;
   grid-row: 2;
   font-size: 16px;

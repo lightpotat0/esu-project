@@ -13,11 +13,6 @@
         height: 48.5rem;
     }
 
-    .item h1 {
-        margin-top: -10%;
-    }
-
-
     .elemento {
         margin-top: -13%;
     }
@@ -649,7 +644,7 @@ option {
     .thumbnail a>img,
     .carousel-inner>.item>img,
     .carousel-inner>.item>a>img {
-        height: 41rem;
+        height: 37rem;
     }
 
 
@@ -768,7 +763,7 @@ option {
     .slide h1 {
         text-align: center;
         font-size: 100%;
-        margin-top: -16%;
+        margin-top: -8rem;
         left: 0;
         margin-left: 0;
     }
