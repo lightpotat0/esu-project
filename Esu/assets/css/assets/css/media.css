@@ -252,10 +252,14 @@ input {
     color: gray;
     padding: 5%;
     font-family: "Metropolis-Light ";
+}
 
+#email{
+    height: 40px;
+}
 
-
-
+#number{
+    height: 40px;
 }
 
 #perf {
