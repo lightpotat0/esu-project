@@ -226,16 +226,17 @@ button {
 .inputBox {
     margin-top: 5%;
     margin-left: 35%;
+    display: grid;
+    grid-row-gap: 10px;
 }
 
 .inputBox label {
-    margin-top: -2%;
+    display: contents;
+    margin-top: 0%;
     font-size: 26px;
     color: #FF2600;
     font-family: "Homade-Bold";
 }
-
-
 
 input {
     width: 45%;
@@ -258,8 +259,20 @@ input {
     height: 40px;
 }
 
+#email::-webkit-input-placeholder {
+    color: gray;
+    padding: 5%;
+    font-family: "Metropolis-Light ";
+}
+
 #number{
     height: 40px;
+}
+
+#number::-webkit-input-placeholder {
+    color: gray;
+    padding: 5%;
+    font-family: "Metropolis-Light ";
 }
 
 #perf {
@@ -747,7 +760,7 @@ option {
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 600px) {
 
     hr {
         margin-top: 6%;
@@ -766,8 +779,8 @@ option {
 
     .slide h1 {
         text-align: center;
-        font-size: 100%;
-        margin-top: -8rem;
+        font-size: 112%;
+        margin-top: -4rem;
         left: 0;
         margin-left: 0;
     }
@@ -833,7 +846,7 @@ option {
 
     .logo img {
         left: -34%;
-        width: 100%;
+        width: 8%;
         height: 54%;
     }
 
@@ -1319,7 +1332,7 @@ option {
 
 }
 
-@media (max-width: 450px) {
+@media (max-width: 580px) {
 
     /* Menu */
 
@@ -1362,7 +1375,7 @@ option {
     }
 
     .slide h1 {
-        left: 0;
+        left: 25%;
     }
 
     /* Projeto */
@@ -1384,7 +1397,7 @@ option {
     }
 
     .box p {
-        margin-top: -22%;
+        margin-top: -21%;
     }
 
     .caixa {
@@ -1395,7 +1408,7 @@ option {
     }
 
     #cax p {
-        margin-top: -20%;
+        margin-top: -21%;
         width: 40%;
     }
 
@@ -1451,10 +1464,76 @@ option {
     #select-b52d1b93-909d-4329-8774-86fda75e0b66-field {
         width: 98%;
     }
-
-
 }
 
+@media (max-width: 750px){
+
+    /*--carousel--*/
+
+    .slide h1 {
+        text-align: center;
+        font-size: 112%;
+        margin-top: -4rem;
+        left: 40%;
+        margin-left: 0;
+    }
+
+    .carousel-indicators {
+        display: none;
+    }
+
+    .carousel-control {
+        display: none;
+    }
+
+    .carousel-inner img {
+        margin-top: 5%;
+    }
+
+    .img-responsive,
+    .thumbnail>img,
+    .thumbnail a>img,
+    .carousel-inner>.item>img,
+    .carousel-inner>.item>a>img {
+        display: block;
+        width: 100%;
+        height: 22rem;
+    }
+
+    /*--menu--*/
+
+    nav {
+        top: 0;
+        width: 100%;
+        height: 20%;
+        box-shadow: 3px 3px 3px rgb(0 0 0 / 10%);
+    }
+
+    .logo img{
+        height: 65%;
+        top: 20%;
+        left: 5%;
+        float: left;
+    }
+
+    .menu span {
+        width: 5%;
+        left: 115%;
+        top: 10%;
+    }
+
+    .mbhamburguer {
+        display: block;
+        width: 5%;
+    }
+
+    #boxmenu {
+        display: none;
+        width: 30%;
+        height: 100%;
+    }
+
+}
 
 @media (max-width: 2560px) and (min-width: 2560px) {
 
