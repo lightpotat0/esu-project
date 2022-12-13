@@ -3,66 +3,24 @@
   padding: 0px;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-.carousel-inner img {
-  margin-left: 0;
-  width: 100%;
-  margin-top: 4rem;
+::-webkit-scrollbar {
+  width: 1px;
 }
 
-#boxmenu1{
+::-webkit-scrollbar-thumb {
+  background-color: rgb(26, 25, 25);
+}
+
+/*Navbar*/
+
+#boxmenu1 {
   display: none;
   width: 30%;
   height: 100%;
-}
-
-#hr1 {
-  margin-top: -15%;
-  color: transparent;
-  width: 24%;
-  justify-content: center;
-  align-items: center;
-  float: right;
-  text-align: center;
-  position: relative;
-  right: 38%;
-  box-shadow: 3px 3px 3px rgb(0 0 0 / 6%);
-}
-
-hr{
-  margin-top: 2%;
-  color: transparent;
-  width: 24%;
-  justify-content: center;
-  align-items: center;
-  float: right;
-  text-align: center;
-  position: relative;
-  right: 38%;
-  box-shadow: 3px 3px 3px rgb(0 0 0 / 6%);
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-.sr-only {
-  position: absolute;
-  left: -9999999px;
-}
-
-.img-responsive,
-.thumbnail>img,
-.thumbnail a>img,
-.carousel-inner>.item>img,
-.carousel-inner>.item>a>img {
-  display: block;
-  width: 100%;
-  height: 90%;
 }
 
 ul {
@@ -73,7 +31,7 @@ ul {
 }
 
 nav {
-  padding: 0;
+  padding: 0 20px;
   background-color: white;
   width: 100%;
   height: 4rem;
@@ -151,50 +109,85 @@ nav {
   width: 0;
 }
 
-#ver-mais {
-  display: none;
-}
-
-#ponto3 {
-  display: none;
-}
-
-.copyright-footer1 {
-  display: none;
-}
-
-.drive1 {
-  display: none;
-  margin-top: -1.5%;
-  text-align: center;
-  line-height: 34px;
-  font-size: 24px;
-  font-family: "Metropolis-Light ";
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  text-decoration: none;
-  font-family: "Homade-Bold";
-  src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf);
-  color: gray;
-}
-
-@font-face {
-  font-family: "Homade-Bold";
-  src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
-}
-
-.logo img {
+#menu1 a {
   position: absolute;
+  top: 40%;
+  left: 56%;
+  width: 6.8%;
+}
+
+#menu3 a {
+  position: absolute;
+  top: 40%;
+  left: 72%;
+  width: 6.5%;
+}
+
+#menu2 a {
+  position: absolute;
+  top: 40%;
+  left: 65%;
+  width: 4.6%;
+}
+
+#botaoo {
+  position: absolute;
+  text-align: center;
+  color: white;
   top: 25%;
-  left: 5%;
-  width: 8%;
-  height: 50%;
+  left: 80%;
+  width: 10%;
+}
+
+#menu3 a:hover {
+  color: #000;
+}
+
+#menu2 a:hover {
+  color: #000;
+}
+
+#menu1 a:hover {
+  color: #000;
+}
+
+#menus1 a {
+  position: absolute;
+  color: white;
+  top: 11%;
+  left: 58.4%;
+  font-size: 30px;
+  width: 6.8%;
+}
+
+#menus2 a {
+  position: absolute;
+  color: white;
+  top: 18%;
+  left: 69.9%;
+  font-size: 30px;
+  width: 6.5%;
+}
+
+#menus3 a {
+  position: absolute;
+  color: white;
+  top: 25%;
+  left: 61%;
+  font-size: 30px;
+  width: 4.6%;
+}
+
+#menus1 a:hover {
+  color: red;
+}
+
+#menus2 a:hover {
+  color: red;
+}
+
+#menus3 a:hover {
+  color: red;
 }
 
 #submit {
@@ -217,7 +210,122 @@ li a {
   cursor: pointer;
 }
 
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+  color: gray;
+  font-family: "Homade-Bold";
+}
+
+.logo img {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  width: 8%;
+  height: 50%;
+}
+
+@font-face {
+  font-family: "Homade-Bold";
+  src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
+}
+
+#hr1 {
+  margin-top: -15%;
+  color: transparent;
+  width: 24%;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  text-align: center;
+  position: relative;
+  right: 38%;
+  box-shadow: 3px 3px 3px rgb(0 0 0 / 6%);
+}
+
+hr {
+  margin-top: 2%;
+  color: transparent;
+  width: 24%;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  text-align: center;
+  position: relative;
+  right: 38%;
+  box-shadow: 3px 3px 3px rgb(0 0 0 / 6%);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#ver-mais {
+  display: none;
+}
+
+#ponto3 {
+  display: none;
+}
+
+.copyright-footer1 {
+  display: none;
+}
+
+.drive1 {
+  display: none;
+  margin-top: -1.5%;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-family: "Metropolis-Light ";
+}
+
 /*carousel start*/
+
+.slide h1 {
+  color: white;
+  position: absolute;
+  z-index: 12;
+  text-shadow: rgb(0, 0, 0) 2px 2px 5px;
+  margin-left: 4rem;
+  text-align: left;
+  font-size: 2rem;
+  margin-top: -6rem;
+  font-family: "Metropolis-Medium ";
+  src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
+}
+
+.slide a {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.sr-only {
+  position: absolute;
+  left: -9999999px;
+}
+
+.img-responsive,
+.thumbnail>img,
+.thumbnail a>img,
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+  display: block;
+  width: 100%;
+  height: 37rem;
+}
+
+.carousel-inner img {
+  margin-left: 0;
+  width: 100%;
+  margin-top: 4rem;
+}
 
 .carousel {
   position: relative;
@@ -405,19 +513,19 @@ li a {
 
 .carousel-indicators li {
   display: flex;
-    padding: 0.5px;
-    padding-left: 20px;
-    width: 25px;
-    height: 3px;
-    margin: 15px;
-    margin-top: 100px;
-    text-indent: -999px;
-    cursor: pointer;
-    border-color: gray;
-    background-color: gray;
-    border: 1px solid #000;
-    border-radius: 30px;
-    opacity: 30%;
+  padding: 0.5px;
+  padding-left: 20px;
+  width: 25px;
+  height: 3px;
+  margin: 15px;
+  margin-top: 100px;
+  text-indent: -999px;
+  cursor: pointer;
+  border-color: gray;
+  background-color: gray;
+  border: 1px solid #000;
+  border-radius: 30px;
+  opacity: 30%;
 }
 
 .carousel-indicators .active {
@@ -479,75 +587,7 @@ li a {
   }
 }
 
-/*carousel-end; */
-
-#menu1 a {
-  position: absolute;
-  top: 40%;
-  left: 56%;
-  width: 6.8%;
-}
-
-#menu3 a {
-  position: absolute;
-  top: 40%;
-  left: 72%;
-  width: 6.5%;
-}
-
-#menu2 a {
-  position: absolute;
-  top: 40%;
-  left: 65%;
-  width: 4.6%;
-}
-
-#botaoo {
-  position: absolute;
-  text-align: center;
-  color: white;
-  top: 25%;
-  left: 80%;
-  width: 10%;
-}
-
-#menu3 a:hover {
-  color: #000;
-}
-
-#menu2 a:hover {
-  color: #000;
-}
-
-#menu1 a:hover {
-  color: #000;
-}
-
-::-webkit-scrollbar {
-  width: 1px;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: rgb(26, 25, 25);
-}
-
-.slide h1 {
-  color: white;
-  position: absolute;
-  z-index: 12;
-  text-shadow: rgb(0, 0, 0) 2px 2px 5px;
-  margin-left: 4rem;
-  text-align: left;
-  font-size: 2rem;
-  margin-top: -6rem;
-  font-family: "Metropolis-Medium ";
-  src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
-}
-
-.slide a {
-  font-size: 1.5rem;
-  text-decoration: none;
-}
+/*Projeto*/
 
 .projeto {
   position: relative;
@@ -569,6 +609,7 @@ li a {
 #identidade {
   z-index: 1;
   margin: 2%;
+  margin-right: -15%;
   top: 2%;
   width: 16%;
   height: 70%;
@@ -642,7 +683,8 @@ li a {
 
 #blocos {
   z-index: 1;
-  width: 11%;
+  margin-right: 3%;
+  width: 15%;
   margin: 2%;
   text-decoration: none;
   color: #686868;
@@ -657,6 +699,7 @@ li a {
   z-index: 1;
   width: 11%;
   margin: 2%;
+  margin-left: -2%;
   text-decoration: none;
   color: #686868;
   font-size: 120%;
@@ -670,6 +713,7 @@ li a {
   z-index: 1;
   width: 11%;
   margin: 2%;
+  margin-left: 4%;
   text-decoration: none;
   color: #686868;
   font-size: 120%;
@@ -682,6 +726,8 @@ li a {
 .elemento {
   width: 80%;
   height: 9%;
+  margin-top: 5.5%;
+  margin-left: 11%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -693,16 +739,16 @@ li a {
   padding: 1%;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .box {
   display: grid;
   position: static;
-  width: 80%;
-  height: 80%;
-  margin-top: 10%;
-  margin-right: 10%;
+  width: 27%;
+  height: 27%;
+  margin-top: 0%;
+  margin-right: 2.5%;
   margin: 17px;
   z-index: 10;
 }
@@ -727,7 +773,7 @@ li a {
   position: relative;
   z-index: 11;
   margin-left: 0%;
-  margin-top: -9%;
+  margin-top: -1.4%;
   background-color: white;
   padding: 5px;
   color: black;
@@ -740,8 +786,9 @@ li a {
 }
 
 .caixa {
-  width: 80%;
-  height: 80%;
+  width: 27%;
+  height: 27%;
+  margin-right: 2.5%;
   z-index: 10;
   display: grid;
   position: static;
@@ -749,6 +796,7 @@ li a {
 
 .caixa img {
   width: 100%;
+  margin-right: 20%;
 }
 
 .caixa img:hover {
@@ -765,7 +813,7 @@ li a {
 .caixa p {
   position: relative;
   z-index: 11;
-  margin-top: -9%;
+  margin-top: -2%;
   background-color: white;
   padding: 5px;
   color: black;
@@ -805,7 +853,7 @@ li a {
 .caixa1 p {
   position: relative;
   z-index: 11;
-  margin-top: -9%;
+  margin-top: -2%;
   background-color: white;
   padding: 5px;
   color: black;
@@ -818,13 +866,6 @@ li a {
   src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 }
 
-#projeto {
-  text-decoration: none;
-  color: gray;
-  font-family: "Metropolis-Medium ";
-  src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
-}
-
 #shadow {
   box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.1);
 }
@@ -832,9 +873,9 @@ li a {
 #texto h1 {
   position: absolute;
   z-index: 8;
-  top: 156%;
-  left: 17.5%;
-  font-size: 14px;
+  margin-top: 7%;
+  margin-left: 1%;
+  font-size: 15px;
   font-family: "Metropolis-Light";
   src: local(Metropolis-Light) url(../fonts/Metropolis-Light.otf);
 }
@@ -842,9 +883,9 @@ li a {
 #texto1 h1 {
   position: absolute;
   z-index: 8;
-  top: 156%;
-  left: 41%;
-  font-size: 14px;
+  margin-top: 7%;
+  margin-left: 0.5%;
+  font-size: 15px;
   font-family: "Metropolis-Light";
   src: local(Metropolis-Light) url(../fonts/Metropolis-Light.otf);
 }
@@ -852,44 +893,10 @@ li a {
 #texto3 h1 {
   position: absolute;
   z-index: 8;
-  top: 156%;
-  left: 63.5%;
+  margin-left: 1%;
   font-size: 14px;
   font-family: "Metropolis-Light";
   src: local(Metropolis-Light) url(../fonts/Metropolis-Light.otf);
-}
-
-.estudio {
-  font-size: 23px;
-  margin-left: 25%;
-  line-height: 36px;
-  font-family: "Metropolis-Light ";
-}
-
-.estudio1 {
-  display: none;
-  font-size: 25px;
-  margin-left: 7%;
-  line-height: 30px;
-  font-family: "Metropolis-Light ";
-}
-
-.cultura {
-  margin-top: -32%;
-  margin-left: 70%;
-  font-size: 40px;
-  color: #FF2600;
-  font-family: "Homade-Bold";
-  src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
-}
-
-#sobre {
-  margin-top: 10%;
-  margin-left: 25%;
-  font-size: 40px;
-  color: #FF2600;
-  font-family: "Homade-Bold";
-  src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
 }
 
 .modal-container {
@@ -929,11 +936,6 @@ li a {
   object-fit: cover;
 }
 
-#tam {
-  z-index: 50;
-  width: 100%;
-}
-
 @keyframes modal {
   from {
     opacity: 0;
@@ -969,13 +971,64 @@ li a {
   src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
 }
 
-.copyright-footer p {
-  font-size: 0.8em;
+/*SOBRE*/
 
-  margin: 0%;
-  padding: 0%;
-  font-family: "Metropolis-Light";
-  src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf);
+.estudio {
+  font-size: 23px;
+  margin-left: 25%;
+  line-height: 36px;
+  font-family: "Metropolis-Light ";
+}
+
+.estudio1 {
+  display: none;
+  font-size: 25px;
+  margin-left: 7%;
+  line-height: 30px;
+  font-family: "Metropolis-Light ";
+}
+
+.cultura {
+  margin-top: -32%;
+  margin-left: 70%;
+  font-size: 40px;
+  color: #FF2600;
+  font-family: "Homade-Bold";
+  src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
+}
+
+#sobre {
+  margin-top: 10%;
+  margin-left: 25%;
+  font-size: 40px;
+  color: #FF2600;
+  font-family: "Homade-Bold";
+  src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
+}
+
+#left {
+  position: absolute;
+  margin-top: -1%;
+  margin-left: 54.9%;
+  transform: rotate(180deg);
+}
+
+#right {
+  position: absolute;
+  margin-top: -1%;
+  margin-left: 61%;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  margin-top: 15%;
+  cursor: pointer;
+}
+
+.btns {
+  margin-left: 5%;
+  margin-top: -15.5%;
 }
 
 /* pagina slide */
@@ -1017,6 +1070,13 @@ li a {
 
 #botaosobre {
   animation: none;
+  color: #686868;
+  font-size: 20px;
+  margin-left: 62.5%;
+  margin-top: 18.6%;
+  text-decoration: none;
+  transition: none;
+  font-family: "Metropolis-Medium ";
 }
 
 @keyframes transitionIn {
@@ -1029,6 +1089,234 @@ li a {
     opacity: 1;
     transform: translateX(0);
   }
+}
+
+/*Formulário*/
+
+#ponto {
+    font-size: 100px;
+    color: gray;
+    opacity: 0.4;
+    text-align: center;
+}
+
+#ponto1 {
+
+    font-size: 100px;
+    color: gray;
+    opacity: 0.4;
+    text-align: center;
+
+}
+
+.drive p {
+    margin-top: 2.5%;
+    text-align: center;
+    line-height: 34px;
+    font-size: 24px;
+    font-family: "Metropolis-Light ";
+
+}
+
+#contato {
+    margin-top: 8%;
+    font-size: 50px;
+    color: #FF2600;
+    font-family: "Homade-Bold";
+}
+
+#ponto2 {
+    margin-top: 0%;
+    font-size: 100px;
+    color: gray;
+    opacity: 0.4;
+    text-align: center;
+}
+
+.inputBox {
+    margin-top: 5%;
+    margin-left: 35%;
+    display: grid;
+    grid-row-gap: 10px;
+}
+
+.inputBox label {
+    display: contents;
+    margin-top: 0%;
+    font-size: 26px;
+    color: #FF2600;
+    font-family: "Homade-Bold";
+}
+
+input {
+    width: 45%;
+    border-radius: 5px;
+    border-color: black;
+}
+
+
+#nome {
+    height: 40px;
+}
+
+#nome::-webkit-input-placeholder {
+    color: gray;
+    padding: 5%;
+    font-family: "Metropolis-Light ";
+}
+
+#email{
+    height: 40px;
+}
+
+#email::-webkit-input-placeholder {
+    color: gray;
+    padding: 5%;
+    font-family: "Metropolis-Light ";
+}
+
+#number{
+    height: 40px;
+}
+
+#number::-webkit-input-placeholder {
+    color: gray;
+    padding: 5%;
+    font-family: "Metropolis-Light ";
+}
+
+#perf {
+    color: rgb(183, 183, 183);
+    font-family: "Metropolis-Medium ";
+
+
+}
+
+.inputBox1 {
+    margin-left: 35%;
+}
+
+.inputBox1 label {
+    font-size: 26px;
+    color: #FF2600;
+    font-family: "Homade-Bold";
+
+}
+
+#radio {
+    margin-left: -22%;
+    background-color: #FF2600;
+}
+
+#radio1 {
+    margin-top: 0%;
+    margin-left: -22%;
+    background-color: #FF2600;
+}
+
+.opcao0 {
+    margin-top: 2%;
+}
+
+#serv {
+    font-family: "Metropolis-Medium ";
+}
+
+.custom-radio,
+span {
+    transition: 0.5s ease;
+    color: #000;
+}
+
+input[type='radio']:checked+.opcao0 span {
+    background: #000;
+}
+
+span {
+    margin-left: -22%;
+    font-family: "Metropolis-Medium ";
+
+}
+
+#opcao {
+    margin-top: 0.5%;
+}
+
+
+.carousel-control {
+    width: 8%;
+}
+
+.carousel-control.right {
+    left: 92%;
+}
+
+.carousel-control.left {
+    right: 93%;
+    left: auto;
+}
+
+.serv {
+    margin-top: 2%;
+    border: 2px solid;
+    height: 37px;
+    margin: 0.7%;
+    font-size: 15px;
+    border-color: #b7b7b7;
+    border-radius: 12px;
+    font-family: "Metropolis-Medium ";
+}
+
+.serv:hover {
+    color: #FF2600;
+    border-color: #FF2600;
+}
+
+.description {
+    color: rgb(183, 183, 183);
+    font-family: "Metropolis-Medium ";
+
+}
+
+option {
+    font-size: 15px;
+    font-family: "Metropolis-Light ";
+
+}
+
+#select-b52d1b93-909d-4329-8774-86fda75e0b66-field {
+
+    border-radius: 12px;
+    border: none;
+    height: 35px;
+    width: 400px;
+    font-family: "Metropolis-Light ";
+
+}
+
+#enviar {
+    background-color: #FF2600;
+    margin-top: 8%;
+    width: 200px;
+    margin-left: 40%;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 32px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transform: translate(10%, 10%);
+    font-family: "Homade-Bold";
+
+}
+
+#perf {
+    margin-top: 0.4%;
+}
+
+#serv {
+    margin-top: 0.4%;
 }
 
 /* Footer */
@@ -1121,9 +1409,11 @@ li a {
 }
 
 .copyright-footer p {
+  font-size: 0.8em;
   margin: 0%;
   padding: 0%;
   font-family: "Metropolis-Light";
+  src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf);
 }
 
 .juridic {
@@ -1252,11 +1542,11 @@ li a {
   display: none;
 }
 
-.social-icons{
+.social-icons {
   margin-top: 5%;
 }
 
-.social-icons img{
+.social-icons img {
   width: 8%;
   margin: 3%;
   float: right;

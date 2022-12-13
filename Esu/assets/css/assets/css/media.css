@@ -32,16 +32,12 @@
     #blocos1 {
         z-index: 2;
         margin-left: -2%;
-
     }
-
 
     #blocos2 {
         z-index: 2;
-        margin-left: 4%
+        margin-left: 4%;
     }
-
-
 }
 
 .grid {
@@ -76,7 +72,6 @@
 
 .caixa img {
     margin-right: 20%;
-
 }
 
 .caixa1 p {
@@ -100,8 +95,8 @@
 
 #texto3 h1 {
     top: 157%;
-    margin-left: -0.4%;
-    font-size: 15px;
+    margin-left: 1%;
+    font-size: 14px;
     font-family: "Metropolis-Light ";
 }
 
@@ -114,7 +109,6 @@
 
 .container {
     margin-top: 5%;
-
 }
 
 
@@ -141,13 +135,11 @@
     font-family: "Homade-Bold";
 }
 
-
 button {
     border: none;
     background-color: transparent;
     margin-top: 15%;
     cursor: pointer;
-
 }
 
 #left {
@@ -157,8 +149,6 @@ button {
     transform: rotate(180deg);
 }
 
-
-
 #right {
     position: absolute;
     margin-top: -1%;
@@ -166,7 +156,6 @@ button {
 }
 
 #botaosobre {
-
     color: #686868;
     font-size: 20px;
     margin-left: 62.5%;
@@ -212,7 +201,6 @@ button {
     font-size: 50px;
     color: #FF2600;
     font-family: "Homade-Bold";
-
 }
 
 #ponto2 {
@@ -255,7 +243,7 @@ input {
     font-family: "Metropolis-Light ";
 }
 
-#email{
+#email {
     height: 40px;
 }
 
@@ -265,7 +253,7 @@ input {
     font-family: "Metropolis-Light ";
 }
 
-#number{
+#number {
     height: 40px;
 }
 
@@ -664,7 +652,6 @@ option {
         height: 37rem;
     }
 
-
     .elemento {
         margin-top: 5.5%;
         margin-left: 11%;
@@ -689,17 +676,14 @@ option {
 
     #blocos2 {
         margin-left: -16%;
-
     }
 
     .box {
         margin-left: 0;
-
     }
 
     .caixa {
         margin-left: 0;
-
     }
 
     .caixa1 {
@@ -726,7 +710,7 @@ option {
 
     #texto h1 {
         margin-top: 0%;
-        margin-left: -1%;
+        margin-left: 1%;
         font-size: 14px;
         font-family: "Metropolis-Light ";
         src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
@@ -734,7 +718,7 @@ option {
 
     #texto1 h1 {
         margin-top: 0%;
-        margin-left: -1%;
+        margin-left: 1%;
         font-size: 14px;
         font-family: "Metropolis-Light ";
         src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
@@ -742,7 +726,7 @@ option {
 
     #texto2 h1 {
         margin-top: 0%;
-        margin-left: -1%;
+        margin-left: 1%;
         font-size: 14px;
         font-family: "Metropolis-Light ";
         src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
@@ -1466,7 +1450,7 @@ option {
     }
 }
 
-@media (max-width: 750px){
+@media (max-width: 750px) {
 
     /*--carousel--*/
 
@@ -1509,7 +1493,7 @@ option {
         box-shadow: 3px 3px 3px rgb(0 0 0 / 10%);
     }
 
-    .logo img{
+    .logo img {
         height: 65%;
         top: 20%;
         left: 5%;
