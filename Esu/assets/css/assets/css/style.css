@@ -58,8 +58,6 @@ li a{
   src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf);
   color: gray;
   margin-left: 5%;
-
-
 }
 
 @font-face {
@@ -79,9 +77,8 @@ li a:hover{
   height: 35px;
   margin-top: 8px;
   margin-left: 220px;
-
-
 }
+
 #submit{
   background-color: red;
   margin-top: 8px;

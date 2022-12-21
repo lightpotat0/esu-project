@@ -23,6 +23,20 @@ html {
   height: 100%;
 }
 
+#boxmenu {
+  display: block;
+}
+
+.hamburguer {
+  width: 0vw;
+  height: 0vh;
+  top: 9%;
+  left: 0px;
+  z-index: 2000;
+  justify-content: center;
+  align-items: center;
+}
+
 ul {
   width: 100%;
   list-style: none;
@@ -31,10 +45,9 @@ ul {
 }
 
 nav {
-  padding: 0 20px;
+  padding: 30px 20px;
   background-color: white;
   width: 100%;
-  height: 4rem;
   position: fixed;
   z-index: 20;
   box-shadow: 3px 3px 3px rgb(0 0 0 / 6%);
@@ -83,7 +96,7 @@ nav {
   border-radius: 5px;
   display: block;
   position: fixed;
-  top: 6%;
+  top: 5%;
   left: 108%;
   transform: translate(-50%, -50%);
   transition: transform 0.5s, width 0.5s;
@@ -109,45 +122,54 @@ nav {
   width: 0;
 }
 
-#menu1 a {
-  position: absolute;
-  top: 40%;
-  left: 56%;
-  width: 6.8%;
+#linebox {
+  position: fixed;
+  float: right;
+  right: -3%;
+  width: 10%;
+  height: 6%;
+  top: -3%;
 }
 
-#menu3 a {
+#menu1 p {
   position: absolute;
-  top: 40%;
-  left: 72%;
-  width: 6.5%;
+  top: 17%;
+  left: 58%;
+  padding: 17px;
 }
 
-#menu2 a {
+#menu3 p {
   position: absolute;
-  top: 40%;
-  left: 65%;
-  width: 4.6%;
+  top: 17%;
+  left: 67%;
+  padding: 17px;
+}
+
+#menu2 p {
+  position: absolute;
+  top: 17%;
+  left: 75%;
+  padding: 17px;
 }
 
 #botaoo {
   position: absolute;
   text-align: center;
   color: white;
-  top: 25%;
+  top: 0%;
   left: 80%;
-  width: 10%;
+  padding: 17px;
 }
 
-#menu3 a:hover {
+#menu3 p:hover {
   color: #000;
 }
 
-#menu2 a:hover {
+#menu2 p:hover {
   color: #000;
 }
 
-#menu1 a:hover {
+#menu1 p:hover {
   color: #000;
 }
 
@@ -214,7 +236,7 @@ li {
   float: left;
 }
 
-li a {
+li p {
   display: block;
   text-decoration: none;
   color: gray;
@@ -225,7 +247,7 @@ li a {
   position: absolute;
   top: 25%;
   left: 5%;
-  width: 8%;
+  width: 10%;
   height: 50%;
 }
 
@@ -267,6 +289,22 @@ a {
 
 #ver-mais {
   display: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  width: 8%;
+  height: 5%;
+}
+
+#seta-down {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  opacity: 0.5;
 }
 
 #ponto3 {
@@ -282,7 +320,7 @@ a {
   margin-top: -1.5%;
   text-align: center;
   line-height: 34px;
-  font-size: 24px;
+  font-size: 18px;
   font-family: "Metropolis-Light ";
 }
 
@@ -733,23 +771,38 @@ a {
   justify-content: space-evenly;
 }
 
-.grid {
-  width: 80%;
-  margin-left: 10%;
-  padding: 1%;
-  display: flex;
-  flex-direction: row;
+.grid-container {
   justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.grid {
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 150px;
+}
+
+#img {
+  width: 300px;
+}
+
+#img1 {
+  width: 300px;
+}
+
+#img3 {
+  width: 300px;
 }
 
 .box {
-  display: grid;
-  position: static;
-  width: 27%;
-  height: 27%;
-  margin-top: 0%;
-  margin-right: 2.5%;
-  margin: 17px;
+  margin: 0;
+  height: 10%;
+  width: 150px;
+  flex: 1 1 150px;
   z-index: 10;
 }
 
@@ -777,7 +830,7 @@ a {
   background-color: white;
   padding: 5px;
   color: black;
-  width: 66%;
+  width: 100%;
   grid-column: 1;
   grid-row: 2;
   font-size: 16px;
@@ -974,7 +1027,7 @@ a {
 /*SOBRE*/
 
 .estudio {
-  font-size: 23px;
+  font-size: 20px;
   margin-left: 25%;
   line-height: 36px;
   font-family: "Metropolis-Light ";
@@ -982,7 +1035,7 @@ a {
 
 .estudio1 {
   display: none;
-  font-size: 25px;
+  font-size: 20px;
   margin-left: 7%;
   line-height: 30px;
   font-family: "Metropolis-Light ";
@@ -1094,229 +1147,246 @@ button {
 /*Formulário*/
 
 #ponto {
-    font-size: 100px;
-    color: gray;
-    opacity: 0.4;
-    text-align: center;
+  font-size: 100px;
+  color: gray;
+  opacity: 0.4;
+  text-align: center;
 }
 
 #ponto1 {
 
-    font-size: 100px;
-    color: gray;
-    opacity: 0.4;
-    text-align: center;
+  font-size: 100px;
+  color: gray;
+  opacity: 0.4;
+  text-align: center;
+}
 
+#caxias {
+  margin-top: 2%;
+  display: grid;
+  grid-row-gap: 5px;
+  grid-column-gap: 5px;
+  grid-template-columns: repeat(2, 156px);
+}
+
+.inputBox3 {
+  margin-top: 0%;
 }
 
 .drive p {
-    margin-top: 2.5%;
-    text-align: center;
-    line-height: 34px;
-    font-size: 24px;
-    font-family: "Metropolis-Light ";
+  margin-top: 2.5%;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-family: "Metropolis-Light ";
 
 }
 
 #contato {
-    margin-top: 8%;
-    font-size: 50px;
-    color: #FF2600;
-    font-family: "Homade-Bold";
+  margin-top: 8%;
+  font-size: 50px;
+  color: #FF2600;
+  font-family: "Homade-Bold";
 }
 
 #ponto2 {
-    margin-top: 0%;
-    font-size: 100px;
-    color: gray;
-    opacity: 0.4;
-    text-align: center;
+  margin-top: 0%;
+  font-size: 100px;
+  color: gray;
+  opacity: 0.4;
+  text-align: center;
 }
 
 .inputBox {
-    margin-top: 5%;
-    margin-left: 35%;
-    display: grid;
-    grid-row-gap: 10px;
+  margin-top: 5%;
+  margin-left: 35%;
+  display: grid;
+  grid-row-gap: 10px;
 }
 
 .inputBox label {
-    display: contents;
-    margin-top: 0%;
-    font-size: 26px;
-    color: #FF2600;
-    font-family: "Homade-Bold";
+  display: contents;
+  margin-top: 0%;
+  font-size: 26px;
+  color: #FF2600;
+  font-family: "Homade-Bold";
 }
 
 input {
-    width: 45%;
-    border-radius: 5px;
-    border-color: black;
+  width: 45%;
+  border-radius: 5px;
+  border-color: black;
 }
 
 
 #nome {
-    height: 40px;
+  height: 40px;
 }
 
 #nome::-webkit-input-placeholder {
-    color: gray;
-    padding: 5%;
-    font-family: "Metropolis-Light ";
+  color: gray;
+  padding: 5%;
+  font-family: "Metropolis-Light ";
 }
 
-#email{
-    height: 40px;
+#email {
+  height: 40px;
 }
 
 #email::-webkit-input-placeholder {
-    color: gray;
-    padding: 5%;
-    font-family: "Metropolis-Light ";
+  color: gray;
+  padding: 5%;
+  font-family: "Metropolis-Light ";
 }
 
-#number{
-    height: 40px;
+#number {
+  height: 40px;
 }
 
 #number::-webkit-input-placeholder {
-    color: gray;
-    padding: 5%;
-    font-family: "Metropolis-Light ";
+  color: gray;
+  padding: 5%;
+  font-family: "Metropolis-Light ";
 }
 
 #perf {
-    color: rgb(183, 183, 183);
-    font-family: "Metropolis-Medium ";
+  color: rgb(183, 183, 183);
+  font-family: "Metropolis-Medium ";
 
 
 }
 
 .inputBox1 {
-    margin-left: 35%;
+  margin-left: 35%;
 }
 
 .inputBox1 label {
-    font-size: 26px;
-    color: #FF2600;
-    font-family: "Homade-Bold";
+  font-size: 26px;
+  color: #FF2600;
+  font-family: "Homade-Bold";
 
 }
 
 #radio {
-    margin-left: -22%;
-    background-color: #FF2600;
+  margin-left: -22%;
+  background-color: #FF2600;
 }
 
 #radio1 {
-    margin-top: 0%;
-    margin-left: -22%;
-    background-color: #FF2600;
+  margin-top: 0%;
+  margin-left: -22%;
+  background-color: #FF2600;
 }
 
 .opcao0 {
-    margin-top: 2%;
+  margin-top: 2%;
 }
 
 #serv {
-    font-family: "Metropolis-Medium ";
+  font-family: "Metropolis-Medium ";
 }
 
 .custom-radio,
 span {
-    transition: 0.5s ease;
-    color: #000;
+  transition: 0.5s ease;
+  color: #000;
 }
 
 input[type='radio']:checked+.opcao0 span {
-    background: #000;
+  background: #000;
 }
 
 span {
-    margin-left: -22%;
-    font-family: "Metropolis-Medium ";
+  margin-left: -22%;
+  font-family: "Metropolis-Medium ";
 
 }
 
 #opcao {
-    margin-top: 0.5%;
+  margin-top: 0.5%;
 }
 
 
 .carousel-control {
-    width: 8%;
+  width: 8%;
 }
 
 .carousel-control.right {
-    left: 92%;
+  left: 92%;
 }
 
 .carousel-control.left {
-    right: 93%;
-    left: auto;
+  right: 93%;
+  left: auto;
 }
 
 .serv {
-    margin-top: 2%;
-    border: 2px solid;
-    height: 37px;
-    margin: 0.7%;
-    font-size: 15px;
-    border-color: #b7b7b7;
-    border-radius: 12px;
-    font-family: "Metropolis-Medium ";
+  margin-top: 2%;
+  border: 2px solid;
+  height: 37px;
+  margin: 0.7%;
+  padding: 0 10px;
+  font-size: 16px;
+  border-color: #b7b7b7;
+  border-radius: 12px;
+  font-family: "Metropolis-Medium ";
 }
 
 .serv:hover {
-    color: #FF2600;
-    border-color: #FF2600;
+  color: #FF2600;
+  border-color: #FF2600;
 }
 
 .description {
-    color: rgb(183, 183, 183);
-    font-family: "Metropolis-Medium ";
+  color: rgb(183, 183, 183);
+  font-family: "Metropolis-Medium ";
 
 }
 
 option {
-    font-size: 15px;
-    font-family: "Metropolis-Light ";
+  font-size: 15px;
+  font-family: "Metropolis-Light ";
 
 }
 
 #select-b52d1b93-909d-4329-8774-86fda75e0b66-field {
 
-    border-radius: 12px;
-    border: none;
-    height: 35px;
-    width: 400px;
-    font-family: "Metropolis-Light ";
+  border-radius: 12px;
+  border: none;
+  height: 35px;
+  width: 400px;
+  font-family: "Metropolis-Light ";
 
 }
 
 #enviar {
-    background-color: #FF2600;
-    margin-top: 8%;
-    width: 200px;
-    margin-left: 40%;
-    border: none;
-    border-radius: 20px;
-    color: #ffffff;
-    font-size: 22px;
-    line-height: 32px;
-    text-transform: uppercase;
-    cursor: pointer;
-    transform: translate(10%, 10%);
-    font-family: "Homade-Bold";
+  background-color: #FF2600;
+  margin-top: 8%;
+  width: 200px;
+  margin-left: 40%;
+  border: none;
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 32px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transform: translate(10%, 10%);
+  font-family: "Homade-Bold";
+}
 
+.enviarbt {
+  display: flex;
+  justify-content: center;
+  width: 68%;
 }
 
 #perf {
-    margin-top: 0.4%;
+  margin-top: 0.4%;
 }
 
 #serv {
-    margin-top: 0.4%;
+  margin-top: 0.4%;
 }
 
 /* Footer */
@@ -1405,7 +1475,6 @@ option {
 
 .copyright-footer {
   width: 42%;
-  margin-top: -2%;
 }
 
 .copyright-footer p {

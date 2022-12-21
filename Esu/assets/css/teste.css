@@ -1,88 +1,85 @@
-body{
-    margin: 0;
-    padding: 0;
+/*.container{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.grid{
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 150px;
+}
+
+#img{
+  width: 300px;
+}
+
+#img1{
+  width: 300px;
+}
+
+#img3{
+  width: 300px;
+}
+
+.box{
+  margin: 0;
+  width: 150px;
+  height: 70px;
+  flex: 1 1 150px;
+}
+
+@media (max-width: 800px) {
+  
+  .grid{
+    flex-direction: column;
+    gap: 200px;
   }
+}*/
 
-/* Slide Text */
+/*
 
-#slidetxt{
-  position: relative;
-}
+ .hamburguer {
+        width: 0vw;
+        height: 0vh;
+        position: fixed;
+        top: 12%;
+        left: 0px;
+        z-index: 2000;
+        justify-content: center;
+        align-items: center;
+    }
 
-#page {
-  position: relative;
-}
+    .menu {
+        width: 200px;
+        height: 200px;
+        margin: 8px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
 
-#paginas{
-  text-align: center;
-  font-size: 640px;
-}
+    .logo img {
+        left: -34%;
+        width: 8%;
+        height: 54%;
+    }
 
-#pag1{
-  display: none;
-}
+    #boxmenu {
+        display: none;
+        width: 30%;
+        height: 100%;
+    }
 
-#pag2{
-  display: none;
-}
+    #linebox {
+        position: fixed;
+        float: right;
+        right: -3%;
+        width: 10%;
+        height: 6%;
+        top: -3%;
+    }
 
-#pag3{
-  display: none;
-}
-
-/* Text */
-
-.estudio{
-  font-size: 23px;
-  margin-left: 25%;
-  line-height: 36px;
-  font-family: "Metropolis-Light ";
-  src: local(Metropolis-Light), url(../fonts/Metropolis-Light.otf)
-}
-
-.cultura{
-margin-top: -29%;
-margin-left: 70%;
- font-size: 40px;
- color: #FF2600;
- font-family: "Homade-Bold";
- src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
-}
-
-#botaosobre{
-  position: absolute;
-color: #686868;
-  font-size: 20px;
-  margin-left: 63%;
-  margin-top: 16.2%;
-  text-decoration: none;
-  font-family: "Metropolis-Medium ";
-   src: local(Metropolis-Medium), url(../fonts/Metropolis-Medium.otf)
-}
-
-/* Controller Buttons */
-
-button{
-  border: none;
-  background-color: transparent;
-  margin-top: 15%;
-  cursor: pointer;
-}
-
-#left{
-  position: absolute;
-  margin-top: -1%;
-  margin-left: 55%;
-  transform: rotate(180deg);
-}
-
-#right{
-  position: absolute;
-  margin-top: -1%;
-  margin-left: 60.5%;
-}
-
-.btns{
-  margin-left: 5%;
-  margin-top: 5%;
-}
+*/

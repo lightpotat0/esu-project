@@ -54,56 +54,59 @@ function escap() {
 
 //imagem hover texto e aparição do texto
 
+if (window.innerWidth > 800) {
 
-var img = document.getElementById('img')
-var p1 = document.getElementById('tx1')
-var msg = document.getElementById('texto')
+    var img = document.getElementById('img')
+    var p1 = document.getElementById('tx1')
+    var msg = document.getElementById('texto')
 
-img.addEventListener('mouseout', pas)
-img.addEventListener('mouseenter', paz)
-
-function pas() {
-    p1.style.display = 'block'
+    img.addEventListener('mouseout', pas)
+    img.addEventListener('mouseenter', paz)
     msg.style.display = 'none'
-}
 
-function paz() {
-    p1.style.display = 'none'
-    msg.style.display = 'block'
-}
+    function pas() {
+        p1.style.display = 'block'
+        msg.style.display = 'none'
+    }
 
-var img1 = document.getElementById('img1')
-var p2 = document.getElementById('tx2')
-var msg1 = document.getElementById('texto1')
+    function paz() {
+        p1.style.display = 'none'
+        msg.style.display = 'block'
+    }
 
-img1.addEventListener('mouseout', ka)
-img1.addEventListener('mouseenter', ka1)
-msg1.style.display = 'none'
+    var img1 = document.getElementById('img1')
+    var p2 = document.getElementById('tx2')
+    var msg1 = document.getElementById('texto1')
 
-function ka() {
-    p2.style.display = 'block'
+    img1.addEventListener('mouseout', ka)
+    img1.addEventListener('mouseenter', ka1)
     msg1.style.display = 'none'
-}
 
-function ka1() {
-    p2.style.display = 'none'
-    msg1.style.display = 'block'
-}
+    function ka() {
+        p2.style.display = 'block'
+        msg1.style.display = 'none'
+    }
 
-var img2 = document.getElementById('img3')
-var p3 = document.getElementById('tx4')
-var msg2 = document.getElementById('texto3')
+    function ka1() {
+        p2.style.display = 'none'
+        msg1.style.display = 'block'
+    }
 
-img2.addEventListener('mouseout', among)
-img2.addEventListener('mouseenter', us)
-msg2.style.display = 'none'
+    var img2 = document.getElementById('img3')
+    var p3 = document.getElementById('tx4')
+    var msg2 = document.getElementById('texto3')
 
-function among() {
-    p3.style.display = 'block'
+    img2.addEventListener('mouseout', among)
+    img2.addEventListener('mouseenter', us)
     msg2.style.display = 'none'
-}
 
-function us() {
-    p3.style.display = 'none'
-    msg2.style.display = 'block'
+    function among() {
+        p3.style.display = 'block'
+        msg2.style.display = 'none'
+    }
+
+    function us() {
+        p3.style.display = 'none'
+        msg2.style.display = 'block'
+    }
 }

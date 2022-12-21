@@ -44,17 +44,6 @@
     justify-content: center;
 }
 
-.box {
-    margin-top: 0.2%;
-    margin-right: 2.5%;
-    width: 27%;
-    height: 27%;
-}
-
-.box p {
-    margin-top: -7.8%;
-}
-
 .caixa {
     margin-right: 2.5%;
     width: 27%;
@@ -198,7 +187,7 @@ button {
 
 #contato {
     margin-top: 8%;
-    font-size: 50px;
+    font-size: 40px;
     color: #FF2600;
     font-family: "Homade-Bold";
 }
@@ -338,7 +327,7 @@ span {
     margin-top: 2%;
     border: 2px solid;
     height: 37px;
-    margin: 0.7%;
+    margin: 2.7% 1% 1%;
     font-size: 15px;
     border-color: #b7b7b7;
     border-radius: 12px;
@@ -390,10 +379,6 @@ option {
 }
 
 #perf {
-    margin-top: 0.4%;
-}
-
-#serv {
     margin-top: 0.4%;
 }
 
@@ -744,29 +729,38 @@ option {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 
-    hr {
-        margin-top: 6%;
-        color: transparent;
-        width: 24%;
-        justify-content: center;
-        align-items: center;
-        float: right;
-        text-align: center;
-        position: relative;
-        right: 38%;
-        box-shadow: 3px 3px 3px rgb(0 0 0 / 6%);
+    /*Nav*/
+
+    .logo img{
+        width: 18%;
     }
 
-    /* Carousel Image Mobile */
+    #boxmenu {
+        display: none;
+    }
 
-    .slide h1 {
-        text-align: center;
-        font-size: 112%;
-        margin-top: -4rem;
-        left: 0;
-        margin-left: 0;
+    #boxmenu1 {
+        display: none;
+    }
+
+    .mbhamburguer {
+        display: block;
+    }
+
+    .hamburguer{
+        position: fixed;
+    }
+
+    /*slide*/
+
+    .img-responsive,
+    .thumbnail>img,
+    .thumbnail a>img,
+    .carousel-inner>.item>img,
+    .carousel-inner>.item>a>img {
+        height: 18rem;
     }
 
     .carousel-indicators {
@@ -777,143 +771,12 @@ option {
         display: none;
     }
 
-    .carousel-inner img {
-        margin-top: 15%;
-    }
-
-    .img-responsive,
-    .thumbnail>img,
-    .thumbnail a>img,
-    .carousel-inner>.item>img,
-    .carousel-inner>.item>a>img {
-        display: block;
-        width: 100%;
-        height: 22rem;
-    }
-
-    /* Menu */
-
-    nav {
-        top: 0;
-        width: 100%;
-        height: 12.1%;
-        box-shadow: 3px 3px 3px rgb(0 0 0 / 10%);
-    }
-
-    .mbhamburguer {
-        display: block;
-        width: 5%;
-    }
-
-    .container-hamburguer {
-        background: 0;
-    }
-
-    .hamburguer {
-        width: 0vw;
-        height: 0vh;
-        position: fixed;
-        top: 12%;
-        left: 0px;
-        z-index: 2000;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .menu {
-        width: 200px;
-        height: 200px;
-        margin: 8px;
-        border-radius: 5px;
-        cursor: pointer;
-    }
-
-    .logo img {
-        left: -34%;
-        width: 8%;
-        height: 54%;
-    }
-
-    #boxmenu {
-        display: none;
-        width: 30%;
-        height: 100%;
-    }
-
-    #linebox {
-        position: fixed;
-        float: right;
-        right: -3%;
-        width: 10%;
-        height: 6%;
-        top: -3%;
-    }
-
-    #menus1 a {
-        position: absolute;
-        color: white;
-        top: 11%;
-        left: 58.4%;
-        font-size: 30px;
-        width: 6.8%;
-    }
-
-    #menus2 a {
-        position: absolute;
-        color: white;
-        top: 18%;
-        left: 69.9%;
-        font-size: 30px;
-        width: 6.5%;
-    }
-
-    #menus3 a {
-        position: absolute;
-        color: white;
-        top: 25%;
-        left: 61%;
-        font-size: 30px;
-        width: 4.6%;
-    }
-
-    #menus1 a:hover {
-        color: red;
-    }
-
-    #menus2 a:hover {
-        color: red;
-    }
-
-    #menus3 a:hover {
-        color: red;
-    }
-
-    #botaoos {
-        position: absolute;
+    .slide h1 {
+        margin-left: 4rem;
         text-align: center;
-        top: 34%;
-        left: 49.7%;
-        width: 10%;
     }
 
-    #botaoos a:hover {
-        color: red;
-    }
-
-    #submit {
-        font-size: 30px;
-        background-color: none;
-        border-radius: none;
-        margin-top: 0;
-        padding: 0;
-        line-height: 0;
-        transform: none;
-        border-radius: 0;
-        background-color: 0;
-    }
-
-
-    /* Projetos */
+    /*projeto*/
 
     #projetoss {
         display: none;
@@ -924,155 +787,54 @@ option {
     }
 
     .grid {
-        width: 90%;
-        margin-left: 8%;
-        display: block;
-        flex-direction: none;
-    }
-
-    #cax {
-        margin-top: -15%;
-    }
-
-    #cax1 {
-        margin-top: -15%;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
     }
 
     .box {
-        margin-top: 1%;
-        width: 97%;
-        height: 66%;
+        width: 300px;
     }
 
-    #texto h1 {
-        display: none;
+    .s{
+        margin-top: -4%;
     }
 
     .box img:hover {
         opacity: 1;
-        transition: none;
-        z-index: 10;
+        transition: opacity 300ms;
+        z-index: 15;
     }
 
     .box img:not(:hover) {
         opacity: 1;
-        transition: none;
+        transition: opacity 300ms;
     }
 
-    .box p {
-        text-align: center;
-        width: 40%;
-        font-size: 16px;
-    }
-
-    .caixa {
-        margin-top: -15%;
-        margin-right: 2.5%;
-        width: 84%;
-        height: 66%;
-    }
-
-    .caixa p {
-        text-align: center;
-        width: 84%;
-        font-size: 16px;
-    }
-
-    .caixa img:hover {
-        opacity: 1;
-        transition: none;
-        z-index: 10;
-    }
-
-    .caixa img:not(:hover) {
-        opacity: 1;
-        transition: none;
-    }
-
-    #texto1 h1 {
+    #texto {
         display: none;
     }
 
-    .caixa1 {
-        width: 84%;
-        height: 67%;
-        margin-top: -3%;
-    }
-
-    .caixa1 p {
-        top: 248%;
-        text-align: center;
-        width: 40%;
-        font-size: 16px;
-    }
-
-    .caixa1 img:hover {
-        opacity: 1;
-        transition: none;
-        z-index: 10;
-    }
-
-    .caixa1 img:not(:hover) {
-        opacity: 1;
-        transition: none;
-    }
-
-    #texto2 h1 {
+    #texto1 {
         display: none;
     }
 
-    #ponto {
+    #texto2 {
         display: none;
     }
 
-    #oshi {
+    #texto3 {
         display: none;
     }
 
     #ver-mais {
         display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 0%;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        cursor: pointer;
-        width: 11%;
-        height: 5%;
     }
 
-    #seta-down {
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        opacity: 0.5;
-    }
-
-    #gridbile {
-        display: none;
-    }
-
-    #img3::before {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        height: 100px;
-
-        -webkit-filter: blur(15px);
-        -moz-filter: blur(15px);
-        -o-filter: blur(15px);
-        -ms-filter: blur(15px);
-        filter: blur(15px);
-    }
-
-    /* Sobre */
+    /*Sobre*/
 
     #sobre {
-        margin-top: 20%;
-        margin-left: 2%;
-        line-height: 0.5;
+        margin-top: 15%;
     }
 
     .cultura {
@@ -1083,513 +845,122 @@ option {
         display: none;
     }
 
-    .btns {
+    #right {
         display: none;
+    }
+
+    #left {
+        display: none;
+    }
+
+    #pag {
+        display: none;
+    }
+
+    #pag1 {
+        display: block;
     }
 
     .estudio {
-        display: none;
+        margin-left: 5%;
+        font-size: 18px;
+        line-height: 30px;
     }
 
-    .estudio1 {
-        display: block;
+    #sobre {
+        margin-left: 5%;
     }
 
-    #ponto1 {
-        font-size: 62px;
-        margin-top: -8%;
-        letter-spacing: -15px;
-    }
-
-    /* Formulario */
-
-    .drive1 {
-        display: block;
-        line-height: 33px;
-        margin-left: 8%;
-        text-align: left;
-    }
+    /*Formulário*/
 
     .drive {
         display: none;
     }
 
+    .drive1 {
+        display: block;
+        line-height: 30px;
+    }
+
     #contato {
-        margin-top: 20%;
-        margin-left: -5%;
-        font-size: 180%;
+        text-align: left;
+        line-height: 32px;
+        margin-top: 15%;
+        margin-left: 5%;
     }
 
     #cont {
-        margin-top: 5%;
-        margin-left: -5%;
-        font-size: 25px;
-    }
-
-    #ponto2 {
-        font-size: 62px;
-        margin-top: 3%;
-        letter-spacing: -15px;
-    }
-
-    .inputBox {
-        margin-left: 3%;
-        line-height: 60%;
-        margin-top: 16%;
-        border-radius: 12px;
-    }
-
-    .inputBox label {
-        font-size: 24px;
-    }
-
-    input {
-        width: 98%;
-    }
-
-    .inputBox1 {
-        margin-left: 3%;
-    }
-
-    .inputBox1 label {
-        font-size: 24px;
-        border-radius: 12px;
-    }
-
-    #perf {
-        font-size: 15px;
-    }
-
-    #radio {
-        margin-left: -47%;
-        margin-top: 2%;
-        float: left;
-    }
-
-    #radio1 {
-        margin-left: -47%;
-        float: left;
-    }
-
-    #busco {
-        margin-left: -45%;
-        font-size: 16px;
-    }
-
-    .inputBox2 {
-        margin-left: -1%;
-    }
-
-    .inputBox2 label {
-        font-size: 24px;
-    }
-
-    #serv {
-        font-size: 15px;
-        color: #000;
-        border-color: #b7b7b7;
-        font-family: "Metropolis-Medium ";
-    }
-
-    .serv {
-        border: 1px solid;
-        margin-top: 3%;
-        margin-left: 4%;
-        font-size: 19px;
-        border-radius: 5px;
-        border-color: #b7b7b7;
-        height: 40px;
-    }
-
-    #br {
-        display: none;
-    }
-
-    .inputBox3 {
-        margin-left: -1%;
-    }
-
-    .inputBox3 label {
-        font-size: 24px;
-    }
-
-    .description {
-        font-size: 15px;
-    }
-
-    #select-b52d1b93-909d-4329-8774-86fda75e0b66-field {
-        width: 385px;
-    }
-
-    option {
-        font-size: 12px;
-    }
-
-    #enviar {
-        margin-left: 25%;
-    }
-
-    #ponto3 {
-        display: block;
-        font-size: 62px;
-        color: gray;
-        opacity: 0.4;
-        text-align: center;
-        margin-top: 0%;
-        letter-spacing: -15px;
-    }
-
-    /* Footer */
-
-    .footer-page-color {
-        height: 60%;
-        margin-top: 25%;
-    }
-
-    .how-works {
-        display: none;
-    }
-
-    .help-support {
-        display: none;
-    }
-
-    .hr-page {
-        display: none;
-    }
-
-    .copyright-footer p {
-        position: absolute;
-        margin: 5%;
-        margin-top: 50%;
-        margin-left: 3%;
-        text-align: center;
-        color: #686868;
-        width: 95%;
-
-    }
-
-    .copyright-footer1 {
-        display: block;
-        margin-top: 25%;
-        margin-left: 4%;
-    }
-
-    .copyright-footer1 p {
-        margin: 0%;
-        padding: 0%;
-        font-size: 14px;
-        line-height: 22px;
-        width: 5%;
-        color: #686868;
-        font-family: "Metropolis-Medium ";
-    }
-
-    .social-icons {
-        align-content: center;
-        width: 100%;
-        margin-right: 23%;
-        height: 100%;
-    }
-
-    .social-icons img {
-        align-content: center;
-        width: 16%;
-        margin: 4%;
-        margin-top: 44%;
-    }
-
-    .footer-page-top a {
-        text-align: center;
-    }
-
-    .logo-rodape {
-        display: contents;
-    }
-
-    .logo-rodape img {
-        width: 125%;
-        height: 100%;
-        margin-left: -10%;
-        margin-top: 88%;
-    }
-
-}
-
-@media (max-width: 580px) {
-
-    /* Menu */
-
-    nav {
-        height: 10%;
-    }
-
-    .logo img {
-        left: 3%;
-        width: 30%;
-        height: 56%;
-        float: left;
-    }
-
-    .menu span {
-        width: 11%;
-        top: 5%;
-        left: 108%;
-    }
-
-    .hamburguer {
-        top: 10%;
-    }
-
-    /* Carousel */
-
-    .img-responsive,
-    .thumbnail>img,
-    .thumbnail a>img,
-    .carousel-inner>.item>img,
-    .carousel-inner>.item>a>img {
-        display: block;
-        width: auto 100%;
-        height: 20rem;
-        margin-top: 16%;
-    }
-
-    .carousel-inner img {
-        margin-top: 28%;
-    }
-
-    .slide h1 {
-        left: 25%;
-    }
-
-    /* Projeto */
-
-    .container {
-        width: 100%;
-        margin-top: 5%;
-    }
-
-    .grid {
-        margin-left: 0%;
-        width: 98%;
-    }
-
-    .box {
-        width: 90%;
-        margin-top: 0;
-        margin-left: 5%;
-    }
-
-    .box p {
-        margin-top: -21%;
-    }
-
-    .caixa {
-        width: 90%;
-        height: 68%;
-        margin-top: -15%;
-        margin-left: 5%;
-    }
-
-    #cax p {
-        margin-top: -21%;
-        width: 40%;
-    }
-
-    .caixa p {
-        width: 40%;
-    }
-
-    .caixa1 {
-        width: 90%;
+        text-align: left;
         margin-top: 4%;
         margin-left: 5%;
     }
 
-    /* Sobre */
-
-    #page {
-        margin-top: 10%;
-        margin-left: -5%;
-    }
-
-    #ponto1 {
-        margin-top: 0;
-    }
-
-    /* Formulario */
-
-    .drive1 {
-        line-height: 36px;
-    }
-
-    #cont {
+    .inputbox {
         margin-top: 5%;
+        margin-left: 5%;
     }
 
-    #ponto2 {
-        margin-top: 0;
-    }
-
-    #radio {
-        margin-top: 0%;
-    }
-
-    .opcao0 {
-        margin-top: 3%;
-    }
-
-    #enviar {
-        margin-left: 18%;
-    }
-
-    /* Footer */
-
-    #select-b52d1b93-909d-4329-8774-86fda75e0b66-field {
+    input{
         width: 98%;
     }
-}
 
-@media (max-width: 750px) {
-
-    /*--carousel--*/
-
-    .slide h1 {
-        text-align: center;
-        font-size: 112%;
-        margin-top: -4rem;
-        left: 40%;
-        margin-left: 0;
+    .inputbox1 {
+        margin-left: 5%;
     }
 
-    .carousel-indicators {
-        display: none;
+    .inputBox1 label {
+        font-size: 26px;
     }
 
-    .carousel-control {
-        display: none;
+    .inputBox label {
+        font-size: 26px;
     }
 
-    .carousel-inner img {
-        margin-top: 5%;
+    #enviar{
+        margin-left: 15%;
     }
 
-    .img-responsive,
-    .thumbnail>img,
-    .thumbnail a>img,
-    .carousel-inner>.item>img,
-    .carousel-inner>.item>a>img {
-        display: block;
-        width: 100%;
-        height: 22rem;
+    #select-b52d1b93-909d-4329-8774-86fda75e0b66-field{
+        width: 320px;
+        font-size: 16px;
     }
 
-    /*--menu--*/
-
-    nav {
-        top: 0;
-        width: 100%;
-        height: 20%;
-        box-shadow: 3px 3px 3px rgb(0 0 0 / 10%);
+    #busco{
+        margin-left: -42%;
+        font-size: 18px;
     }
 
-    .logo img {
-        height: 65%;
-        top: 20%;
-        left: 5%;
-        float: left;
+    #radio{
+        margin-left: -44%;
     }
 
-    .menu span {
-        width: 5%;
-        left: 115%;
-        top: 10%;
+    #radio1{
+        margin-left: -44%;
     }
 
-    .mbhamburguer {
-        display: block;
-        width: 5%;
-    }
-
-    #boxmenu {
-        display: none;
-        width: 30%;
-        height: 100%;
-    }
-
-}
-
-@media (max-width: 2560px) and (min-width: 2560px) {
-
-    .img-responsive,
-    .thumbnail>img,
-    .thumbnail a>img,
-    .carousel-inner>.item>img,
-    .carousel-inner>.item>a>img {
-        height: 58rem;
-    }
-
-    .elemento {
-        margin-top: 12.5%;
-        margin-left: 11%;
-    }
-
-    #identidade {
-        margin-right: -15%;
-        margin-left: 0;
-    }
-
-    #blocos {
-        margin-left: 0;
-        margin-right: 0;
-        width: 11%;
+    .description{
+        font-size: 16px;
     }
 
 
-    #blocos1 {
-        margin-left: -15%;
+    /*footer*/
+
+    .social-icons {
+        margin-top: 18%;
     }
 
-
-    #blocos2 {
-        margin-left: -16%;
-
+    .copyright-footer {
+        width: 50%;
+        margin-top: 9%;
     }
 
-    .box {
-        margin-left: 0;
-
+    .footer-page-color{
+        position: absolute;
     }
 
-    .caixa {
-        margin-left: 0;
-
-    }
-
-    .caixa1 {
-        margin-left: 0;
-
-    }
-
-    .box p {
-        margin-top: 0;
-    }
-
-
-    .box p {
-        margin-top: 0;
-
-    }
-
-    .box img {
-        margin-left: 0;
-        margin-top: 0;
-
-    }
-
-    .caixa img {
-        margin-right: 0;
-    }
-
-
+    .enviarbt {
+        display: flex;
+        justify-content: center;
+        width: 82%;
+      }
 }

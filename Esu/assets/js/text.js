@@ -27,7 +27,7 @@ function iniciaModal1(modalID1) {
     })
 }
 
-const caixa = document.querySelector('.caixa')
+const caixa = document.querySelector('#img1')
 caixa.addEventListener('click', () => iniciaModal('modal-projeto'))
 
 //caixa1
@@ -42,7 +42,7 @@ function iniciaModal2(modalID2) {
     })
 }
 
-const caixa1 = document.querySelector('.caixa1')
+const caixa1 = document.querySelector('#img3')
 caixa1.addEventListener('click', () => iniciaModal('modal-projeto'))
 
 //formulario 
@@ -63,7 +63,7 @@ tag6.addEventListener('click', redc5)
 
 function redc() {
 
-    if (tag1.style.color == 'red' || tag1.style.borderColor == 'red') {
+    if (tag1.style.color == 'red') {
         tag1.style.color = '#000'
         tag1.style.borderColor = '#b7b7b7'
     } else {
@@ -74,7 +74,7 @@ function redc() {
 
 function redc1() {
 
-    if (tag2.style.color == 'red' || tag2.style.borderColor == 'red') {
+    if (tag2.style.color == 'red') {
         tag2.style.color = '#000'
         tag2.style.borderColor = '#b7b7b7'
     } else {
@@ -85,7 +85,7 @@ function redc1() {
 
 function redc2() {
 
-    if (tag3.style.color == 'red' || tag1.style.borderColor == 'red') {
+    if (tag3.style.color == 'red') {
         tag3.style.color = '#000'
         tag3.style.borderColor = '#b7b7b7'
     } else {
@@ -96,7 +96,7 @@ function redc2() {
 
 function redc3() {
 
-    if (tag4.style.color == 'red' || tag1.style.borderColor == 'red') {
+    if (tag4.style.color == 'red') {
         tag4.style.color = '#000'
         tag4.style.borderColor = '#b7b7b7'
     } else {
@@ -107,7 +107,7 @@ function redc3() {
 
 function redc4() {
 
-    if (tag5.style.color == 'red' || tag1.style.borderColor == 'red') {
+    if (tag5.style.color == 'red') {
         tag5.style.color = '#000'
         tag5.style.borderColor = '#b7b7b7'
     } else {
@@ -118,7 +118,7 @@ function redc4() {
 
 function redc5() {
 
-    if (tag6.style.color == 'red' || tag1.style.borderColor == 'red') {
+    if (tag6.style.color == 'red') {
         tag6.style.color = '#000'
         tag6.style.borderColor = '#b7b7b7'
     } else {
@@ -141,7 +141,7 @@ function verm() {
 
     if (imig[0].style.display == 'block' || imig[1].style.display == 'block' || imig[2].style.display == 'block' || imig[3].style.display == 'block'
         || imig[4].style.display == 'block' || imig[5].style.display == 'block' || imig[6].style.display == 'block' || imig[7].style.display == 'block'
-        || imig[8].style.display == 'block' || imig[9].style.display == 'block') {
+        || imig[8].style.display == 'block') {
         imig[0].style.display = 'none'
         imig[1].style.display = 'none'
         imig[2].style.display = 'none'
