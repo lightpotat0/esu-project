@@ -1,3 +1,5 @@
+if(innerWidth > 800){
+
 var img = document.getElementById('img')
 var img1 = document.getElementById('img1')
 var img2 = document.getElementById('img2')
@@ -39,4 +41,6 @@ function trocar2(){
     tx1.innerText = 'Hévila Ribeiro-Branding'
     tx2.innerText = 'Hévila Ribeiro-Branding'
     tx3.innerText = 'Hévila Ribeiro-Branding'
+}
+
 }

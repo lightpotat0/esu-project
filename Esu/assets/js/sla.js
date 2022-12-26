@@ -1,5 +1,7 @@
 //text hover
 
+if (innerWidth > 800){
+
 var text = window.document.getElementById('identidade')
 
 text.addEventListener('mouseenter', sda)
@@ -53,8 +55,6 @@ function escap() {
 }
 
 //imagem hover texto e aparição do texto
-
-if (window.innerWidth > 800) {
 
     var img = document.getElementById('img')
     var p1 = document.getElementById('tx1')

@@ -29,17 +29,20 @@ function goNextPage() {
                 paper2.style.display = 'block'
                 paper1.style.display = 'none'
                 prevBtn.style.opacity = "1"
+                numeracao.innerHTML = "02/04"
                 console.log(currentLocation)
                 break;
             case 2:
                 paper3.style.display = 'block'
                 paper2.style.display = 'none'
+                numeracao.innerHTML = "03/04"
                 console.log(currentLocation)
                 break;
             case 3:
                 paper4.style.display = 'block'
                 paper3.style.display = 'none'
                 nextBtn.style.opacity = "0.4"
+                numeracao.innerHTML = "04/04"
                 console.log(currentLocation)
                 break;
         }
@@ -56,12 +59,14 @@ function goPrevPage() {
                 paper3.style.display = 'none'
                 paper4.style.display = 'none'
                 prevBtn.style.opacity = "0.4"
+                numeracao.innerHTML = "01/04"
                 break;
             case 3:
                 paper1.style.display = 'none'
                 paper2.style.display = 'block'
                 paper3.style.display = 'none'
                 paper4.style.display = 'none'
+                numeracao.innerHTML = "02/04"
                 break;
             case 4:
                 paper1.style.display = 'none'
@@ -69,6 +74,7 @@ function goPrevPage() {
                 paper3.style.display = 'block'
                 paper4.style.display = 'none'
                 nextBtn.style.opacity = "1"
+                numeracao.innerHTML = "03/04"
                 break;
         }
 

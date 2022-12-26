@@ -19,8 +19,15 @@ html {
 
 #boxmenu1 {
   display: none;
-  width: 30%;
+  width: 100%;
   height: 100%;
+}
+
+#menuclean {
+  display: flex;
+  float: right;
+  gap: 20px;
+  padding-right: 100px;
 }
 
 #boxmenu {
@@ -45,7 +52,7 @@ ul {
 }
 
 nav {
-  padding: 30px 20px;
+  padding: 20px 20px;
   background-color: white;
   width: 100%;
   position: fixed;
@@ -131,34 +138,25 @@ nav {
   top: -3%;
 }
 
-#menu1 p {
-  position: absolute;
-  top: 17%;
-  left: 58%;
-  padding: 17px;
-}
-
-#menu3 p {
-  position: absolute;
-  top: 17%;
-  left: 67%;
-  padding: 17px;
-}
-
-#menu2 p {
-  position: absolute;
-  top: 17%;
-  left: 75%;
-  padding: 17px;
-}
-
 #botaoo {
-  position: absolute;
   text-align: center;
   color: white;
-  top: 0%;
-  left: 80%;
-  padding: 17px;
+  cursor: pointer;
+}
+
+#menu3 {
+  color: #000;
+  cursor: pointer;
+}
+
+#menu2 {
+  color: #000;
+  cursor: pointer;
+}
+
+#menu1 {
+  color: #000;
+  cursor: pointer;
 }
 
 #menu3 p:hover {
@@ -173,48 +171,45 @@ nav {
   color: #000;
 }
 
-#menus1 a {
-  position: absolute;
+#menus1 {
   color: white;
-  top: 11%;
-  left: 58.4%;
-  font-size: 30px;
-  width: 6.8%;
+  cursor: pointer;
 }
 
-#menus2 a {
-  position: absolute;
+#menus2 {
   color: white;
-  top: 18%;
-  left: 69.9%;
-  font-size: 30px;
-  width: 6.5%;
+  cursor: pointer;
 }
 
-#menus3 a {
-  position: absolute;
+#menus3 {
   color: white;
-  top: 25%;
-  left: 61%;
-  font-size: 30px;
-  width: 4.6%;
+  cursor: pointer;
 }
 
-#menus1 a:hover {
+#botaoos {
+  cursor: pointer;
+  color: white;
+}
+
+#menus1 li p:hover {
   color: red;
 }
 
-#menus2 a:hover {
+#menus2 li p:hover {
   color: red;
 }
 
-#menus3 a:hover {
+#menus3 li p:hover {
+  color: red;
+}
+
+#botaoos li p:hover {
   color: red;
 }
 
 #submit {
   background-color: #FF2600;
-  margin-top: -1%;
+  margin-top: -8%;
   border: none;
   border-radius: 20px;
   color: #ffffff;
@@ -223,7 +218,6 @@ nav {
   line-height: 32px;
   text-transform: uppercase;
   cursor: pointer;
-  transform: translate(10%, 10%);
   font-family: "Homade-Bold";
   src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf);
 }
@@ -324,7 +318,19 @@ a {
   font-family: "Metropolis-Light ";
 }
 
+.drive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+  padding-top: 80px;
+}
+
 /*carousel start*/
+
+#h1{
+  display: flex;
+}
 
 .slide h1 {
   color: white;
@@ -561,7 +567,6 @@ a {
   cursor: pointer;
   border-color: gray;
   background-color: gray;
-  border: 1px solid #000;
   border-radius: 30px;
   opacity: 30%;
 }
@@ -646,11 +651,6 @@ a {
 
 #identidade {
   z-index: 1;
-  margin: 2%;
-  margin-right: -15%;
-  top: 2%;
-  width: 16%;
-  height: 70%;
   text-decoration: none;
   font-size: 120%;
   color: #686868;
@@ -659,10 +659,9 @@ a {
 }
 
 #identidade:hover {
-  margin-top: -1%;
-  height: 70%;
   font-size: 155%;
   color: #FF2600;
+  margin-top: -2%;
   transition: font-size 50ms;
   cursor: pointer;
   font-family: "Metropolis-Bold ";
@@ -670,7 +669,6 @@ a {
 }
 
 #blocos:hover {
-  margin-top: 1.2%;
   color: #FF2600;
   font-size: 155%;
   transition: font-size 50ms;
@@ -680,29 +678,9 @@ a {
 }
 
 #blocos1:hover {
-  margin-top: -1%;
-  font-size: 155%;
-  color: #FF2600;
-  cursor: pointer;
-  font-family: "Metropolis-Bold ";
-  src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
-}
-
-#blocos:hover {
-  margin-top: 1.2%;
-  width: 15%;
-  color: #FF2600;
-  font-size: 155%;
-  cursor: pointer;
-  font-family: "Metropolis-Bold ";
-  src: local(Metropolis-Bold), url(../fonts/Metropolis-Bold.otf)
-}
-
-#blocos1:hover {
-  margin-top: -1%;
-  width: 10%;
   color: red;
   font-size: 155%;
+  margin-top: -2%;
   transition: font-size 50ms;
   cursor: pointer;
   font-family: "Metropolis-Bold ";
@@ -710,7 +688,6 @@ a {
 }
 
 #blocos2:hover {
-  margin-top: 1.2%;
   color: #FF2600;
   font-size: 155%;
   transition: font-size 50ms;
@@ -720,10 +697,6 @@ a {
 }
 
 #blocos {
-  z-index: 1;
-  margin-right: 3%;
-  width: 15%;
-  margin: 2%;
   text-decoration: none;
   color: #686868;
   font-size: 120%;
@@ -734,10 +707,6 @@ a {
 }
 
 #blocos1 {
-  z-index: 1;
-  width: 11%;
-  margin: 2%;
-  margin-left: -2%;
   text-decoration: none;
   color: #686868;
   font-size: 120%;
@@ -748,10 +717,6 @@ a {
 }
 
 #blocos2 {
-  z-index: 1;
-  width: 11%;
-  margin: 2%;
-  margin-left: 4%;
   text-decoration: none;
   color: #686868;
   font-size: 120%;
@@ -768,14 +733,19 @@ a {
   margin-left: 11%;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
 }
 
 .grid-container {
   justify-content: center;
   align-items: center;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: 100%;
+  height: auto;
 }
 
 .grid {
@@ -783,25 +753,13 @@ a {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 150px;
-}
-
-#img {
-  width: 300px;
-}
-
-#img1 {
-  width: 300px;
-}
-
-#img3 {
-  width: 300px;
+  gap: 4px;
 }
 
 .box {
-  margin: 0;
-  height: 10%;
-  width: 150px;
+  width: 20%;
+  height: 300px;
+  margin: 20px;
   flex: 1 1 150px;
   z-index: 10;
 }
@@ -1028,7 +986,9 @@ a {
 
 .estudio {
   font-size: 20px;
-  margin-left: 25%;
+  margin-left: 16%;
+  width: 46%;
+  height: 86%;
   line-height: 36px;
   font-family: "Metropolis-Light ";
 }
@@ -1036,15 +996,15 @@ a {
 .estudio1 {
   display: none;
   font-size: 20px;
-  margin-left: 7%;
   line-height: 30px;
   font-family: "Metropolis-Light ";
 }
 
 .cultura {
-  margin-top: -32%;
-  margin-left: 70%;
+  margin-left: 4%;
+  width: 20%;
   font-size: 40px;
+  float: right;
   color: #FF2600;
   font-family: "Homade-Bold";
   src: local(Homade-Bold), url(../fonts/Homade-Bold.ttf)
@@ -1052,7 +1012,7 @@ a {
 
 #sobre {
   margin-top: 10%;
-  margin-left: 25%;
+  margin-left: 16%;
   font-size: 40px;
   color: #FF2600;
   font-family: "Homade-Bold";
@@ -1060,16 +1020,7 @@ a {
 }
 
 #left {
-  position: absolute;
-  margin-top: -1%;
-  margin-left: 54.9%;
   transform: rotate(180deg);
-}
-
-#right {
-  position: absolute;
-  margin-top: -1%;
-  margin-left: 61%;
 }
 
 button {
@@ -1080,8 +1031,12 @@ button {
 }
 
 .btns {
-  margin-left: 5%;
-  margin-top: -15.5%;
+  display: flex;
+  margin-right: 22%;
+  margin-top: -8%;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 /* pagina slide */
@@ -1100,6 +1055,12 @@ button {
   text-align: center;
   font-size: 640px;
   overflow: hidden;
+  align-items: baseline;
+}
+
+#disf {
+  display: flex;
+  align-items: baseline;
 }
 
 #pag {
@@ -1122,13 +1083,10 @@ button {
 }
 
 #botaosobre {
-  animation: none;
   color: #686868;
   font-size: 20px;
-  margin-left: 62.5%;
-  margin-top: 18.6%;
   text-decoration: none;
-  transition: none;
+  padding: 6px 5px;
   font-family: "Metropolis-Medium ";
 }
 
@@ -1166,7 +1124,7 @@ button {
   display: grid;
   grid-row-gap: 5px;
   grid-column-gap: 5px;
-  grid-template-columns: repeat(2, 156px);
+  grid-template-columns: repeat(3, 156px);
 }
 
 .inputBox3 {
@@ -1177,24 +1135,16 @@ button {
   margin-top: 2.5%;
   text-align: center;
   line-height: 34px;
-  font-size: 24px;
+  font-size: 18px;
+  width: 50%;
   font-family: "Metropolis-Light ";
-
 }
 
 #contato {
-  margin-top: 8%;
   font-size: 50px;
+  width: 50%;
   color: #FF2600;
   font-family: "Homade-Bold";
-}
-
-#ponto2 {
-  margin-top: 0%;
-  font-size: 100px;
-  color: gray;
-  opacity: 0.4;
-  text-align: center;
 }
 
 .inputBox {
